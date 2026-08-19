@@ -1,4 +1,6 @@
-/[Aa]ssets/Import/
+/[Aa]ssets/[Ii]mport/
+/[Aa]ssets/[Pp]lugins/
+/[Aa]ssets/[Tt]hunderWire Studio/
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
