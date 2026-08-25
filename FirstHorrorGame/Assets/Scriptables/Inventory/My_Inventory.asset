@@ -1,0 +1,732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f676f0f1bf41f4e9294288db4d442d, type: 3}
+  m_Name: My_Inventory
+  m_EditorClassIdentifier: 
+  Sections:
+  - Section:
+      Name: Player Items
+      GUID: d96703d3846a4320840b6f588ab43050
+    Items:
+    - GUID: ba53a6ad76bb4513ba434a3b7542345a
+      SectionGUID: d96703d3846a4320840b6f588ab43050
+      Title: Flashlight
+      Description: A powerful beam of light in a sturdy metal body, perfect for illuminating
+        dark areas and revealing hidden dangers.
+      Width: 2
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 2010aed8a8346634fa6873acedec8e34, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 1
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 1
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 4
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.flashlight
+          NormalText: Flashlight
+        descriptionKey:
+          GlocText: item.description.flashlight
+          NormalText: A powerful beam of light in a sturdy metal body, perfect for
+            illuminating dark areas and revealing hidden dangers.
+    - GUID: 0a1961f017ee421e9060b9c97dd2ef76
+      SectionGUID: d96703d3846a4320840b6f588ab43050
+      Title: Lighter
+      Description: A reliable source of fire for any adventurer. With its compact
+        size and easy-to-use design, the lighter is a must-have item.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: ed20367e5ffe0564599c2199d5484b98, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 1
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 1
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 1
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings:
+      - requiredCurrentAmount: 0
+        requiredSecondAmount: 0
+        resultItemAmount: 0
+        combineWithID: 6993e34dac744c23966afbcbba685cf9
+        resultCombineID: 
+        playerItemIndex: 2
+        inheritCustomData: 0
+        inheritFromSecond: 0
+        inheritKey: 
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+        itemType: 0
+        keepAfterCombine: 1
+        removeSecondItem: 0
+        eventAfterCombine: 0
+        selectAfterCombine: 1
+        haveCustomData: 0
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.lighter
+          NormalText: Lighter
+        descriptionKey:
+          GlocText: item.description.lighter
+          NormalText: A reliable source of fire for any adventurer. With its compact
+            size and easy-to-use design, the lighter is a must-have item.
+  - Section:
+      Name: Keys
+      GUID: 9ce7786df37c4160ae9a0542acd94613
+    Items:
+    - GUID: b70a06636e824c48a8631756ccb04b3c
+      SectionGUID: 9ce7786df37c4160ae9a0542acd94613
+      Title: Key 01
+      Description: A generic, yet mysterious key with an unknown use. Keep it on
+        hand, as it may unlock doors, chests, or secrets yet to be discovered.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 5bbd29b842d27754596feeb5f711b24a, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.key01
+          NormalText: Key 01
+        descriptionKey:
+          GlocText: item.description.key01
+          NormalText: A generic, yet mysterious key with an unknown use. Keep it
+            on hand, as it may unlock doors, chests, or secrets yet to be discovered.
+    - GUID: 12bb84ecda3946579a8db52385d1f86b
+      SectionGUID: 9ce7786df37c4160ae9a0542acd94613
+      Title: Key 02
+      Description: A generic, yet mysterious key with an unknown use. Keep it on
+        hand, as it may unlock doors, chests, or secrets yet to be discovered.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: af115a1c0c170204f8bde12e8c626416, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.key02
+          NormalText: Key 02
+        descriptionKey:
+          GlocText: item.description.key02
+          NormalText: A generic, yet mysterious key with an unknown use. Keep it
+            on hand, as it may unlock doors, chests, or secrets yet to be discovered.
+    - GUID: eb63b2ffe5af4b8cb8396f2d6eae67e5
+      SectionGUID: 9ce7786df37c4160ae9a0542acd94613
+      Title: Key 03
+      Description: A generic, yet mysterious key with an unknown use. Keep it on
+        hand, as it may unlock doors, chests, or secrets yet to be discovered.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 17b81cd23576da14699ba19b583cd910, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.key03
+          NormalText: Key 03
+        descriptionKey:
+          GlocText: item.description.key03
+          NormalText: A generic, yet mysterious key with an unknown use. Keep it
+            on hand, as it may unlock doors, chests, or secrets yet to be discovered.
+    - GUID: 1a62d00e739445248211bcfbc6189138
+      SectionGUID: 9ce7786df37c4160ae9a0542acd94613
+      Title: Key 04
+      Description: A generic, yet mysterious key with an unknown use. Keep it on
+        hand, as it may unlock doors, chests, or secrets yet to be discovered.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 7944d3858274a354fbf45199a2681de7, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.key04
+          NormalText: Key 04
+        descriptionKey:
+          GlocText: item.description.key04
+          NormalText: A generic, yet mysterious key with an unknown use. Keep it
+            on hand, as it may unlock doors, chests, or secrets yet to be discovered.
+    - GUID: 355bd6991b46488ba4407ea02506ee95
+      SectionGUID: 9ce7786df37c4160ae9a0542acd94613
+      Title: Keys
+      Description: Assorted metal keys on a ring. Opens various locks. Essential
+        for access and exploration.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 210db75816f8a53468416f0fa4c51acd, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.keys
+          NormalText: Keys
+        descriptionKey:
+          GlocText: item.description.keys
+          NormalText: Assorted metal keys on a ring. Opens various locks. Essential
+            for access and exploration.
+  - Section:
+      Name: Usables
+      GUID: be7f17ba3cb145e6883bea6a70f0deb7
+    Items:
+    - GUID: 9c45e9931ae9492dba1cf41854f95de0
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Lockpick
+      Description: A handy tool for any adventurer, the lockpick can open a variety
+        of locks and doors.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 03830137119a4c74bb36000faee0dfeb, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 1
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.lockpick
+          NormalText: Lockpick
+        descriptionKey:
+          GlocText: item.description.lockpick
+          NormalText: A handy tool for any adventurer, the lockpick can open a variety
+            of locks and doors.
+    - GUID: 277b6aee2d4b47aaa655f284bf75bf94
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Fuse
+      Description: An essential item for fixing electrical equipment and powering
+        machinery. With its compact size, it's easy to carry in your inventory.
+      Width: 1
+      Height: 2
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 2eb70c48ee788e840b4f64fcc4df4cad, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 1
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.fuse
+          NormalText: Fuse
+        descriptionKey:
+          GlocText: item.description.fuse
+          NormalText: An essential item for fixing electrical equipment and powering
+            machinery. With its compact size, it's easy to carry in your inventory.
+    - GUID: 57b275c2799549b2b64d8f3dc6eeeda4
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Valve
+      Description: An essential component for controlling the flow of liquids and
+        gases in pipes and machinery.
+      Width: 2
+      Height: 2
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 5cba04aee5011fa459f4b4f6cd9cf73b, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.valve
+          NormalText: Valve
+        descriptionKey:
+          GlocText: item.description.valve
+          NormalText: An essential component for controlling the flow of liquids
+            and gases in pipes and machinery.
+    - GUID: 2e96a8436e6e4cc1a3238e1a70f4ee2e
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: VHS Cassette
+      Description: 'Name: {name}
+
+        A classic, durable format for video recording
+        and archiving memories or documenting important events.'
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 536374a5adf6d2d48a1f7fc84f1c60b5, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.vhscassette
+          NormalText: VHS Cassette
+        descriptionKey:
+          GlocText: item.description.vhscassette
+          NormalText: 'Name: {name}
+
+            A classic, durable format for video
+            recording and archiving memories or documenting important events.'
+    - GUID: 21cc6375d5614192aac1fedce6147cfa
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Red Keycard
+      Description: A high-security access card that grants entry to restricted areas.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: ad0e8064004559d42bf4fc0f706648cb, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.redkeycard
+          NormalText: Red Keycard
+        descriptionKey:
+          GlocText: item.description.redkeycard
+          NormalText: A high-security access card that grants entry to restricted
+            areas.
+    - GUID: 96cdd54e574046aeb73adf165af2a6f5
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Green Keycard
+      Description: An access card that allows entry to various secure locations.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: e1c7e22c95805a8458fef07138e95615, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.greenkeycard
+          NormalText: Green Keycard
+        descriptionKey:
+          GlocText: item.description.greenkeycard
+          NormalText: An access card that allows entry to various secure locations.
+    - GUID: 0044e6e7fcbd4fd0925756aea0f621ab
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Fuel Canister
+      Description: 'A durable, metal canister filled with a high-efficiency liquid
+        fuel designed specifically to refuel electric generators.
+
+        Fuel litres:
+        {fuel}'
+      Width: 2
+      Height: 2
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: 06efbcfe479b7c947addcab06f055d24, type: 3}
+      ItemObject:
+        GUID: 6c3b42d9375604c4dbd796f63544133e
+        Object: {fileID: 7243635044483938932, guid: 6c3b42d9375604c4dbd796f63544133e, type: 3}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 1
+        isDiscardable: 0
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: -1
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.fuelcanister
+          NormalText: Fuel Canister
+        descriptionKey:
+          GlocText: item.description.fuelcanister
+          NormalText: 'A durable, metal canister filled with a high-efficiency liquid
+            fuel designed specifically to refuel electric generators.
+
+            Fuel
+            litres: {fuel_litres}'
+    - GUID: 909de296f696478a8360e2b61f38fa08
+      SectionGUID: be7f17ba3cb145e6883bea6a70f0deb7
+      Title: Marble Ball
+      Description: A small, colorful glass ball often used in games. Can be thrown
+        or rolled to solve puzzles and activate mechanisms.
+      Width: 1
+      Height: 1
+      Padding: 0
+      Orientation: 0
+      FlipDirection: 0
+      Icon: {fileID: 21300000, guid: f3474bb55214e0947a61edabc822e6d8, type: 3}
+      ItemObject:
+        GUID: 
+        Object: {fileID: 0}
+      Settings:
+        isUsable: 0
+        isStackable: 0
+        isExaminable: 0
+        isCombinable: 0
+        isDroppable: 0
+        isDiscardable: 1
+        canBindShortcut: 0
+        alwaysShowQuantity: 0
+        applyAttributesOnUse: 0
+      UsableSettings:
+        usableType: 0
+        playerItemIndex: 0
+        healthPoints: 0
+        removeOnUse: 0
+        customData:
+          Type: 0
+          JsonData: 
+          ItemAttributes:
+            Items: []
+      Properties:
+        maxStack: 0
+      CombineSettings: []
+      LocalizationSettings:
+        titleKey:
+          GlocText: item.title.marbleball
+          NormalText: Marble Ball
+        descriptionKey:
+          GlocText: item.description.marbleball
+          NormalText: A small, colorful glass ball often used in games. Can be thrown
+            or rolled to solve puzzles and activate mechanisms.
+  references:
+    version: 2
+    RefIds: []

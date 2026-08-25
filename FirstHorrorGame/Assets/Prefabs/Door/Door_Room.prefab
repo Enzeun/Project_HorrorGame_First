@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 2261641618127811205}
   - component: {fileID: 8440499592483385642}
   - component: {fileID: 9157188234896577106}
+  - component: {fileID: 5776300380134261931}
   m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
@@ -595,6 +596,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &5776300380134261931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8163123390009004525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 9157188234896577106}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: objects.door
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &8838360799138864836
 GameObject:
   m_ObjectHideFlags: 0

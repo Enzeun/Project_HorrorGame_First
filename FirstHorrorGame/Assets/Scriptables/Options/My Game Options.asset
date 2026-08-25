@@ -50,7 +50,6 @@ MonoBehaviour:
     Items:
     - rid: 951096643576922191
     - rid: 951096643576922190
-    - rid: 2160154896229728351
   OptionPrefabs:
   - {fileID: 1458672171430065180, guid: 59caa5526fa2a2a40bc3f86646a12ce5, type: 3}
   - {fileID: 1458672171430065180, guid: 3d71e4fb9cbd2454a8093856e1550cce, type: 3}
@@ -441,21 +440,6 @@ MonoBehaviour:
           max: 1
         UseSnapping: 1
         SnapValue: 0.05
-    - rid: 2160154896229728351
-      type: {class: OptionCustomFloat, ns: UHFPS.Runtime, asm: Assembly-CSharp}
-      data:
-        GUID: dfa62d4aea3840f08d99e8a8e9b7b50b
-        Name: volume_effect
-        Prefab: {fileID: 8916374741916289909, guid: 06fd74c7846d74c44bfddf0371fea48b, type: 3}
-        Title:
-          GlocText: options.audio.effect
-          NormalText: 
-        DefaultValue: 10
-        SliderLimits:
-          min: 0
-          max: 10
-        UseSnapping: 1
-        SnapValue: 1
     - rid: 5518344916744536126
       type: {class: OptionLanguage, ns: UHFPS.Runtime, asm: Assembly-CSharp}
       data:

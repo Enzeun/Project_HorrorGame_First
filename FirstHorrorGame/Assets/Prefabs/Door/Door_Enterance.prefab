@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 832437619465460367}
   - component: {fileID: 1520660568577648630}
   - component: {fileID: 8195422871624813627}
+  - component: {fileID: 6528589636231366256}
   m_Layer: 6
   m_Name: Int_Door_01
   m_TagString: Untagged
@@ -250,7 +251,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
+  - {fileID: 2100000, guid: 8fac4366cd4ca004787be712fd8bccfc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -686,6 +687,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &6528589636231366256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679193150094133355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 8195422871624813627}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: objects.door
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &5909734764879990564
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +815,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
+  - {fileID: 2100000, guid: 8fac4366cd4ca004787be712fd8bccfc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

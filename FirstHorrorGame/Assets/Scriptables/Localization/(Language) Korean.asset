@@ -289,19 +289,19 @@ MonoBehaviour:
   - EntryId: 94577514
     SectionId: 69673941
     Key: interactions.use
-    Value: 
+    Value: "\uC0AC\uC6A9\uD558\uAE30"
   - EntryId: 61453117
     SectionId: 69673941
     Key: interactions.use.hold
-    Value: 
+    Value: "\uD640\uB4DC\uD558\uC5EC \uC0AC\uC6A9"
   - EntryId: 10293257
     SectionId: 69673941
     Key: interactions.grab
-    Value: 
+    Value: "\uC7A1\uAE30"
   - EntryId: 95058002
     SectionId: 69673941
     Key: interactions.examine
-    Value: 
+    Value: "\uC870\uC0AC"
   - EntryId: 92590947
     SectionId: 69673941
     Key: interactions.travel
@@ -309,7 +309,7 @@ MonoBehaviour:
   - EntryId: 95255333
     SectionId: 69673941
     Key: interactions.configure
-    Value: 
+    Value: "\uD655\uC778\uD558\uAE30"
   - EntryId: 82492818
     SectionId: 69673941
     Key: interactions.insertfuse
@@ -405,7 +405,7 @@ MonoBehaviour:
   - EntryId: 67919224
     SectionId: 11317371
     Key: objects.door
-    Value: 
+    Value: "\uBB38"
   - EntryId: 20417118
     SectionId: 11317371
     Key: objects.valve
@@ -482,6 +482,10 @@ MonoBehaviour:
     SectionId: 11317371
     Key: objects.maze
     Value: 
+  - EntryId: 51851383
+    SectionId: 11317371
+    Key: objects.phone
+    Value: "\uC804\uD654\uAE30"
   - EntryId: 94725535
     SectionId: 78183135
     Key: controls.name.exit
