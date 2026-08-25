@@ -140,11 +140,11 @@ MonoBehaviour:
   EnableEmission: 0
   EmissionKeyword: _EMISSION
   LightSwitchOn:
-    audioClip: {fileID: 0}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 2f1423309cc35c74faffc27c9ee7ca22, type: 3}
+    volume: 0.5
   LightSwitchOff:
-    audioClip: {fileID: 0}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 2f1423309cc35c74faffc27c9ee7ca22, type: 3}
+    volume: 0.5
   OnLightOn:
     m_PersistentCalls:
       m_Calls: []
