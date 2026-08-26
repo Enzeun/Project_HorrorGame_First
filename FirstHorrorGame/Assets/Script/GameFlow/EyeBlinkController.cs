@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 using UnityEngine.Rendering;
 using System;
 
-namespace UHFPS.Runtime
+namespace ENZEUN.Runtime
 {
     public class EyeBlinkController : MonoBehaviour
     {

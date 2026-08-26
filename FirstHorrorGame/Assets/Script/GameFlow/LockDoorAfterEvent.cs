@@ -1,7 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
-namespace UHFPS.Runtime
+using UHFPS.Runtime;
+
+namespace ENZEUN.Runtime
 {
 
     public class LockDoorAfterEvent : MonoBehaviour
