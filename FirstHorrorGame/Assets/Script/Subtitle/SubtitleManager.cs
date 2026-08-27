@@ -39,10 +39,9 @@ namespace ENZEUN.Runtime
 
             await PlayTextAnimation(subtitle, token);
 
-            ShowContinueUI();
-
             if (isPlayerFreezed)
             {
+                ShowContinueUI();
                 await UniTask.WaitUntil(() => InputManager.ReadButtonOnce("Fire", Controls.FIRE) || InputManager.ReadButtonOnce("Use", Controls.USE), cancellationToken: token);
             }
             else
