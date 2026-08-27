@@ -29,6 +29,21 @@ MonoBehaviour:
       Key: entering.01
     - Id: 35771164
       Key: entering.02
+    - Id: 83938182
+      Key: entering.03
+  - Id: 60438809
+    SectionName: Objectives
+    SectionSheet:
+    - Id: 37567559
+      Key: eneteringHome.title
+    - Id: 69920593
+      Key: eneteringHome.sub1
+    - Id: 94821550
+      Key: eatSomething.title
+    - Id: 49537433
+      Key: eatSomething.sub1
+    - Id: 68246820
+      Key: eatSomething.sub2
   - Id: 40893112
     SectionName: input
     SectionSheet:
@@ -575,8 +590,3 @@ MonoBehaviour:
       Key: English
     - Id: 20181900
       Key: Korean
-  - Id: 60438809
-    SectionName: Objectives
-    SectionSheet:
-    - Id: 37567559
-      Key: ' EneteringHome'

@@ -15,11 +15,26 @@ MonoBehaviour:
   Objectives:
   - ObjectiveKey: ObjectiveEnterHome
     ObjectiveTitle:
-      GlocText: Objectives.Enetering_Home
-      NormalText: Enter your home
+      GlocText: Objectives.eneteringHome.title
+      NormalText: Objectives.Enetering_Home
     SubObjectives:
     - SubObjectiveKey: enterhome
       CompleteCount: 1
       ObjectiveText:
-        GlocText: Objectives.Enetering_Home
-        NormalText: Enter your home
+        GlocText: Objectives.eneteringHome.sub1
+        NormalText: Objectives.Enetering_Home
+  - ObjectiveKey: EatSomething
+    ObjectiveTitle:
+      GlocText: Objectives.eatSomething.title
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: findFood
+      CompleteCount: 1
+      ObjectiveText:
+        GlocText: Objectives.eatSomething.sub1
+        NormalText: 
+    - SubObjectiveKey: warmFood
+      CompleteCount: 1
+      ObjectiveText:
+        GlocText: Objectives.eatSomething.sub2
+        NormalText: 

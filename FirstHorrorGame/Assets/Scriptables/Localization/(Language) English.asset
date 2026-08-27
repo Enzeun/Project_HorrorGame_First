@@ -34,6 +34,30 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.entering.02
     Value: 
+  - EntryId: 83938182
+    SectionId: 82386491
+    Key: Subtitle.entering.03
+    Value: 
+  - EntryId: 37567559
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.title
+    Value: Enter your home
+  - EntryId: 69920593
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub1
+    Value: 
+  - EntryId: 94821550
+    SectionId: 60438809
+    Key: Objectives.eatSomething.title
+    Value: 
+  - EntryId: 49537433
+    SectionId: 60438809
+    Key: Objectives.eatSomething.sub1
+    Value: 
+  - EntryId: 68246820
+    SectionId: 60438809
+    Key: Objectives.eatSomething.sub2
+    Value: 
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up
@@ -1079,7 +1103,3 @@ MonoBehaviour:
     SectionId: 56290060
     Key: Language.Korean
     Value: Korean
-  - EntryId: 37567559
-    SectionId: 60438809
-    Key: Objectives.EneteringHome
-    Value: Enter your home
