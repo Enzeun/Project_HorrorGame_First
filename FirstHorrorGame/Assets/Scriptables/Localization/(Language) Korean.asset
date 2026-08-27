@@ -14,6 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Scriptable.LocalizationLanguage
   LanguageName: Korean
   Strings:
+  - EntryId: 47251901
+    SectionId: 82386491
+    Key: Subtitle.start.01
+    Value: "\uB108\uBB34 \uD798\uB4E4\uB2E4... \uC880 \uC26C\uC5B4\uC57C\uACA0\uC5B4"
+  - EntryId: 90593698
+    SectionId: 82386491
+    Key: Subtitle.start.02
+    Value: "\uBE68\uB9AC \uC9D1\uC5D0 \uB4E4\uC5B4\uAC00\uC790"
+  - EntryId: 54843612
+    SectionId: 82386491
+    Key: Subtitle.hallway.01
+    Value: "\uC774 \uCABD\uC774 \uC6B0\uB9AC \uC9D1\uC774\uC57C"
+  - EntryId: 79649948
+    SectionId: 82386491
+    Key: Subtitle.entering.01
+    Value: "\uD734... \uB4DC\uB514\uC5B4 \uC9D1\uC774\uB124"
+  - EntryId: 35771164
+    SectionId: 82386491
+    Key: Subtitle.entering.02
+    Value: "\uC774\uC81C \uC880 \uC274 \uC218 \uC788\uACA0\uC5B4"
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up

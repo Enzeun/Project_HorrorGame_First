@@ -11,6 +11,8 @@ namespace ENZEUN.Runtime
     {
         [BoxGroup("디버깅 추적 값"), ShowInInspector, ReadOnly]
         private bool isTriggered = false;
+        [BoxGroup("디버깅 추적 값"), ShowInInspector, ReadOnly]
+        private bool isPlayerFreezed = false;
 
         [SerializeField, BoxGroup("자막 트리거 세팅")]
         private bool freezePlayerMove = false;
@@ -42,6 +44,7 @@ namespace ENZEUN.Runtime
             if (freezePlayerMove)
             {
                 GameManager.Instance.PlayerPresence.FreezeMovement(true);
+                isPlayerFreezed = true;
             }
             if (freezePlayerLook)
             {
@@ -69,7 +72,7 @@ namespace ENZEUN.Runtime
                     continue;
                 }
 
-                await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle);
+                await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle, isPlayerFreezed);
 
                 await UniTask.Delay(System.TimeSpan.FromSeconds(subtitleData.delayToNextSubtitle), cancellationToken: token);
             }
@@ -85,6 +88,7 @@ namespace ENZEUN.Runtime
             if (freezePlayerMove)
             {
                 GameManager.Instance.PlayerPresence.FreezeMovement(false);
+                isPlayerFreezed = false;
             }
             if (freezePlayerLook)
             {

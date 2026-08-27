@@ -16,6 +16,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 19feb369ac522004699427d321f002d5, type: 2}
   - {fileID: 11400000, guid: e0d7bdd84e64a9c468d7dc22b8c11288, type: 2}
   TableSheet:
+  - Id: 82386491
+    SectionName: Subtitle
+    SectionSheet:
+    - Id: 47251901
+      Key: start.01
+    - Id: 90593698
+      Key: start.02
+    - Id: 54843612
+      Key: hallway.01
+    - Id: 79649948
+      Key: entering.01
+    - Id: 35771164
+      Key: entering.02
   - Id: 40893112
     SectionName: input
     SectionSheet:
