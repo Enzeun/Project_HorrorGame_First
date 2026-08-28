@@ -384692,7 +384692,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1442287786537981818, guid: 8d3bf006f2bef5a478a88a7bdb32326b, type: 3}
       propertyPath: m_Name
-      value: Cabinet_Base_1
+      value: Cabinet_Base
       objectReference: {fileID: 0}
     - target: {fileID: 6802851470364551087, guid: 8d3bf006f2bef5a478a88a7bdb32326b, type: 3}
       propertyPath: m_LocalPosition.x
