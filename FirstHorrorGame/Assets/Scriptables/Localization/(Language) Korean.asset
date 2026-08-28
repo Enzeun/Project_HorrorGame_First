@@ -42,6 +42,18 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.entering.03
     Value: "\uBC30\uAC00 \uC880 \uACE0\uD508\uB370... \uBC25\uC744 \uBA3C\uC800 \uBA39\uC744\uAE4C?"
+  - EntryId: 32038591
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.1
+    Value: "\uC774\uB7F0 \uC804\uD654\uAE30\uAC00..."
+  - EntryId: 94490215
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.2
+    Value: "\uC6D0\uB798 \uC6B0\uB9AC\uC9D1\uC5D0 \uC788\uC5C8\uB098...?"
+  - EntryId: 90251430
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.3
+    Value: "\uD53C\uACE4\uD55C\uB370, \uC2E0\uACBD\uC4F0\uC9C0 \uB9D0\uC790"
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -113,7 +125,7 @@ MonoBehaviour:
   - EntryId: 81674536
     SectionId: 40893112
     Key: input.action.ads
-    Value: 
+    Value: "\uC870\uC900"
   - EntryId: 31740936
     SectionId: 40893112
     Key: input.action.equip1
@@ -161,7 +173,7 @@ MonoBehaviour:
   - EntryId: 21255646
     SectionId: 84607436
     Key: menu.button.resume
-    Value: "\uC7AC\uC2DC\uC791"
+    Value: "\uACC4\uC18D\uD558\uAE30"
   - EntryId: 67914274
     SectionId: 84607436
     Key: menu.button.continue
@@ -181,163 +193,176 @@ MonoBehaviour:
   - EntryId: 31415227
     SectionId: 84607436
     Key: menu.button.options
-    Value: 
+    Value: "\uC635\uC158"
   - EntryId: 51656323
     SectionId: 84607436
     Key: menu.button.quit
-    Value: 
+    Value: "\uC885\uB8CC"
   - EntryId: 86796110
     SectionId: 84607436
     Key: menu.button.restart
-    Value: 
+    Value: "\uB2E4\uC2DC \uC2DC\uC791"
   - EntryId: 24352737
     SectionId: 84607436
     Key: menu.button.mainmenu
-    Value: 
+    Value: "\uBA54\uC778 \uBA54\uB274"
   - EntryId: 25663424
     SectionId: 84607436
     Key: menu.button.back
-    Value: 
+    Value: "\uB4A4\uB85C"
   - EntryId: 33340621
     SectionId: 84607436
     Key: menu.button.load
-    Value: 
+    Value: "\uBD88\uB7EC\uC624\uAE30"
   - EntryId: 35886959
     SectionId: 84607436
     Key: menu.button.delete
-    Value: 
+    Value: "\uC0AD\uC81C"
   - EntryId: 48769564
     SectionId: 84607436
     Key: menu.button.apply
-    Value: 
+    Value: "\uC801\uC6A9"
   - EntryId: 99361921
     SectionId: 84607436
     Key: menu.button.reset
-    Value: 
+    Value: "\uCD08\uAE30\uD654"
   - EntryId: 78931432
     SectionId: 84607436
     Key: menu.tooltip.continue
-    Value: 
+    Value: "\uC800\uC7A5\uB41C \uC9C4\uD589 \uC0C1\uD669 \uC774\uC5B4\uD558\uAE30"
   - EntryId: 91768521
     SectionId: 84607436
     Key: menu.tooltip.resume
-    Value: 
+    Value: "\uAC8C\uC784 \uACC4\uC18D\uD558\uAE30"
   - EntryId: 85618282
     SectionId: 84607436
     Key: menu.tooltip.newgame
-    Value: 
+    Value: "\uC0C8 \uAC8C\uC784 \uC2DC\uC791"
   - EntryId: 55974627
     SectionId: 84607436
     Key: menu.tooltip.loadgame
-    Value: 
+    Value: "\uC774\uC804\uC5D0 \uC800\uC7A5\uD55C \uAC8C\uC784 \uBD88\uB7EC\uC624\uAE30"
   - EntryId: 21595021
     SectionId: 84607436
     Key: menu.tooltip.savegame
-    Value: 
+    Value: "\uD604\uC7AC \uC9C4\uD589 \uC0C1\uD669 \uC800\uC7A5\uD558\uAE30"
   - EntryId: 30213956
     SectionId: 84607436
     Key: menu.tooltip.options
-    Value: 
+    Value: "\uAC8C\uC784 \uC124\uC815 \uBC0F \uD658\uACBD\uC124\uC815 \uC870\uC815"
   - EntryId: 33214590
     SectionId: 84607436
     Key: menu.tooltip.quit
-    Value: 
+    Value: "\uAC8C\uC784 \uC885\uB8CC"
   - EntryId: 78530917
     SectionId: 84607436
     Key: menu.tooltip.restart
-    Value: 
+    Value: "\uAC00\uC7A5 \uCD5C\uADFC \uC800\uC7A5 \uB370\uC774\uD130\uBD80\uD130
+      \uAC8C\uC784 \uC2DC\uC791"
   - EntryId: 81988112
     SectionId: 84607436
     Key: menu.tooltip.mainmenu
-    Value: 
+    Value: "\uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uACE0 \uBA54\uC778 \uBA54\uB274\uB85C
+      \uC774\uB3D9"
   - EntryId: 34760757
     SectionId: 84607436
     Key: menu.input.rebind
-    Value: 
+    Value: "\uBC84\uD2BC \uB204\uB974\uAE30"
   - EntryId: 44010618
     SectionId: 84607436
     Key: menu.input.none
-    Value: 
+    Value: "\uC5C6\uC74C"
   - EntryId: 91370004
     SectionId: 84607436
     Key: menu.panel.loadgame
-    Value: 
+    Value: "\uAC8C\uC784 \uBD88\uB7EC\uC624\uAE30"
   - EntryId: 66529808
     SectionId: 84607436
     Key: menu.panel.keybindings
-    Value: 
+    Value: "\uD0A4 \uC124\uC815"
   - EntryId: 73309676
     SectionId: 84607436
     Key: menu.panel.emptysaves
-    Value: 
+    Value: "\uC800\uC7A5\uB41C \uAC8C\uC784\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
   - EntryId: 50945637
     SectionId: 84607436
     Key: menu.text.died
-    Value: 
+    Value: "\uC0AC\uB9DD\uD588\uC2B5\uB2C8\uB2E4"
   - EntryId: 75562718
     SectionId: 22328812
     Key: loading.description.demoscene
-    Value: 
+    Value: "\uC774 \uB370\uBAA8 \uC52C\uC5D0\uC11C\uB294 \uD0A4\uD2B8\uC5D0 \uD3EC\uD568\uB41C
+      \uB2E4\uC591\uD55C \uAE30\uB2A5\uC744 \uC9C1\uC811 \uCCB4\uD5D8\uD558\uACE0
+      \uC0B4\uD3B4\uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uC774 \uC52C\uC740 \uC5D0\uC14B\uC758
+      \uBAA8\uB4E0 \uAC00\uB2A5\uC131\uC744 \uBCF4\uC5EC \uC8FC\uB3C4\uB85D \uC124\uACC4\uB418\uC5B4
+      \uAE30\uB2A5\uC744 \uCDA9\uBD84\uD788 \uD14C\uC2A4\uD2B8\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 48298615
     SectionId: 22328812
     Key: loading.description.demoscene2
-    Value: 
+    Value: "\uC774 \uC778\uD130\uB799\uD2F0\uBE0C \uB370\uBAA8 \uC52C\uC5D0\uC11C\uB294
+      \uC5D8\uB9AC\uBCA0\uC774\uD130 \uC2DC\uC2A4\uD15C\uC744 \uC9C1\uC811 \uC0AC\uC6A9\uD574
+      \uBCF4\uBA70, \uB2E4\uB978 \uAE30\uB2A5\uB4E4\uACFC \uD568\uAED8 \uC790\uC5F0\uC2A4\uB7FD\uAC8C
+      \uC791\uB3D9\uD558\uACE0 \uD1B5\uD569\uB418\uB294 \uBAA8\uC2B5\uC744 \uD655\uC778\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 99899103
     SectionId: 22328812
     Key: loading.description.demoscene3
-    Value: 
+    Value: "\uBC16\uC5D0\uB294 \uBE44\uAC00 \uB0B4\uB9AC\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+      \uC9C0\uBD95 \uC544\uB798\uC5D0 \uC788\uC744 \uB54C\uC640 \uC544\uB2D0 \uB54C
+      \uBE57\uBC29\uC6B8 \uD6A8\uACFC\uAC00 \uC5B4\uB5BB\uAC8C \uC791\uB3D9\uD558\uB294\uC9C0
+      \uD14C\uC2A4\uD2B8\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 61351216
     SectionId: 59169988
     Key: titles.putaway
-    Value: 
+    Value: "\uB123\uAE30"
   - EntryId: 36173073
     SectionId: 59169988
     Key: titles.take
-    Value: 
+    Value: "\uAEBC\uB0B4\uAE30"
   - EntryId: 46183422
     SectionId: 59169988
     Key: titles.rotate
-    Value: 
+    Value: "\uD68C\uC804"
   - EntryId: 17498606
     SectionId: 59169988
     Key: titles.loot
-    Value: 
+    Value: "\uD68D\uB4DD \uC644\uB8CC"
   - EntryId: 61429632
     SectionId: 59169988
     Key: titles.inserttape
-    Value: 
+    Value: "\uD14C\uC774\uD504 \uB123\uAE30"
   - EntryId: 72865766
     SectionId: 59169988
     Key: titles.poweron
-    Value: 
+    Value: "\uC804\uC6D0 \uCF1C\uAE30"
   - EntryId: 52157472
     SectionId: 59169988
     Key: titles.poweroff
-    Value: 
+    Value: "\uC804\uC6D0 \uB044\uAE30"
   - EntryId: 80313860
     SectionId: 59169988
     Key: titles.ejecttape
-    Value: 
+    Value: "\uD14C\uC774\uD504 \uAEBC\uB0B4\uAE30"
   - EntryId: 66958135
     SectionId: 59169988
     Key: titles.play
-    Value: 
+    Value: "\uC7AC\uC0DD"
   - EntryId: 61574451
     SectionId: 59169988
     Key: titles.pause
-    Value: 
+    Value: "\uC77C\uC2DC \uC815\uC9C0"
   - EntryId: 30659339
     SectionId: 59169988
     Key: titles.rewind
-    Value: 
+    Value: "\uB418\uAC10\uAE30"
   - EntryId: 66300923
     SectionId: 59169988
     Key: titles.fastforward
-    Value: 
+    Value: "\uBE68\uB9AC \uAC10\uAE30"
   - EntryId: 84772315
     SectionId: 59169988
     Key: titles.lockpicks
-    Value: 
+    Value: "\uC790\uBB3C\uC1E0 \uB530\uAC1C: [count]"
   - EntryId: 94577514
     SectionId: 69673941
     Key: interactions.use
@@ -357,7 +382,7 @@ MonoBehaviour:
   - EntryId: 92590947
     SectionId: 69673941
     Key: interactions.travel
-    Value: 
+    Value: "\uC774\uB3D9"
   - EntryId: 95255333
     SectionId: 69673941
     Key: interactions.configure
@@ -365,95 +390,95 @@ MonoBehaviour:
   - EntryId: 82492818
     SectionId: 69673941
     Key: interactions.insertfuse
-    Value: 
+    Value: "\uD4E8\uC988 \uB123\uAE30"
   - EntryId: 28681382
     SectionId: 69673941
     Key: interactions.code
-    Value: 
+    Value: "\uCF54\uB4DC \uC785\uB825"
   - EntryId: 70511385
     SectionId: 69673941
     Key: interactions.card
-    Value: 
+    Value: "\uD0A4\uCE74\uB4DC \uC0AC\uC6A9"
   - EntryId: 48925815
     SectionId: 69673941
     Key: interactions.switch
-    Value: 
+    Value: "\uC2A4\uC704\uCE58"
   - EntryId: 19195279
     SectionId: 69673941
     Key: interactions.switchon
-    Value: 
+    Value: "\uCF1C\uAE30"
   - EntryId: 78764854
     SectionId: 69673941
     Key: interactions.switchoff
-    Value: 
+    Value: "\uB044\uAE30"
   - EntryId: 64575804
     SectionId: 69673941
     Key: interactions.poweron
-    Value: 
+    Value: "\uC804\uC6D0 \uCF1C\uAE30"
   - EntryId: 86485218
     SectionId: 69673941
     Key: interactions.poweroff
-    Value: 
+    Value: "\uC804\uC6D0 \uB044\uAE30"
   - EntryId: 90802756
     SectionId: 69673941
     Key: interactions.rotate
-    Value: 
+    Value: "\uD68C\uC804"
   - EntryId: 69712916
     SectionId: 69673941
     Key: interactions.open
-    Value: 
+    Value: "\uC5F4\uAE30"
   - EntryId: 54189661
     SectionId: 69673941
     Key: interactions.close
-    Value: 
+    Value: "\uB2EB\uAE30"
   - EntryId: 53506186
     SectionId: 69673941
     Key: interactions.extinguish
-    Value: 
+    Value: "\uB044\uAE30"
   - EntryId: 50724348
     SectionId: 69673941
     Key: interactions.kindle
-    Value: 
+    Value: "\uBD88 \uBD99\uC774\uAE30 (\uD640\uB4DC)"
   - EntryId: 24862863
     SectionId: 69673941
     Key: interactions.refuel.hold
-    Value: 
+    Value: "\uC5F0\uB8CC \uBCF4\uCDA9 (\uD640\uB4DC)"
   - EntryId: 89532940
     SectionId: 69673941
     Key: interactions.hide
-    Value: 
+    Value: "\uC228\uAE30"
   - EntryId: 17034738
     SectionId: 69673941
     Key: interactions.unhide
-    Value: 
+    Value: "\uB098\uC624\uAE30"
   - EntryId: 68821941
     SectionId: 11317371
     Key: objects.circuit
-    Value: 
+    Value: "\uC804\uAE30 \uD68C\uB85C"
   - EntryId: 14979172
     SectionId: 11317371
     Key: objects.fusebox
-    Value: 
+    Value: "\uD4E8\uC988 \uBC15\uC2A4"
   - EntryId: 62776564
     SectionId: 11317371
     Key: objects.keypad
-    Value: 
+    Value: "\uD0A4\uD328\uB4DC"
   - EntryId: 14413967
     SectionId: 11317371
     Key: objects.keycard
-    Value: 
+    Value: "\uD0A4\uCE74\uB4DC"
   - EntryId: 96136757
     SectionId: 11317371
     Key: objects.padlock
-    Value: 
+    Value: "\uC790\uBB3C\uC1E0"
   - EntryId: 24142317
     SectionId: 11317371
     Key: objects.lever
-    Value: 
+    Value: "\uB808\uBC84"
   - EntryId: 31363607
     SectionId: 11317371
     Key: objects.paneldoor
-    Value: 
+    Value: "\uD328\uB110 \uBB38"
   - EntryId: 67919224
     SectionId: 11317371
     Key: objects.door
@@ -461,79 +486,79 @@ MonoBehaviour:
   - EntryId: 20417118
     SectionId: 11317371
     Key: objects.valve
-    Value: 
+    Value: "\uBC38\uBE0C"
   - EntryId: 42204335
     SectionId: 11317371
     Key: objects.drawer
-    Value: 
+    Value: "\uC11C\uB78D"
   - EntryId: 10559435
     SectionId: 11317371
     Key: objects.trunk
-    Value: 
+    Value: "\uC218\uB0A9 \uC0C1\uC790"
   - EntryId: 71847511
     SectionId: 11317371
     Key: objects.backpack
-    Value: 
+    Value: "\uBC30\uB0AD"
   - EntryId: 38384735
     SectionId: 11317371
     Key: objects.crate
-    Value: 
+    Value: "\uC0C1\uC790"
   - EntryId: 83502262
     SectionId: 11317371
     Key: objects.barrel
-    Value: 
+    Value: "\uD1B5"
   - EntryId: 58655478
     SectionId: 11317371
     Key: objects.brick
-    Value: 
+    Value: "\uBCBD\uB3CC"
   - EntryId: 28035682
     SectionId: 11317371
     Key: objects.pushable
-    Value: 
+    Value: "\uBC00 \uC218 \uC788\uB294 \uBB3C\uCCB4"
   - EntryId: 32820278
     SectionId: 11317371
     Key: objects.ladder
-    Value: 
+    Value: "\uC0AC\uB2E4\uB9AC"
   - EntryId: 33180263
     SectionId: 11317371
     Key: objects.zipline
-    Value: 
+    Value: "\uC9D1\uB77C\uC778"
   - EntryId: 88094677
     SectionId: 11317371
     Key: objects.paper
-    Value: 
+    Value: "\uC885\uC774"
   - EntryId: 63467271
     SectionId: 11317371
     Key: objects.chest
-    Value: 
+    Value: "\uC0C1\uC790"
   - EntryId: 64633838
     SectionId: 11317371
     Key: objects.lamp
-    Value: 
+    Value: "\uB7A8\uD504"
   - EntryId: 15905899
     SectionId: 11317371
     Key: objects.generator
-    Value: 
+    Value: "\uBC1C\uC804\uAE30"
   - EntryId: 73080034
     SectionId: 11317371
     Key: objects.radio
-    Value: 
+    Value: "\uB77C\uB514\uC624"
   - EntryId: 11138211
     SectionId: 11317371
     Key: objects.locker
-    Value: 
+    Value: "\uC0AC\uBB3C\uD568"
   - EntryId: 59323032
     SectionId: 11317371
     Key: objects.bed
-    Value: 
+    Value: "\uCE68\uB300"
   - EntryId: 57301135
     SectionId: 11317371
     Key: objects.floodlight
-    Value: 
+    Value: "\uD22C\uAD11\uB4F1"
   - EntryId: 84384165
     SectionId: 11317371
     Key: objects.maze
-    Value: 
+    Value: "\uBBF8\uB85C \uD37C\uC990"
   - EntryId: 51851383
     SectionId: 11317371
     Key: objects.phone
@@ -541,419 +566,501 @@ MonoBehaviour:
   - EntryId: 94725535
     SectionId: 78183135
     Key: controls.name.exit
-    Value: 
+    Value: "\uB098\uAC00\uAE30"
   - EntryId: 62676786
     SectionId: 78183135
     Key: controls.name.close
-    Value: 
+    Value: "\uB2EB\uAE30"
   - EntryId: 34189899
     SectionId: 78183135
     Key: controls.name.move
-    Value: 
+    Value: "\uC774\uB3D9"
   - EntryId: 70552896
     SectionId: 78183135
     Key: controls.name.rotate
-    Value: 
+    Value: "\uD68C\uC804"
   - EntryId: 88288613
     SectionId: 78183135
     Key: controls.name.select
-    Value: 
+    Value: "\uC120\uD0DD"
   - EntryId: 58955362
     SectionId: 78183135
     Key: controls.name.zoom
-    Value: 
+    Value: "\uD655\uB300/\uCD95\uC18C"
   - EntryId: 90823624
     SectionId: 78183135
     Key: controls.name.drop
-    Value: 
+    Value: "\uBC84\uB9AC\uAE30"
   - EntryId: 68512386
     SectionId: 78183135
     Key: controls.name.throw
-    Value: 
+    Value: "\uB358\uC9C0\uAE30"
   - EntryId: 79525535
     SectionId: 78183135
     Key: controls.name.take
-    Value: 
+    Value: "\uAEBC\uB0B4\uAE30"
   - EntryId: 71771340
     SectionId: 78183135
     Key: controls.name.read
-    Value: 
+    Value: "\uC77D\uAE30"
   - EntryId: 55932111
     SectionId: 78183135
     Key: controls.name.putback
-    Value: 
+    Value: "\uB418\uB3CC\uB824 \uB193\uAE30"
   - EntryId: 95942159
     SectionId: 78183135
     Key: controls.name.back
-    Value: 
+    Value: "\uB4A4\uB85C"
   - EntryId: 72662996
     SectionId: 78183135
     Key: controls.name.uvflashlight
-    Value: 
+    Value: "UV \uC190\uC804\uB4F1"
   - EntryId: 95647617
     SectionId: 78183135
     Key: controls.name.reload
-    Value: 
+    Value: "\uC7AC\uC7A5\uC804"
   - EntryId: 46809840
     SectionId: 51993595
     Key: messages.backpack
-    Value: 
+    Value: "\uC778\uBCA4\uD1A0\uB9AC \uC2AC\uB86F\uC774 \uD655\uC7A5\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
   - EntryId: 22626659
     SectionId: 51993595
     Key: messages.nofit
-    Value: 
+    Value: "\uC774 \uC544\uC774\uD15C\uC740 \uC5EC\uAE30\uC5D0 \uB4E4\uC5B4\uAC00\uC9C0
+      \uC54A\uC2B5\uB2C8\uB2E4."
   - EntryId: 10728042
     SectionId: 51993595
     Key: messages.objective.added
-    Value: 
+    Value: "\uC0C8 \uBAA9\uD45C"
   - EntryId: 20529774
     SectionId: 51993595
     Key: messages.objective.completed
-    Value: 
+    Value: "\uBAA9\uD45C \uB2EC\uC131"
   - EntryId: 41489829
     SectionId: 51993595
     Key: messages.kindle.lighter
-    Value: 
+    Value: "\uCD1B\uBD88\uC744 \uCF1C\uB824\uBA74 \uB77C\uC774\uD130\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4."
   - EntryId: 27587268
     SectionId: 51993595
     Key: messages.no.canisters
-    Value: 
+    Value: "\uC5F0\uB8CC\uD1B5\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
   - EntryId: 20042218
     SectionId: 51993595
     Key: messages.notreq.canisters
-    Value: 
+    Value: "\uC5F0\uB8CC\uB97C \uBCF4\uCDA9\uD560 \uD544\uC694\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
   - EntryId: 17064153
     SectionId: 51993595
     Key: messages.door.barricaded
-    Value: 
+    Value: "\uBB38\uC774 \uB9C9\uD600 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 63376783
     SectionId: 14790497
     Key: papers.example
-    Value: 
+    Value: "\uC885\uC774 \uC870\uC0AC \uC2DC\uC2A4\uD15C\uC744 \uBCF4\uC5EC \uC8FC\uAE30
+      \uC704\uD55C \uC608\uC2DC \uBB38\uC11C\uC785\uB2C8\uB2E4. \uC885\uC774\uC5D0
+      \uD14D\uC2A4\uCC98\uB85C \uAE00\uC744 \uD45C\uC2DC\uD558\uAC70\uB098, \uC870\uC0AC
+      \uC2DC \uD45C\uC2DC\uB418\uB294 \uD14D\uC2A4\uD2B8\uB97C \uC9C1\uC811 \uC791\uC131\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 24767859
     SectionId: 14790497
     Key: papers.crafting.ammo
-    Value: 
+    Value: "9mm \uAD8C\uCD1D \uD0C4\uC57D"
   - EntryId: 96893407
     SectionId: 14790497
     Key: papers.bloody
-    Value: 
+    Value: "\uC774 \uAE00\uC744 \uC77D\uACE0 \uC788\uB2E4\uBA74"
   - EntryId: 18324474
     SectionId: 91710314
     Key: inventory.context.use
-    Value: 
+    Value: "\uC0AC\uC6A9"
   - EntryId: 72200280
     SectionId: 91710314
     Key: inventory.context.examine
-    Value: 
+    Value: "\uC870\uC0AC"
   - EntryId: 29617865
     SectionId: 91710314
     Key: inventory.context.combine
-    Value: 
+    Value: "\uC870\uD569"
   - EntryId: 23266649
     SectionId: 91710314
     Key: inventory.context.shortcut
-    Value: 
+    Value: "\uB2E8\uCD95\uD0A4"
   - EntryId: 31139243
     SectionId: 91710314
     Key: inventory.context.drop
-    Value: 
+    Value: "\uBC84\uB9AC\uAE30"
   - EntryId: 41837702
     SectionId: 91710314
     Key: inventory.context.discard
-    Value: 
+    Value: "\uD3D0\uAE30"
   - EntryId: 35466172
     SectionId: 91710314
     Key: inventory.prompt.shortcut
-    Value: 
+    Value: "\uB2E8\uCD95\uD0A4\uB97C \uC9C0\uC815\uD560 \uC544\uC774\uD15C\uC744
+      \uC120\uD0DD\uD55C \uB4A4 \uB2E8\uCD95\uD0A4\uB97C \uB204\uB974\uC138\uC694."
   - EntryId: 85741619
     SectionId: 91710314
     Key: inventory.prompt.combine
-    Value: 
+    Value: "\uD604\uC7AC \uC544\uC774\uD15C\uACFC \uC870\uD569\uD560 \uC544\uC774\uD15C\uC744
+      \uC120\uD0DD\uD558\uC138\uC694."
   - EntryId: 86483556
     SectionId: 24283221
     Key: item.title.flashlight
-    Value: 
+    Value: "\uC190\uC804\uB4F1"
   - EntryId: 66394995
     SectionId: 24283221
     Key: item.description.flashlight
-    Value: 
+    Value: "\uC5B4\uB450\uC6B4 \uACF3\uC744 \uBC1D\uD788\uACE0 \uC228\uC740 \uC704\uD5D8\uC744
+      \uB4DC\uB7EC\uB0B4\uAE30\uC5D0 \uC88B\uC740, \uACAC\uACE0\uD55C \uAE08\uC18D
+      \uBAB8\uCCB4\uC758 \uAC15\uB825\uD55C \uC190\uC804\uB4F1\uC785\uB2C8\uB2E4."
   - EntryId: 27479224
     SectionId: 24283221
     Key: item.title.camcorder
-    Value: 
+    Value: "\uCEA0\uCF54\uB354"
   - EntryId: 13199872
     SectionId: 24283221
     Key: item.description.camcorder
-    Value: 
+    Value: "\uC5B4\uB460\uC744 \uBE44\uCD94\uC138\uC694. \uB098\uC774\uD2B8 \uBE44\uC804
+      \uAE30\uB2A5\uC744 \uAC16\uCD98 \uC774 \uCEA0\uCF54\uB354\uB294 \uC5B4\uB450\uC6B4
+      \uD658\uACBD\uC744 \uD0D0\uD5D8\uD558\uACE0 \uAE30\uB85D\uD558\uAE30\uC5D0
+      \uC801\uD569\uD569\uB2C8\uB2E4."
   - EntryId: 52214045
     SectionId: 24283221
     Key: item.title.lantern
-    Value: 
+    Value: "\uB79C\uD134"
   - EntryId: 10453279
     SectionId: 24283221
     Key: item.description.lantern
-    Value: 
+    Value: "\uC5B4\uB5A4 \uBAA8\uD5D8\uAC00\uC5D0\uAC8C\uB098 \uBBFF\uC74C\uC9C1\uD55C
+      \uAD11\uC6D0\uC785\uB2C8\uB2E4. \uBC1D\uACE0 \uC548\uC815\uC801\uC778 \uB79C\uD134
+      \uBD88\uAF43\uC774 \uC8FC\uBCC0\uC744 \uD3B8\uC548\uD558\uAC8C \uBC1D\uD600
+      \uC90D\uB2C8\uB2E4."
   - EntryId: 58743985
     SectionId: 24283221
     Key: item.title.lighter
-    Value: 
+    Value: "\uB77C\uC774\uD130"
   - EntryId: 35147977
     SectionId: 24283221
     Key: item.description.lighter
-    Value: 
+    Value: "\uC5B4\uB5A4 \uBAA8\uD5D8\uAC00\uC5D0\uAC8C\uB098 \uBBFF\uC74C\uC9C1\uD55C
+      \uBD88\uC528\uC785\uB2C8\uB2E4. \uC791\uACE0 \uC0AC\uC6A9\uD558\uAE30 \uC26C\uC6CC
+      \uAF2D \uCC59\uACA8\uC57C \uD560 \uC544\uC774\uD15C\uC785\uB2C8\uB2E4."
   - EntryId: 47759722
     SectionId: 24283221
     Key: item.title.candle
-    Value: 
+    Value: "\uC591\uCD08"
   - EntryId: 88800642
     SectionId: 24283221
     Key: item.description.candle
-    Value: 
+    Value: "\uC791\uC9C0\uB9CC \uC624\uB798 \uD0C0\uC624\uB974\uBA70, \uC5B4\uB460
+      \uC18D\uC5D0\uC11C \uBE5B\uACFC \uC628\uAE30\uB97C \uC81C\uACF5\uD569\uB2C8\uB2E4."
   - EntryId: 64813928
     SectionId: 24283221
     Key: item.title.axe
-    Value: 
+    Value: "\uB3C4\uB07C"
   - EntryId: 81754557
     SectionId: 24283221
     Key: item.description.axe
-    Value: 
+    Value: "\uB0A0\uCE74\uB85C\uC6B4 \uAE08\uC18D \uB0A0\uACFC \uD2BC\uD2BC\uD55C
+      \uB098\uBB34 \uC190\uC7A1\uC774\uAC00 \uB2EC\uB9B0 \uB3C4\uAD6C\uC785\uB2C8\uB2E4.
+      \uC7A5\uC791\uC744 \uD328\uAC70\uB098 \uC704\uAE09\uD55C \uC0C1\uD669\uC5D0\uC11C
+      \uC790\uC2E0\uC744 \uBC29\uC5B4\uD558\uAE30\uC5D0 \uC88B\uC2B5\uB2C8\uB2E4."
   - EntryId: 29595890
     SectionId: 24283221
     Key: item.title.pocketknife
-    Value: 
+    Value: "\uC811\uC774\uC2DD \uCE7C"
   - EntryId: 10912878
     SectionId: 24283221
     Key: item.description.pocketknife
-    Value: 
+    Value: "\uC808\uB2E8 \uC791\uC5C5\uACFC \uADFC\uC811 \uBC29\uC5B4\uC5D0 \uB450\uB8E8
+      \uC4F8 \uC218 \uC788\uB294 \uC791\uC740 \uC811\uC774\uC2DD \uCE7C\uC785\uB2C8\uB2E4.
+      \uC5B8\uC81C\uB098 \uCC59\uACA8 \uB450\uAE30 \uC88B\uC2B5\uB2C8\uB2E4."
   - EntryId: 53741014
     SectionId: 24283221
     Key: item.title.pistol
-    Value: 
+    Value: "\uAD8C\uCD1D"
   - EntryId: 19660599
     SectionId: 24283221
     Key: item.description.pistol
-    Value: 
+    Value: "\uADFC\uAC70\uB9AC \uC804\uD22C\uC5D0 \uBBFF\uC74C\uC9C1\uD55C \uBCF4\uC870
+      \uBB34\uAE30\uC785\uB2C8\uB2E4. \uAC15\uB825\uD55C \uC704\uB825\uC744 \uC9C0\uB154\uC73C\uBA70
+      \uC704\uD5D8\uD55C \uC0C1\uD669\uC5D0\uC11C \uBAA9\uC228\uC744 \uAD6C\uD574
+      \uC904 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 61872019
     SectionId: 24283221
     Key: item.title.thermometer
-    Value: 
+    Value: "\uC628\uB3C4\uACC4"
   - EntryId: 78303727
     SectionId: 24283221
     Key: item.description.thermometer
-    Value: 
+    Value: "\uC8FC\uBCC0\uC758 \uC628\uB3C4\uB97C \uCE21\uC815\uD569\uB2C8\uB2E4.
+      \uD658\uACBD \uBCC0\uD654\uB97C \uAC10\uC9C0\uD558\uB294 \uB370 \uC720\uC6A9\uD569\uB2C8\uB2E4."
   - EntryId: 58318911
     SectionId: 24283221
     Key: item.title.emfmeter
-    Value: 
+    Value: "EMF \uCE21\uC815\uAE30"
   - EntryId: 33905725
     SectionId: 24283221
     Key: item.description.emfmeter
-    Value: 
+    Value: "\uC804\uC790\uAE30\uC7A5\uC744 \uAC10\uC9C0\uD569\uB2C8\uB2E4. \uCD08\uC790\uC5F0
+      \uD604\uC0C1\uC774\uB098 \uC804\uC790\uAE30 \uAD50\uB780\uC744 \uD30C\uC545\uD558\uB294
+      \uB370 \uD544\uC218\uC801\uC778 \uB3C4\uAD6C\uC785\uB2C8\uB2E4. \uC720\uB839
+      \uC0AC\uB0E5\uAFBC\uACFC \uC870\uC0AC\uAD00\uC5D0\uAC8C \uAF2D \uD544\uC694\uD569\uB2C8\uB2E4."
   - EntryId: 34833445
     SectionId: 24283221
     Key: item.title.firstaidkit
-    Value: 
+    Value: "\uC751\uAE09 \uCC98\uCE58 \uD0A4\uD2B8"
   - EntryId: 95076873
     SectionId: 24283221
     Key: item.description.firstaidkit
-    Value: 
+    Value: "\uD544\uC218 \uC758\uB8CC \uC6A9\uD488\uC774 \uB4E4\uC5B4 \uC788\uB294
+      \uC0DD\uC874 \uB3C4\uAD6C\uC785\uB2C8\uB2E4. \uCCB4\uB825\uC744 \uD68C\uBCF5\uD558\uACE0
+      \uAC00\uBCBC\uC6B4 \uBD80\uC0C1\uC744 \uCE58\uB8CC\uD560 \uC218 \uC788\uC5B4
+      \uC751\uAE09 \uC0C1\uD669\uC5D0 \uC720\uC6A9\uD569\uB2C8\uB2E4."
   - EntryId: 44235869
     SectionId: 24283221
     Key: item.title.medicaloil
-    Value: 
+    Value: "\uC758\uB8CC\uC6A9 \uC624\uC77C"
   - EntryId: 59674130
     SectionId: 24283221
     Key: item.description.medicaloil
-    Value: 
+    Value: "\uB2E4\uC591\uD55C \uC9C8\uD658\uC744 \uC644\uD654\uD558\uACE0 \uD68C\uBCF5
+      \uC18D\uB3C4\uB97C \uB192\uC774\uBA70 \uC704\uAE09\uD55C \uC21C\uAC04 \uCCB4\uB825\uC744
+      \uBCF4\uCDA9\uD558\uB294 \uBE60\uB974\uAC8C \uC791\uC6A9\uD558\uB294 \uC57D\uD488\uC785\uB2C8\uB2E4."
   - EntryId: 39924894
     SectionId: 24283221
     Key: item.title.medicalherb
-    Value: 
+    Value: "\uC57D\uCD08"
   - EntryId: 10202328
     SectionId: 24283221
     Key: item.description.medicalherb
-    Value: 
+    Value: "\uCE58\uC720 \uD6A8\uB2A5\uC744 \uC9C0\uB2CC \uD76C\uADC0\uD558\uACE0
+      \uAC15\uB825\uD55C \uC2DD\uBB3C\uC785\uB2C8\uB2E4. \uCCB4\uB825\uC744 \uC801\uB2F9\uD788
+      \uD68C\uBCF5\uD558\uAC70\uB098 \uAC15\uB825\uD55C \uD68C\uBCF5 \uBB3C\uC57D\uACFC
+      \uC57D\uC744 \uB9CC\uB4DC\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4."
   - EntryId: 63867823
     SectionId: 24283221
     Key: item.title.healingpotion
-    Value: 
+    Value: "\uD68C\uBCF5 \uBB3C\uC57D"
   - EntryId: 42067171
     SectionId: 24283221
     Key: item.description.healingpotion
-    Value: 
+    Value: "\uC758\uB8CC\uC6A9 \uC624\uC77C\uACFC \uC57D\uCD08\uB85C \uB9CC\uB4E0
+      \uAC15\uB825\uD55C \uD63C\uD569\uBB3C\uC785\uB2C8\uB2E4. \uCCB4\uB825\uC744
+      \uBE60\uB974\uACE0 \uD06C\uAC8C \uD68C\uBCF5\uC2DC\uCF1C \uC90D\uB2C8\uB2E4."
   - EntryId: 16895552
     SectionId: 24283221
     Key: item.title.alkalinebattery
-    Value: 
+    Value: "\uC54C\uCE74\uB77C\uC778 \uBC30\uD130\uB9AC"
   - EntryId: 88078736
     SectionId: 24283221
     Key: item.description.alkalinebattery
-    Value: 
+    Value: "\uC190\uC804\uB4F1, \uB77C\uB514\uC624 \uB4F1 \uD544\uC218 \uC7A5\uBE44\uC5D0
+      \uC624\uB798 \uC9C0\uC18D\uB418\uB294 \uC804\uB825\uC744 \uACF5\uAE09\uD558\uB294
+      \uC791\uACE0 \uBBFF\uC74C\uC9C1\uD55C \uC804\uC6D0\uC785\uB2C8\uB2E4."
   - EntryId: 31902149
     SectionId: 24283221
     Key: item.title.camerabattery
-    Value: 
+    Value: "\uCEA0\uCF54\uB354 \uBC30\uD130\uB9AC"
   - EntryId: 14597581
     SectionId: 24283221
     Key: item.description.camerabattery
-    Value: 
+    Value: "\uCEA0\uCF54\uB354\uB97C \uACC4\uC18D \uCF1C \uB454 \uCC44 \uC0AC\uC6A9\uD560
+      \uC218 \uC788\uAC8C \uD574 \uC8FC\uB294 \uBBFF\uC74C\uC9C1\uD55C \uBC30\uD130\uB9AC\uC785\uB2C8\uB2E4.
+      \uC624\uB798 \uC9C0\uC18D\uB418\uB294 \uC804\uB825\uC744 \uC81C\uACF5\uD569\uB2C8\uB2E4."
   - EntryId: 68908540
     SectionId: 24283221
     Key: item.title.petroloil
-    Value: 
+    Value: "\uB4F1\uC720"
   - EntryId: 10772658
     SectionId: 24283221
     Key: item.description.petroloil
-    Value: 
+    Value: "\uB79C\uD134\uACFC \uB7A8\uD504\uC758 \uC5F0\uB8CC\uB85C \uD754\uD788
+      \uC4F0\uC774\uB294 \uC815\uC81C \uC11D\uC720 \uC81C\uD488\uC785\uB2C8\uB2E4.
+      \uB9D1\uACE0 \uBB34\uC0C9\uC774\uBA70, \uD0DC\uC6B0\uBA74 \uBC1D\uACE0 \uC548\uC815\uC801\uC778
+      \uBD88\uAF43\uC744 \uB0C5\uB2C8\uB2E4."
   - EntryId: 26904931
     SectionId: 24283221
     Key: item.title.pistolammo
-    Value: 
+    Value: "\uAD8C\uCD1D \uD0C4\uC57D"
   - EntryId: 10323082
     SectionId: 24283221
     Key: item.description.pistolammo
-    Value: 
+    Value: "\uB2E4\uC591\uD55C \uCD1D\uAE30\uC5D0 \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.
+      \uC791\uC9C0\uB9CC \uC800\uC9C0\uB825\uC774 \uB192\uC740 9mm \uD0C4\uC57D\uC73C\uB85C,
+      \uADFC\uAC70\uB9AC \uC804\uD22C\uC5D0 \uC801\uD569\uD569\uB2C8\uB2E4."
   - EntryId: 89377779
     SectionId: 24283221
     Key: item.title.pistolflashlight
-    Value: 
+    Value: "\uAD8C\uCD1D \uC190\uC804\uB4F1"
   - EntryId: 31912480
     SectionId: 24283221
     Key: item.description.pistolflashlight
-    Value: 
+    Value: "\uAD8C\uCD1D\uC5D0 \uC7A5\uCC29\uD558\uB294 \uC804\uC220\uC6A9 \uC870\uBA85\uC785\uB2C8\uB2E4.
+      \uBAA9\uD45C\uB97C \uBE44\uCD94\uACE0 \uC5B4\uB460 \uC18D\uC5D0 \uC228\uC740
+      \uC704\uD5D8\uC744 \uB4DC\uB7EC\uB0C5\uB2C8\uB2E4."
   - EntryId: 25768964
     SectionId: 24283221
     Key: item.title.key01
-    Value: 
+    Value: "\uC5F4\uC1E0 01"
   - EntryId: 54686469
     SectionId: 24283221
     Key: item.description.key01
-    Value: 
+    Value: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294\uC9C0 \uC54C \uC218 \uC5C6\uB294
+      \uD3C9\uBC94\uD558\uC9C0\uB9CC \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC5F4\uC1E0\uC785\uB2C8\uB2E4.
+      \uBB38, \uC0C1\uC790, \uC544\uC9C1 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD55C \uBE44\uBC00\uC744
+      \uC5F4 \uC218\uB3C4 \uC788\uC73C\uB2C8 \uC798 \uBCF4\uAD00\uD558\uC138\uC694."
   - EntryId: 77523233
     SectionId: 24283221
     Key: item.title.key02
-    Value: 
+    Value: "\uC5F4\uC1E0 02"
   - EntryId: 93838456
     SectionId: 24283221
     Key: item.description.key02
-    Value: 
+    Value: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294\uC9C0 \uC54C \uC218 \uC5C6\uB294
+      \uD3C9\uBC94\uD558\uC9C0\uB9CC \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC5F4\uC1E0\uC785\uB2C8\uB2E4.
+      \uBB38, \uC0C1\uC790, \uC544\uC9C1 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD55C \uBE44\uBC00\uC744
+      \uC5F4 \uC218\uB3C4 \uC788\uC73C\uB2C8 \uC798 \uBCF4\uAD00\uD558\uC138\uC694."
   - EntryId: 85398988
     SectionId: 24283221
     Key: item.title.key03
-    Value: 
+    Value: "\uC5F4\uC1E0 03"
   - EntryId: 95447991
     SectionId: 24283221
     Key: item.description.key03
-    Value: 
+    Value: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294\uC9C0 \uC54C \uC218 \uC5C6\uB294
+      \uD3C9\uBC94\uD558\uC9C0\uB9CC \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC5F4\uC1E0\uC785\uB2C8\uB2E4.
+      \uBB38, \uC0C1\uC790, \uC544\uC9C1 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD55C \uBE44\uBC00\uC744
+      \uC5F4 \uC218\uB3C4 \uC788\uC73C\uB2C8 \uC798 \uBCF4\uAD00\uD558\uC138\uC694."
   - EntryId: 68643809
     SectionId: 24283221
     Key: item.title.key04
-    Value: 
+    Value: "\uC5F4\uC1E0 04"
   - EntryId: 94144278
     SectionId: 24283221
     Key: item.description.key04
-    Value: 
+    Value: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294\uC9C0 \uC54C \uC218 \uC5C6\uB294
+      \uD3C9\uBC94\uD558\uC9C0\uB9CC \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC5F4\uC1E0\uC785\uB2C8\uB2E4.
+      \uBB38, \uC0C1\uC790, \uC544\uC9C1 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD55C \uBE44\uBC00\uC744
+      \uC5F4 \uC218\uB3C4 \uC788\uC73C\uB2C8 \uC798 \uBCF4\uAD00\uD558\uC138\uC694."
   - EntryId: 68278997
     SectionId: 24283221
     Key: item.title.keys
-    Value: 
+    Value: "\uC5F4\uC1E0 \uAFB8\uB7EC\uBBF8"
   - EntryId: 50121884
     SectionId: 24283221
     Key: item.description.keys
-    Value: 
+    Value: "\uC5F4\uC1E0\uACE0\uB9AC\uC5D0 \uC5EC\uB7EC \uAE08\uC18D \uC5F4\uC1E0\uAC00
+      \uB2EC\uB824 \uC788\uC2B5\uB2C8\uB2E4. \uB2E4\uC591\uD55C \uC790\uBB3C\uC1E0\uB97C
+      \uC5F4 \uC218 \uC788\uC5B4 \uD0D0\uC0C9\uC5D0 \uD544\uC218\uC801\uC785\uB2C8\uB2E4."
   - EntryId: 90527509
     SectionId: 24283221
     Key: item.title.lockpick
-    Value: 
+    Value: "\uC790\uBB3C\uC1E0 \uB530\uAC1C"
   - EntryId: 45644899
     SectionId: 24283221
     Key: item.description.lockpick
-    Value: 
+    Value: "\uBAA8\uD5D8\uAC00\uC5D0\uAC8C \uC720\uC6A9\uD55C \uB3C4\uAD6C\uB85C,
+      \uC5EC\uB7EC \uC885\uB958\uC758 \uC790\uBB3C\uC1E0\uC640 \uBB38\uC744 \uC5F4
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 34472722
     SectionId: 24283221
     Key: item.title.fuse
-    Value: 
+    Value: "\uD4E8\uC988"
   - EntryId: 94677487
     SectionId: 24283221
     Key: item.description.fuse
-    Value: 
+    Value: "\uC804\uAE30 \uC7A5\uBE44\uB97C \uC218\uB9AC\uD558\uACE0 \uAE30\uACC4\uC5D0
+      \uC804\uB825\uC744 \uACF5\uAE09\uD558\uB294 \uB370 \uD544\uC694\uD55C \uC544\uC774\uD15C\uC785\uB2C8\uB2E4.
+      \uC791\uC544 \uC778\uBCA4\uD1A0\uB9AC\uC5D0 \uB123\uC5B4 \uB2E4\uB2C8\uAE30
+      \uC27D\uC2B5\uB2C8\uB2E4."
   - EntryId: 79554516
     SectionId: 24283221
     Key: item.title.valve
-    Value: 
+    Value: "\uBC38\uBE0C"
   - EntryId: 36922670
     SectionId: 24283221
     Key: item.description.valve
-    Value: 
+    Value: "\uBC30\uAD00\uACFC \uAE30\uACC4\uC5D0\uC11C \uC561\uCCB4\uC640 \uAE30\uCCB4\uC758
+      \uD750\uB984\uC744 \uC870\uC808\uD558\uB294 \uD544\uC218 \uBD80\uD488\uC785\uB2C8\uB2E4."
   - EntryId: 95253859
     SectionId: 24283221
     Key: item.title.vhscassette
-    Value: 
+    Value: "VHS \uBE44\uB514\uC624\uD14C\uC774\uD504"
   - EntryId: 19573478
     SectionId: 24283221
     Key: item.description.vhscassette
-    Value: 
+    Value: "\uC774\uB984: {name}"
   - EntryId: 99621160
     SectionId: 24283221
     Key: item.title.redkeycard
-    Value: 
+    Value: "\uBE68\uAC04 \uD0A4\uCE74\uB4DC"
   - EntryId: 97596299
     SectionId: 24283221
     Key: item.description.redkeycard
-    Value: 
+    Value: "\uBCF4\uC548 \uB4F1\uAE09\uC774 \uB192\uC740 \uCD9C\uC785 \uCE74\uB4DC\uB85C,
+      \uC81C\uD55C \uAD6C\uC5ED\uC5D0 \uB4E4\uC5B4\uAC08 \uC218 \uC788\uAC8C \uD574
+      \uC90D\uB2C8\uB2E4."
   - EntryId: 88852542
     SectionId: 24283221
     Key: item.title.greenkeycard
-    Value: 
+    Value: "\uCD08\uB85D \uD0A4\uCE74\uB4DC"
   - EntryId: 84344411
     SectionId: 24283221
     Key: item.description.greenkeycard
-    Value: 
+    Value: "\uC5EC\uB7EC \uBCF4\uC548 \uAD6C\uC5ED\uC5D0 \uCD9C\uC785\uD560 \uC218
+      \uC788\uAC8C \uD574 \uC8FC\uB294 \uCE74\uB4DC\uC785\uB2C8\uB2E4."
   - EntryId: 44840908
     SectionId: 24283221
     Key: item.title.fuelcanister
-    Value: 
+    Value: "\uC5F0\uB8CC\uD1B5"
   - EntryId: 90153658
     SectionId: 24283221
     Key: item.description.fuelcanister
-    Value: 
+    Value: "\uBC1C\uC804\uAE30\uC5D0 \uC5F0\uB8CC\uB97C \uBCF4\uCDA9\uD558\uB3C4\uB85D
+      \uC124\uACC4\uB41C \uACE0\uD6A8\uC728 \uC561\uCCB4 \uC5F0\uB8CC\uAC00 \uB4E4\uC5B4
+      \uC788\uB294 \uD2BC\uD2BC\uD55C \uAE08\uC18D \uD1B5\uC785\uB2C8\uB2E4."
   - EntryId: 15052282
     SectionId: 24283221
     Key: item.title.marbleball
-    Value: 
+    Value: "\uAD6C\uC2AC"
   - EntryId: 83898129
     SectionId: 24283221
     Key: item.description.marbleball
-    Value: 
+    Value: "\uAC8C\uC784\uC5D0 \uC790\uC8FC \uC4F0\uC774\uB294 \uC791\uACE0 \uC54C\uB85D\uB2EC\uB85D\uD55C
+      \uC720\uB9AC \uAD6C\uC2AC\uC785\uB2C8\uB2E4. \uB358\uC9C0\uAC70\uB098 \uAD74\uB824
+      \uD37C\uC990\uC744 \uD480\uACE0 \uC7A5\uCE58\uB97C \uC791\uB3D9\uC2DC\uD0AC
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 82617294
     SectionId: 24283221
     Key: item.title.gunpowder
-    Value: 
+    Value: "\uD654\uC57D"
   - EntryId: 94969246
     SectionId: 24283221
     Key: item.description.gunpowder
-    Value: 
+    Value: "\uD0C4\uC57D\uACFC \uD3ED\uBC1C\uBB3C\uC5D0 \uC4F0\uC774\uB294 \uD718\uBC1C\uC131
+      \uD751\uC0C9 \uD654\uC57D\uC785\uB2C8\uB2E4. \uACE0\uCCA0\uACFC \uC870\uD569\uD574
+      \uAD8C\uCD1D \uD0C4\uC57D\uC744 \uB9CC\uB4E4 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
   - EntryId: 45238631
     SectionId: 24283221
     Key: item.title.scrap
-    Value: 
+    Value: "\uACE0\uCCA0"
   - EntryId: 38802640
     SectionId: 24283221
     Key: item.description.scrap
-    Value: 
+    Value: "\uC5EC\uB7EC \uC885\uB958\uC758 \uAE08\uC18D \uC870\uAC01\uC744 \uBAA8\uC544
+      \uB454 \uAC83\uC785\uB2C8\uB2E4. \uC81C\uC791\uACFC \uC218\uB9AC\uC5D0 \uC720\uC6A9\uD569\uB2C8\uB2E4."
   - EntryId: 31030455
     SectionId: 90694169
     Key: tips.tip1
-    Value: 
+    Value: "\uCCAB \uBC88\uC9F8 \uD301 \uC608\uC2DC\uC785\uB2C8\uB2E4."
   - EntryId: 69403660
     SectionId: 90694169
     Key: tips.tip2
-    Value: 
+    Value: "\uB450 \uBC88\uC9F8 \uD301 \uC608\uC2DC\uC785\uB2C8\uB2E4."
   - EntryId: 75937617
     SectionId: 90694169
     Key: tips.tip3
-    Value: 
+    Value: "\uC138 \uBC88\uC9F8 \uD301 \uC608\uC2DC\uC785\uB2C8\uB2E4."
   - EntryId: 35326416
     SectionId: 70584943
     Key: options.language
@@ -961,111 +1068,111 @@ MonoBehaviour:
   - EntryId: 36164037
     SectionId: 70584943
     Key: options.brightness
-    Value: 
+    Value: "\uBC1D\uAE30"
   - EntryId: 12736807
     SectionId: 70584943
     Key: options.camera.fov
-    Value: 
+    Value: "\uCE74\uBA54\uB77C \uC2DC\uC57C\uAC01"
   - EntryId: 39446919
     SectionId: 70584943
     Key: options.look.sensitivity
-    Value: 
+    Value: "\uC2DC\uC810 \uAC10\uB3C4"
   - EntryId: 93278971
     SectionId: 70584943
     Key: options.look.smoothing
-    Value: 
+    Value: "\uC2DC\uC810 \uBD80\uB4DC\uB7EC\uC6C0"
   - EntryId: 44422523
     SectionId: 70584943
     Key: options.smoothing.speed
-    Value: 
+    Value: "\uBD80\uB4DC\uB7EC\uC6C0 \uC18D\uB3C4"
   - EntryId: 42806252
     SectionId: 70584943
     Key: options.show.fps
-    Value: 
+    Value: "FPS \uD45C\uC2DC"
   - EntryId: 16191567
     SectionId: 70584943
     Key: options.display
-    Value: 
+    Value: "\uB514\uC2A4\uD50C\uB808\uC774"
   - EntryId: 72339037
     SectionId: 70584943
     Key: options.display.mode
-    Value: 
+    Value: "\uB514\uC2A4\uD50C\uB808\uC774 \uBAA8\uB4DC"
   - EntryId: 32918443
     SectionId: 70584943
     Key: options.screen.res
-    Value: 
+    Value: "\uD654\uBA74 \uD574\uC0C1\uB3C4"
   - EntryId: 10092527
     SectionId: 70584943
     Key: options.frame.rate
-    Value: 
+    Value: "\uD504\uB808\uC784 \uB808\uC774\uD2B8"
   - EntryId: 67230680
     SectionId: 70584943
     Key: options.vsync
-    Value: 
+    Value: "\uC218\uC9C1 \uB3D9\uAE30\uD654"
   - EntryId: 34415215
     SectionId: 70584943
     Key: options.render.scale
-    Value: 
+    Value: "\uB80C\uB354 \uC2A4\uCF00\uC77C"
   - EntryId: 26280178
     SectionId: 70584943
     Key: options.fsr
-    Value: 
+    Value: "FSR \uC120\uBA85\uB3C4"
   - EntryId: 82063294
     SectionId: 70584943
     Key: options.antialiasing
-    Value: 
+    Value: "\uC548\uD2F0\uC568\uB9AC\uC5B4\uC2F1"
   - EntryId: 27231692
     SectionId: 70584943
     Key: options.antialiasing.quality
-    Value: 
+    Value: "\uC548\uD2F0\uC568\uB9AC\uC5B4\uC2F1 \uD488\uC9C8"
   - EntryId: 63942947
     SectionId: 70584943
     Key: options.anisotropic
-    Value: 
+    Value: "\uC774\uBC29\uC131 \uD544\uD130\uB9C1"
   - EntryId: 33876895
     SectionId: 70584943
     Key: options.texture.quality
-    Value: 
+    Value: "\uD14D\uC2A4\uCC98 \uD488\uC9C8"
   - EntryId: 24740572
     SectionId: 70584943
     Key: options.shadow.distance
-    Value: 
+    Value: "\uADF8\uB9BC\uC790 \uAC70\uB9AC"
   - EntryId: 78091521
     SectionId: 70584943
     Key: options.bloom
-    Value: 
+    Value: "\uBE14\uB8F8"
   - EntryId: 51192724
     SectionId: 70584943
     Key: options.vignette
-    Value: 
+    Value: "\uBE44\uB124\uD2B8"
   - EntryId: 26771590
     SectionId: 70584943
     Key: options.film.grain
-    Value: 
+    Value: "\uD544\uB984 \uADF8\uB808\uC778"
   - EntryId: 58595067
     SectionId: 70584943
     Key: options.chromatic
-    Value: 
+    Value: "\uC0C9\uC218\uCC28"
   - EntryId: 16363080
     SectionId: 70584943
     Key: options.audio.general
-    Value: 
+    Value: "\uC804\uCCB4 \uBCFC\uB968"
   - EntryId: 15022705
     SectionId: 70584943
     Key: options.audio.music
-    Value: 
+    Value: "\uC74C\uC545 \uBCFC\uB968"
   - EntryId: 18788252
     SectionId: 70584943
     Key: options.audio.effect
-    Value: 
+    Value: "\uD6A8\uACFC\uC74C \uBCFC\uB968"
   - EntryId: 75698164
     SectionId: 70584943
     Key: options.separator.video
-    Value: 
+    Value: "\uBE44\uB514\uC624 \uC124\uC815"
   - EntryId: 62116141
     SectionId: 70584943
     Key: options.separator.pp
-    Value: 
+    Value: "\uD6C4\uCC98\uB9AC"
   - EntryId: 79478115
     SectionId: 56290060
     Key: Language.English

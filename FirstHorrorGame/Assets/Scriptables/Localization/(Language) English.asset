@@ -17,30 +17,42 @@ MonoBehaviour:
   - EntryId: 47251901
     SectionId: 82386491
     Key: Subtitle.start.01
-    Value: 
+    Value: I'm exhausted... I need to rest for a while.
   - EntryId: 90593698
     SectionId: 82386491
     Key: Subtitle.start.02
-    Value: 
+    Value: Let's get inside quickly.
   - EntryId: 54843612
     SectionId: 82386491
     Key: Subtitle.hallway.01
-    Value: 
+    Value: This is my home.
   - EntryId: 31975553
     SectionId: 82386491
     Key: Subtitle.entering.0.turnlight
-    Value: 
+    Value: I should turn on the lights first.
   - EntryId: 79649948
     SectionId: 82386491
     Key: Subtitle.entering.01
-    Value: 
+    Value: Phew... Finally home.
   - EntryId: 35771164
     SectionId: 82386491
     Key: Subtitle.entering.02
-    Value: 
+    Value: I can finally get some rest.
   - EntryId: 83938182
     SectionId: 82386491
     Key: Subtitle.entering.03
+    Value: I'm a little hungry... Should I eat first?
+  - EntryId: 32038591
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.1
+    Value: 
+  - EntryId: 94490215
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.2
+    Value: 
+  - EntryId: 90251430
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.3
     Value: 
   - EntryId: 37567559
     SectionId: 60438809
@@ -49,23 +61,23 @@ MonoBehaviour:
   - EntryId: 69920593
     SectionId: 60438809
     Key: Objectives.eneteringHome.sub1
-    Value: 
+    Value: Find your way home.
   - EntryId: 89648811
     SectionId: 60438809
     Key: Objectives.eneteringHome.sub.turnLight
-    Value: 
+    Value: Turn on the lights.
   - EntryId: 94821550
     SectionId: 60438809
     Key: Objectives.eatSomething.title
-    Value: 
+    Value: Prepare a meal.
   - EntryId: 49537433
     SectionId: 60438809
     Key: Objectives.eatSomething.sub1
-    Value: 
+    Value: Find the refrigerator and open it.
   - EntryId: 68246820
     SectionId: 60438809
     Key: Objectives.eatSomething.sub2
-    Value: 
+    Value: Heat up the food and eat.
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up

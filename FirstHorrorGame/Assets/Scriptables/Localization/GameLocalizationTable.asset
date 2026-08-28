@@ -33,6 +33,12 @@ MonoBehaviour:
       Key: entering.02
     - Id: 83938182
       Key: entering.03
+    - Id: 32038591
+      Key: Telephone.Scene1.1
+    - Id: 94490215
+      Key: Telephone.Scene1.2
+    - Id: 90251430
+      Key: Telephone.Scene1.3
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
