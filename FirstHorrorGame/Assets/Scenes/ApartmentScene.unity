@@ -160100,7 +160100,7 @@ MonoBehaviour:
   LookAtDuration: 0.5
   LockPlayer: 0
   EndJumpscareManually: 0
-  JumpscareEndEventDelay: 0
+  JumpscareEndEventDelay: 0.5
   InfluenceWobble: 0
   WobbleAmplitudeGain: 1
   WobbleFrequencyGain: 1
@@ -160183,19 +160183,7 @@ MonoBehaviour:
     delayToNextSubtitle: 0
   OnSubtitlesFinished:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1062013549}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!65 &1062013554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -233337,7 +233325,6 @@ GameObject:
   - component: {fileID: 1552757602}
   - component: {fileID: 1552757603}
   - component: {fileID: 1552757604}
-  - component: {fileID: 1552757605}
   m_Layer: 0
   m_Name: 1.EnteringHome
   m_TagString: Untagged
@@ -233373,10 +233360,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.ObjectiveTrigger
   triggerType: 0
-  objectiveType: 1
+  objectiveType: 2
   objectiveToAdd:
-    ObjectiveKey: 
-    SubObjectives: []
+    ObjectiveKey: EatSomething
+    SubObjectives:
+    - findFood
   objectiveToComplete:
     ObjectiveKey: ObjectiveEnterHome
     SubObjectives:
@@ -233448,10 +233436,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 780061366}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+  TriggerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1552757599}
+        m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
+        m_MethodName: TriggerObjective
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -233460,9 +233451,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  TriggerExit:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 1552757604}
         m_TargetAssemblyTypeName: ENZEUN.Runtime.SubtitleTrigger, Assembly-CSharp
         m_MethodName: TriggerSubtitles
@@ -233558,7 +233546,7 @@ MonoBehaviour:
   OnSubtitlesFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1552757605}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
         m_MethodName: TriggerObjective
         m_Mode: 1
@@ -233570,39 +233558,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1552757597}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1552757605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552757597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.ObjectiveTrigger
-  triggerType: 0
-  objectiveType: 0
-  objectiveToAdd:
-    ObjectiveKey: EatSomething
-    SubObjectives:
-    - findFood
-  objectiveToComplete:
-    ObjectiveKey: 
-    SubObjectives: []
 --- !u!1 &1553639381
 GameObject:
   m_ObjectHideFlags: 0
@@ -247984,7 +247939,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3813802599256730727}
   - {fileID: 1494629736}
   - {fileID: 1883138920}
   - {fileID: 83292673}
@@ -251347,6 +251301,7 @@ Transform:
   m_Children:
   - {fileID: 678061100}
   - {fileID: 993650786}
+  - {fileID: 3813802599256730727}
   m_Father: {fileID: 48607785}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1670509802 stripped
@@ -322294,19 +322249,7 @@ MonoBehaviour:
       m_Calls: []
   TriggerExit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2111748123}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnJumpscareStarted:
     m_PersistentCalls:
       m_Calls:
@@ -334374,11 +334317,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1652860739}
+    m_TransformParent: {fileID: 1670444652}
     m_Modifications:
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalPosition.y
@@ -334386,11 +334329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalRotation.x
@@ -334398,7 +334341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1303385889863318354, guid: 45418e7b4dcb93b4db555db10255b688, type: 3}
       propertyPath: m_LocalRotation.z
@@ -344329,14 +344272,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3792042588788427253}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 25.18, y: 0.23, z: 89.82}
+  m_LocalRotation: {x: -0, y: -0.36277795, z: -0, w: 0.93187565}
+  m_LocalPosition: {x: 25.439, y: 0.23, z: 89.691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1031883204492062829}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -42.542, z: 0}
 --- !u!1 &1749935982518259764
 GameObject:
   m_ObjectHideFlags: 0
@@ -375334,8 +375277,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6209838590719891231}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 25.18, y: 1.9300001, z: 89.82}
+  m_LocalRotation: {x: 0, y: -0.36277795, z: 0, w: 0.93187565}
+  m_LocalPosition: {x: 25.439, y: 1.9300001, z: 89.691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

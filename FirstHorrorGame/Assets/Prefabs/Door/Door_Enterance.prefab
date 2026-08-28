@@ -660,16 +660,16 @@ MonoBehaviour:
     showGizmos: 1
   useSound1:
     audioClip: {fileID: 8300000, guid: debe77de513022b40bef8ae736120b02, type: 3}
-    volume: 0
+    volume: 0.8
   useSound2:
     audioClip: {fileID: 8300000, guid: 78fbfe8c3cad9c24b8f8c403a66c71df, type: 3}
-    volume: 0
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 8300000, guid: 5bdedab67b6c6454ab3a251baf50a15e, type: 3}
-    volume: 0
+    volume: 0.8
   unlockSound:
     audioClip: {fileID: 8300000, guid: f828ceff7c2f48b44bb8119796e046b7, type: 3}
-    volume: 0
+    volume: 0.8
   useEvent1:
     m_PersistentCalls:
       m_Calls: []
