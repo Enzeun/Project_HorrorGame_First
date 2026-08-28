@@ -29,15 +29,28 @@ namespace ENZEUN.Runtime
         private float timePerCharacter = 0.03f;
 
 
-        public async UniTask ShowSubtitleAsync(string subtitle, bool isPlayerFreezed)
+        public async UniTask ShowSubtitleAsync(string subtitle, float duration = 0, bool isPlayerFreezed = false)
         {
             var token = this.GetCancellationTokenOnDestroy();
 
+            if (duration <= 0)
+            {
+                duration = 0;
+            }
+
+            Debug.Log("Condition@@" + isPlayerFreezed);
             InitUI();
 
             FadeInSubtitleUI();
 
             await PlayTextAnimation(subtitle, token);
+
+            if (duration != 0)
+            {
+                int waittime = (int)(duration * 1000);
+
+                await UniTask.Delay(waittime);
+            }
 
             if (isPlayerFreezed)
             {

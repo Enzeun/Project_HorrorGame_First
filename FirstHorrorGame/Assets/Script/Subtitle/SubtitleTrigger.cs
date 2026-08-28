@@ -39,17 +39,18 @@ namespace ENZEUN.Runtime
 
             isTriggered = true;
 
-            PlaySubtitleAsync().Forget();
-
             if (freezePlayerMove)
             {
-                GameManager.Instance.PlayerPresence.FreezeMovement(true);
                 isPlayerFreezed = true;
+                GameManager.Instance.PlayerPresence.FreezeMovement(true);
             }
+
             if (freezePlayerLook)
             {
                 GameManager.Instance.PlayerPresence.FreezeLook(true);
             }
+
+            PlaySubtitleAsync().Forget();
         }
 
         public async UniTask PlaySubtitleAsync()
@@ -72,7 +73,7 @@ namespace ENZEUN.Runtime
                     continue;
                 }
 
-                await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle, isPlayerFreezed);
+                await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle, subtitleData.subtitleAsset.duration, isPlayerFreezed);
 
                 await UniTask.Delay(System.TimeSpan.FromSeconds(subtitleData.delayToNextSubtitle), cancellationToken: token);
             }
