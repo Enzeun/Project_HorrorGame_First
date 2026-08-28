@@ -33,24 +33,11 @@ namespace ENZEUN.Runtime
         {
             var token = this.GetCancellationTokenOnDestroy();
 
-            if (duration <= 0)
-            {
-                duration = 0;
-            }
-
-            Debug.Log("Condition@@" + isPlayerFreezed);
             InitUI();
 
             FadeInSubtitleUI();
 
             await PlayTextAnimation(subtitle, token);
-
-            if (duration != 0)
-            {
-                int waittime = (int)(duration * 1000);
-
-                await UniTask.Delay(waittime);
-            }
 
             if (isPlayerFreezed)
             {
@@ -59,7 +46,7 @@ namespace ENZEUN.Runtime
             }
             else
             {
-                await UniTask.Delay(1000);
+                await UniTask.Delay(TimeSpan.FromSeconds(Mathf.Max(duration, 1f)), cancellationToken: token);
             }
 
             FadeOutSubtitleUI();
