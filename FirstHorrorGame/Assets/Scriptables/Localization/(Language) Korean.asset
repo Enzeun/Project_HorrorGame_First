@@ -26,6 +26,10 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.hallway.01
     Value: "\uC774 \uCABD\uC774 \uC6B0\uB9AC \uC9D1\uC774\uC57C"
+  - EntryId: 31975553
+    SectionId: 82386491
+    Key: Subtitle.entering.0.turnlight
+    Value: "\uC77C\uB2E8 \uBD88\uC744 \uD0A4\uC790"
   - EntryId: 79649948
     SectionId: 82386491
     Key: Subtitle.entering.01
@@ -46,6 +50,10 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.eneteringHome.sub1
     Value: "\uC9D1\uC744 \uCC3E\uC544 \uB4E4\uC5B4\uAC00\uC138\uC694"
+  - EntryId: 89648811
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub.turnLight
+    Value: "\uBD88\uC744 \uCF1C\uC138\uC694"
   - EntryId: 94821550
     SectionId: 60438809
     Key: Objectives.eatSomething.title

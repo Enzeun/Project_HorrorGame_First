@@ -26,6 +26,10 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.hallway.01
     Value: 
+  - EntryId: 31975553
+    SectionId: 82386491
+    Key: Subtitle.entering.0.turnlight
+    Value: 
   - EntryId: 79649948
     SectionId: 82386491
     Key: Subtitle.entering.01
@@ -45,6 +49,10 @@ MonoBehaviour:
   - EntryId: 69920593
     SectionId: 60438809
     Key: Objectives.eneteringHome.sub1
+    Value: 
+  - EntryId: 89648811
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub.turnLight
     Value: 
   - EntryId: 94821550
     SectionId: 60438809

@@ -25,6 +25,8 @@ MonoBehaviour:
       Key: start.02
     - Id: 54843612
       Key: hallway.01
+    - Id: 31975553
+      Key: entering.0.turnlight
     - Id: 79649948
       Key: entering.01
     - Id: 35771164
@@ -38,6 +40,8 @@ MonoBehaviour:
       Key: eneteringHome.title
     - Id: 69920593
       Key: eneteringHome.sub1
+    - Id: 89648811
+      Key: eneteringHome.sub.turnLight
     - Id: 94821550
       Key: eatSomething.title
     - Id: 49537433

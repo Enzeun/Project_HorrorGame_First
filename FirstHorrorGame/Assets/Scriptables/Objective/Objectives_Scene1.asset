@@ -16,25 +16,30 @@ MonoBehaviour:
   - ObjectiveKey: ObjectiveEnterHome
     ObjectiveTitle:
       GlocText: Objectives.eneteringHome.title
-      NormalText: Objectives.Enetering_Home
+      NormalText: "\uC9D1\uC73C\uB85C \uB4E4\uC5B4\uAC00\uAE30"
     SubObjectives:
     - SubObjectiveKey: enterhome
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.eneteringHome.sub1
-        NormalText: Objectives.Enetering_Home
+        NormalText: "\uC9D1\uC744 \uCC3E\uC544 \uB4E4\uC5B4\uAC00\uC138\uC694"
+    - SubObjectiveKey: turnlight
+      CompleteCount: 1
+      ObjectiveText:
+        GlocText: Objectives.eneteringHome.sub.turnLight
+        NormalText: "\uBD88\uC744 \uCF1C\uC138\uC694"
   - ObjectiveKey: EatSomething
     ObjectiveTitle:
       GlocText: Objectives.eatSomething.title
-      NormalText: 
+      NormalText: "\uC74C\uC2DD \uD574\uBA39\uAE30"
     SubObjectives:
     - SubObjectiveKey: findFood
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.eatSomething.sub1
-        NormalText: 
+        NormalText: "\uB0C9\uC7A5\uACE0\uB97C \uCC3E\uC544 \uBB38\uC744 \uC5EC\uC138\uC694"
     - SubObjectiveKey: warmFood
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.eatSomething.sub2
-        NormalText: 
+        NormalText: "\uC74C\uC2DD\uC744 \uB370\uC6CC\uC11C \uBA39\uC73C\uC138\uC694"
