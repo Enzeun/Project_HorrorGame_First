@@ -8,7 +8,6 @@ using UHFPS.Input;
 using Unity.AppUI.UI;
 using System.Threading;
 
-
 namespace ENZEUN.Runtime
 {
     public class SubtitleManager : Singleton<SubtitleManager>
@@ -27,7 +26,6 @@ namespace ENZEUN.Runtime
         [BoxGroup("UI 세팅"), SerializeField, MinValue(0.01f)]
         [Tooltip("한 글자당 소요 시간")]
         private float timePerCharacter = 0.03f;
-
 
         public async UniTask ShowSubtitleAsync(string subtitle, float duration = 0, bool isPlayerFreezed = false)
         {

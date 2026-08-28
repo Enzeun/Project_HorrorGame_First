@@ -42,6 +42,7 @@ namespace ENZEUN.Runtime
             if (freezePlayerMove)
             {
                 isPlayerFreezed = true;
+                GameManager.Instance.LockInput(true);
                 GameManager.Instance.PlayerPresence.FreezeMovement(true);
             }
 
@@ -88,6 +89,7 @@ namespace ENZEUN.Runtime
 
             if (freezePlayerMove)
             {
+                GameManager.Instance.LockInput(false);
                 GameManager.Instance.PlayerPresence.FreezeMovement(false);
                 isPlayerFreezed = false;
             }
