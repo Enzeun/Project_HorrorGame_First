@@ -54,6 +54,10 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.Telephone.Scene1.3
     Value: "\uD53C\uACE4\uD55C\uB370, \uC2E0\uACBD\uC4F0\uC9C0 \uB9D0\uC790"
+  - EntryId: 91861710
+    SectionId: 82386491
+    Key: Subtitle.goToilet.01
+    Value: "\uAC11\uC790\uAE30 \uB625\uC774 \uB9C8\uB835\uB124"
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title

@@ -39,6 +39,8 @@ MonoBehaviour:
       Key: Telephone.Scene1.2
     - Id: 90251430
       Key: Telephone.Scene1.3
+    - Id: 91861710
+      Key: goToilet.01
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
