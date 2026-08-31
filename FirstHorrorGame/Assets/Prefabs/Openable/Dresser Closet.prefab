@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 5305897465324655986}
   - component: {fileID: 265713168063624121}
   - component: {fileID: 3423478233960245658}
+  - component: {fileID: 1868763876962379720}
   m_Layer: 6
   m_Name: Door.L
   m_TagString: Untagged
@@ -698,11 +699,11 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: 858e6961faf30374381468828efa1081, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 0dd8f914093e98547928c30502398bf8, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -726,6 +727,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &1868763876962379720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978309993251359657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 3423478233960245658}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: objects.door
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &2853606400265461693
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +890,7 @@ GameObject:
   - component: {fileID: 6943102875688316749}
   - component: {fileID: 2306877410596382805}
   - component: {fileID: 8857737987703327294}
+  - component: {fileID: 6094460740081289754}
   m_Layer: 6
   m_Name: Door.R
   m_TagString: Untagged
@@ -1221,11 +1283,11 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: 858e6961faf30374381468828efa1081, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 0dd8f914093e98547928c30502398bf8, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -1249,6 +1311,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &6094460740081289754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3774064269496187587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 8857737987703327294}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: objects.door
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &4760732501155697067
 GameObject:
   m_ObjectHideFlags: 0

@@ -1035,6 +1035,7 @@ GameObject:
   - component: {fileID: 8290694287402816163}
   - component: {fileID: 563779592819909143}
   - component: {fileID: 7843388510286710034}
+  - component: {fileID: 1293044919100793280}
   m_Layer: 6
   m_Name: Door.Fridge.L
   m_TagString: Untagged
@@ -1428,11 +1429,11 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: 858e6961faf30374381468828efa1081, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 0dd8f914093e98547928c30502398bf8, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -1456,6 +1457,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &1293044919100793280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288336154688140345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 7843388510286710034}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: openable.fridge
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &2288926433240331561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1620,7 @@ GameObject:
   - component: {fileID: 1743789479734276765}
   - component: {fileID: 5358700605986638219}
   - component: {fileID: 8376748700166335939}
+  - component: {fileID: 1396455641325529828}
   m_Layer: 6
   m_Name: Door.Fridge.R
   m_TagString: Untagged
@@ -1952,11 +2014,11 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: 858e6961faf30374381468828efa1081, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 0dd8f914093e98547928c30502398bf8, type: 3}
-    volume: 0
+    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -1980,6 +2042,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &1396455641325529828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462332588838156407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 8376748700166335939}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: openable.fridge
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &3479622967502687279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3228,7 @@ GameObject:
   - component: {fileID: 3992341051176047975}
   - component: {fileID: 2818323954423894388}
   - component: {fileID: 257917659855000553}
+  - component: {fileID: 8118647241987277662}
   m_Layer: 6
   m_Name: Drawer_Script
   m_TagString: Untagged
@@ -3206,7 +3329,7 @@ MonoBehaviour:
     <DynamicObject>k__BackingField: {fileID: 257917659855000553}
     openLimits:
       min: 0
-      max: 0
+      max: 90
     startingAngle: 0
     targetHinge: 2
     targetForward: 4
@@ -3307,7 +3430,7 @@ MonoBehaviour:
     <DynamicObject>k__BackingField: {fileID: 257917659855000553}
     openLimits:
       min: 0
-      max: 0.5
+      max: 0
     pullAxis: 0
     openCurve:
       serializedVersion: 2
@@ -3442,10 +3565,10 @@ MonoBehaviour:
     showGizmos: 1
   useSound1:
     audioClip: {fileID: 8300000, guid: 3844e4a345f1f2544b61842795c1afcc, type: 3}
-    volume: 1
+    volume: 0.8
   useSound2:
     audioClip: {fileID: 8300000, guid: b6b61cfb132ea9b428cc937e1a0e0f2b, type: 3}
-    volume: 1
+    volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -3469,6 +3592,66 @@ MonoBehaviour:
       m_Calls: []
   lockPlayer: 0
   isInteractLocked: 0
+--- !u!114 &8118647241987277662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984184746012551187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 1
+    Instance: {fileID: 257917659855000553}
+    ReflectName: IsOpened
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: openable.fridge
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.close
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.open
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &7838369732355404354
 GameObject:
   m_ObjectHideFlags: 0

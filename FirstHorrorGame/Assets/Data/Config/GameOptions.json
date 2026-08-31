@@ -22,6 +22,6 @@
   "pp_grain": true,
   "pp_chromatic_aberration": true,
   "volume_general": 1.0,
-  "volume_music": 0.8,
+  "volume_music": 0.95,
   "volume_effect": 10.0
 }

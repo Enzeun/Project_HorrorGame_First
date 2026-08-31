@@ -446,16 +446,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
   DynamicUseTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
+    ReflectType: 1
+    Instance: {fileID: 5777871117062516211}
+    ReflectName: IsOpened
     ReflectDerived: 0
   DynamicExamineTitle:
     ReflectType: 0
@@ -463,14 +463,14 @@ MonoBehaviour:
     ReflectName: 
     ReflectDerived: 0
   OverrideTitle: 1
-  OverrideUseTitle: 0
+  OverrideUseTitle: 1
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
+  UseUseTitleDynamic: 1
   UseExamineTitleDynamic: 0
   Title:
     GlocText: objects.drawer
-    NormalText: Drawer
+    NormalText: 
   TrueTitle:
     GlocText: 
     NormalText: 
@@ -478,13 +478,13 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   UseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   TrueUseTitle:
-    GlocText: 
+    GlocText: interactions.close
     NormalText: 
   FalseUseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   ExamineTitle:
     GlocText: 
@@ -955,16 +955,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
   DynamicUseTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
+    ReflectType: 1
+    Instance: {fileID: 6359954921319091106}
+    ReflectName: IsOpened
     ReflectDerived: 0
   DynamicExamineTitle:
     ReflectType: 0
@@ -972,14 +972,14 @@ MonoBehaviour:
     ReflectName: 
     ReflectDerived: 0
   OverrideTitle: 1
-  OverrideUseTitle: 0
+  OverrideUseTitle: 1
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
+  UseUseTitleDynamic: 1
   UseExamineTitleDynamic: 0
   Title:
     GlocText: objects.drawer
-    NormalText: Drawer
+    NormalText: 
   TrueTitle:
     GlocText: 
     NormalText: 
@@ -987,13 +987,13 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   UseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   TrueUseTitle:
-    GlocText: 
+    GlocText: interactions.close
     NormalText: 
   FalseUseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   ExamineTitle:
     GlocText: 
@@ -1464,16 +1464,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
   DynamicUseTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
+    ReflectType: 1
+    Instance: {fileID: 1579929470663782852}
+    ReflectName: IsOpened
     ReflectDerived: 0
   DynamicExamineTitle:
     ReflectType: 0
@@ -1481,14 +1481,14 @@ MonoBehaviour:
     ReflectName: 
     ReflectDerived: 0
   OverrideTitle: 1
-  OverrideUseTitle: 0
+  OverrideUseTitle: 1
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
+  UseUseTitleDynamic: 1
   UseExamineTitleDynamic: 0
   Title:
     GlocText: objects.drawer
-    NormalText: Drawer
+    NormalText: 
   TrueTitle:
     GlocText: 
     NormalText: 
@@ -1496,13 +1496,13 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   UseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   TrueUseTitle:
-    GlocText: 
+    GlocText: interactions.close
     NormalText: 
   FalseUseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   ExamineTitle:
     GlocText: 
@@ -1973,16 +1973,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
   DynamicUseTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
+    ReflectType: 1
+    Instance: {fileID: 1387940819855613776}
+    ReflectName: IsOpened
     ReflectDerived: 0
   DynamicExamineTitle:
     ReflectType: 0
@@ -1990,14 +1990,14 @@ MonoBehaviour:
     ReflectName: 
     ReflectDerived: 0
   OverrideTitle: 1
-  OverrideUseTitle: 0
+  OverrideUseTitle: 1
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
+  UseUseTitleDynamic: 1
   UseExamineTitleDynamic: 0
   Title:
     GlocText: objects.drawer
-    NormalText: Drawer
+    NormalText: 
   TrueTitle:
     GlocText: 
     NormalText: 
@@ -2005,13 +2005,13 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   UseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   TrueUseTitle:
-    GlocText: 
+    GlocText: interactions.close
     NormalText: 
   FalseUseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   ExamineTitle:
     GlocText: 
@@ -2698,16 +2698,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
   DynamicTitle:
     ReflectType: 0
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
   DynamicUseTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
+    ReflectType: 1
+    Instance: {fileID: 2374592962946654022}
+    ReflectName: IsOpened
     ReflectDerived: 0
   DynamicExamineTitle:
     ReflectType: 0
@@ -2715,14 +2715,14 @@ MonoBehaviour:
     ReflectName: 
     ReflectDerived: 0
   OverrideTitle: 1
-  OverrideUseTitle: 0
+  OverrideUseTitle: 1
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
+  UseUseTitleDynamic: 1
   UseExamineTitleDynamic: 0
   Title:
     GlocText: objects.drawer
-    NormalText: Drawer
+    NormalText: 
   TrueTitle:
     GlocText: 
     NormalText: 
@@ -2730,13 +2730,13 @@ MonoBehaviour:
     GlocText: 
     NormalText: 
   UseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   TrueUseTitle:
-    GlocText: 
+    GlocText: interactions.close
     NormalText: 
   FalseUseTitle:
-    GlocText: 
+    GlocText: interactions.open
     NormalText: 
   ExamineTitle:
     GlocText: 

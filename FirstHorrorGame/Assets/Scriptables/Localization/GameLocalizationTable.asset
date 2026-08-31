@@ -54,6 +54,20 @@ MonoBehaviour:
       Key: eatSomething.sub1
     - Id: 68246820
       Key: eatSomething.sub2
+  - Id: 80280926
+    SectionName: etc
+    SectionSheet:
+    - Id: 26934183
+      Key: door.gohome
+    - Id: 81206071
+      Key: door.locked
+  - Id: 64734669
+    SectionName: openable
+    SectionSheet:
+    - Id: 71576993
+      Key: fridge
+    - Id: 20363014
+      Key: oven
   - Id: 40893112
     SectionName: input
     SectionSheet:

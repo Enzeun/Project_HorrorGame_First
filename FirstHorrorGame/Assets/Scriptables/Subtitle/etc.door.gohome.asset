@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b54e8853be6b52468bfd65983ba3ce2, type: 3}
-  m_Name: Subtitle.start.02
+  m_Name: etc.door.gohome
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
-    GlocText: Subtitle.start.02
-    NormalText: "\uBE68\uB9AC \uC9D1\uC5D0 \uB4E4\uC5B4\uAC00\uC790"
+    GlocText: etc.door.gohome
+    NormalText: "\uBE68\uB9AC \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uC790.\n\uC6B0\uB9AC\uC9D1\uC740
+      3\uCE35\uC774\uC57C"
   duration: 5

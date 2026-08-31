@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2186158478837308857
 Transform:
   m_ObjectHideFlags: 0
@@ -102,8 +102,6 @@ GameObject:
   - component: {fileID: 2224247132940635456}
   - component: {fileID: 1981695375870912692}
   - component: {fileID: 974477303456228492}
-  - component: {fileID: 5909632377650146794}
-  - component: {fileID: 256602124422652604}
   m_Layer: 0
   m_Name: Plane.002
   m_TagString: Untagged
@@ -205,43 +203,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.27584615, y: 1.1648698, z: 0.03613435}
   m_Center: {x: -0.13588996, y: -0.00000017881393, z: -0.018066948}
---- !u!95 &5909632377650146794
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102848263388779170}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 099e6cc38da8ff74bb68d0bf29e24642, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &256602124422652604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102848263388779170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8192f35a44301488ec0f072d9a16fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openandclose: {fileID: 5909632377650146794}
-  open: 0
-  Player: {fileID: 0}
 --- !u!1 &3468363407241084943
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +216,6 @@ GameObject:
   - component: {fileID: 8333491500527282751}
   - component: {fileID: 5620381522059278673}
   - component: {fileID: 1977340780861949493}
-  - component: {fileID: 737627462236667363}
   m_Layer: 0
   m_Name: Door_R.001
   m_TagString: Untagged
@@ -380,21 +340,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &737627462236667363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3468363407241084943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8192f35a44301488ec0f072d9a16fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openandclose: {fileID: 1977340780861949493}
-  open: 0
-  Player: {fileID: 0}
 --- !u!1 &5130638931567337489
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6536462192876031083
 Transform:
   m_ObjectHideFlags: 0
@@ -613,8 +558,6 @@ GameObject:
   - component: {fileID: 1139935521261984692}
   - component: {fileID: 8699114791758264691}
   - component: {fileID: 3324380640667491039}
-  - component: {fileID: 7104192962248869788}
-  - component: {fileID: 3467774389910690710}
   m_Layer: 0
   m_Name: Door_L
   m_TagString: Untagged
@@ -716,43 +659,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03613417, y: 1.1648698, z: 0.27584627}
   m_Center: {x: -0.018065024, y: -0.00000023841858, z: -0.13589065}
---- !u!95 &7104192962248869788
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6057899434381570462}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a78403c5152a9024b9029ea9f39b3592, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3467774389910690710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6057899434381570462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5e0617227fa4743be84f23d9e5cb42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openandclose1: {fileID: 7104192962248869788}
-  open: 0
-  Player: {fileID: 0}
 --- !u!1 &7228502222171944712
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4228175574852050400
 Transform:
   m_ObjectHideFlags: 0

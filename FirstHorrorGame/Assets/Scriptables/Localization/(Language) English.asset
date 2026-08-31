@@ -78,6 +78,22 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.eatSomething.sub2
     Value: Heat up the food and eat.
+  - EntryId: 26934183
+    SectionId: 80280926
+    Key: etc.door.gohome
+    Value: 
+  - EntryId: 81206071
+    SectionId: 80280926
+    Key: etc.door.locked
+    Value: 
+  - EntryId: 71576993
+    SectionId: 64734669
+    Key: openable.fridge
+    Value: 
+  - EntryId: 20363014
+    SectionId: 64734669
+    Key: openable.oven
+    Value: 
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up

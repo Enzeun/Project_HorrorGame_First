@@ -78,6 +78,23 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.eatSomething.sub2
     Value: "\uC74C\uC2DD\uC744 \uB370\uC6CC\uC11C \uBA39\uC73C\uC138\uC694"
+  - EntryId: 26934183
+    SectionId: 80280926
+    Key: etc.door.gohome
+    Value: "\uBE68\uB9AC \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uC790\n\uC6B0\uB9AC\uC9D1\uC740
+      3\uCE35\uC774\uC57C"
+  - EntryId: 81206071
+    SectionId: 80280926
+    Key: etc.door.locked
+    Value: "\uC774 \uBB38\uC740 \uC7A0\uACA8\uC788\uC5B4"
+  - EntryId: 71576993
+    SectionId: 64734669
+    Key: openable.fridge
+    Value: "\uB0C9\uC7A5\uACE0"
+  - EntryId: 20363014
+    SectionId: 64734669
+    Key: openable.oven
+    Value: "\uC624\uBE10"
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up
