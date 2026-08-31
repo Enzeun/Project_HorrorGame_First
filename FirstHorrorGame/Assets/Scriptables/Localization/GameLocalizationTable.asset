@@ -41,6 +41,12 @@ MonoBehaviour:
       Key: Telephone.Scene1.3
     - Id: 91861710
       Key: goToilet.01
+    - Id: 85123224
+      Key: goToSleep.01
+    - Id: 71467175
+      Key: goToSleep.Bell.01
+    - Id: 92129515
+      Key: goToSleep.Bell.02
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -58,6 +64,10 @@ MonoBehaviour:
       Key: gotoToilet.title
     - Id: 84599626
       Key: gotoToilet.sub
+    - Id: 82641692
+      Key: goToSleep.title
+    - Id: 43909112
+      Key: goToSleep.sub1
   - Id: 80280926
     SectionName: etc
     SectionSheet:
@@ -77,6 +87,8 @@ MonoBehaviour:
       Key: soda.can
     - Id: 71447844
       Key: soda.bottle
+    - Id: 76804839
+      Key: toilet
   - Id: 64734669
     SectionName: openable
     SectionSheet:

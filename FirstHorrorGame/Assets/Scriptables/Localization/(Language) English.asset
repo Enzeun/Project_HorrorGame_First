@@ -58,6 +58,18 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.goToilet.01
     Value: 
+  - EntryId: 85123224
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.01
+    Value: 
+  - EntryId: 71467175
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.01
+    Value: 
+  - EntryId: 92129515
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.02
+    Value: 
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -85,6 +97,14 @@ MonoBehaviour:
   - EntryId: 84599626
     SectionId: 60438809
     Key: Objectives.gotoToilet.sub
+    Value: 
+  - EntryId: 82641692
+    SectionId: 60438809
+    Key: Objectives.goToSleep.title
+    Value: 
+  - EntryId: 43909112
+    SectionId: 60438809
+    Key: Objectives.goToSleep.sub1
     Value: 
   - EntryId: 26934183
     SectionId: 80280926
@@ -117,6 +137,10 @@ MonoBehaviour:
   - EntryId: 71447844
     SectionId: 80280926
     Key: etc.soda.bottle
+    Value: 
+  - EntryId: 76804839
+    SectionId: 80280926
+    Key: etc.toilet
     Value: 
   - EntryId: 71576993
     SectionId: 64734669

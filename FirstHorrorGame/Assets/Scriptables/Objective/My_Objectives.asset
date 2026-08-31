@@ -48,3 +48,13 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: Objectives.gotoToilet.sub
         NormalText: "\uD654\uC7A5\uC2E4\uC5D0\uC11C \uBCC0\uC744 \uBCF4\uAE30"
+  - ObjectiveKey: goToSleep
+    ObjectiveTitle:
+      GlocText: Objectives.goToSleep.title
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: goToSleep.sub
+      CompleteCount: 1
+      ObjectiveText:
+        GlocText: Objectives.goToSleep.sub1
+        NormalText: 

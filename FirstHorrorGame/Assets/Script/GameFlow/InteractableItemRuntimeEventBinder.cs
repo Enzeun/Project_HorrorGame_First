@@ -29,7 +29,7 @@ namespace ENZEUN.Runtime
             {
                 if (!TryGetComponent<InteractableItem>(out item))
                 {
-                    Debug.Log("@@@ 중요 @@@ item 이 null 입니다. 확인하세요 @@@");
+                    Debug.Log("@@@ 중요 @@@ Interactable Item 이 지정되지 않았고 현재 GameObject에도 Interactable Item 이 없습니다. @@@");
                 }
             }
         }
