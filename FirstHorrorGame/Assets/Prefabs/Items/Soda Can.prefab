@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 8304819889896837451}
   - component: {fileID: 8990123752071619813}
   - component: {fileID: 8939502561459831998}
-  m_Layer: 0
+  - component: {fileID: 5435782898533851902}
+  m_Layer: 6
   m_Name: Soda Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +172,7 @@ MonoBehaviour:
         m_Calls: []
   PickupSound:
     audioClip: {fileID: 8300000, guid: ae47c7c379de4b14ab8cabecbaca84f0, type: 3}
-    volume: 0
+    volume: 1
   ExamineSound:
     audioClip: {fileID: 0}
     volume: 0
@@ -180,19 +181,7 @@ MonoBehaviour:
     volume: 0
   OnTakeEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8939502561459831998}
-        m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
-        m_MethodName: TriggerObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnExamineStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -275,12 +264,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.ObjectiveTrigger
-  triggerType: 0
+  triggerType: 1
   objectiveType: 1
   objectiveToAdd:
     ObjectiveKey: EatSomething
     SubObjectives:
     - eatFood
   objectiveToComplete:
-    ObjectiveKey: 
-    SubObjectives: []
+    ObjectiveKey: EatSomething
+    SubObjectives:
+    - eatFood
+--- !u!65 &5435782898533851902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68162833974449465}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11511388, y: 0.20468159, z: 0.11511388}
+  m_Center: {x: 0.00000014342376, y: 0.1043522, z: 0.00000007078056}
