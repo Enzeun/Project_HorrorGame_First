@@ -882,10 +882,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    audioClip: {fileID: 8300000, guid: 3b70e2971dc64f342a953aa12d4e350d, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: eb94dd75a92cbe743875459ad7725fd4, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
@@ -1376,10 +1376,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    audioClip: {fileID: 8300000, guid: 3b70e2971dc64f342a953aa12d4e350d, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: eb94dd75a92cbe743875459ad7725fd4, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}

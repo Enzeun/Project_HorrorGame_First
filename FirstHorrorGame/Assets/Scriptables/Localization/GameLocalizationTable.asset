@@ -50,10 +50,12 @@ MonoBehaviour:
       Key: eneteringHome.sub.turnLight
     - Id: 94821550
       Key: eatSomething.title
-    - Id: 49537433
-      Key: eatSomething.sub1
     - Id: 68246820
-      Key: eatSomething.sub2
+      Key: eatSomthing.sub
+    - Id: 39093841
+      Key: gotoToilet.title
+    - Id: 84599626
+      Key: gotoToilet.sub
   - Id: 80280926
     SectionName: etc
     SectionSheet:
@@ -61,6 +63,18 @@ MonoBehaviour:
       Key: door.gohome
     - Id: 81206071
       Key: door.locked
+    - Id: 65778507
+      Key: eat
+    - Id: 37897526
+      Key: hamburger
+    - Id: 73583786
+      Key: hotdog
+    - Id: 44874314
+      Key: soda.water
+    - Id: 21280454
+      Key: soda.can
+    - Id: 71447844
+      Key: soda.bottle
   - Id: 64734669
     SectionName: openable
     SectionSheet:

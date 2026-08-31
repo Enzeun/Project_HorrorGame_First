@@ -1429,10 +1429,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    audioClip: {fileID: 8300000, guid: a72d0e5f61904a84bb2027655045a045, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: 7b9475a07d5902544a408b3f8b9d719f, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
@@ -2014,10 +2014,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    audioClip: {fileID: 8300000, guid: a72d0e5f61904a84bb2027655045a045, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: 7b9475a07d5902544a408b3f8b9d719f, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}
@@ -3430,7 +3430,7 @@ MonoBehaviour:
     <DynamicObject>k__BackingField: {fileID: 257917659855000553}
     openLimits:
       min: 0
-      max: 0
+      max: 0.55
     pullAxis: 0
     openCurve:
       serializedVersion: 2
@@ -3456,7 +3456,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    openSpeed: 0.5
+    openSpeed: 1
     damping: 1
     dragSoundPlay: 0.2
     dragSounds: 1

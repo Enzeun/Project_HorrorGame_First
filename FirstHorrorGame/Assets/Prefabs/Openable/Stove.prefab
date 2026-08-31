@@ -2079,10 +2079,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: fb75fc7ddfa47984e89ee4ac7fc525f0, type: 3}
+    audioClip: {fileID: 8300000, guid: ab384642aa9657d4fb8d6c44082726ba, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: a1350748e0dbbdc4ea1baa4612180a0b, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 0}

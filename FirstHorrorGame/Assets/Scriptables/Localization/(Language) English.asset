@@ -70,14 +70,18 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.eatSomething.title
     Value: Prepare a meal.
-  - EntryId: 49537433
-    SectionId: 60438809
-    Key: Objectives.eatSomething.sub1
-    Value: Find the refrigerator and open it.
   - EntryId: 68246820
     SectionId: 60438809
-    Key: Objectives.eatSomething.sub2
+    Key: Objectives.eatSomthing.sub
     Value: Heat up the food and eat.
+  - EntryId: 39093841
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.title
+    Value: 
+  - EntryId: 84599626
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.sub
+    Value: 
   - EntryId: 26934183
     SectionId: 80280926
     Key: etc.door.gohome
@@ -85,6 +89,30 @@ MonoBehaviour:
   - EntryId: 81206071
     SectionId: 80280926
     Key: etc.door.locked
+    Value: 
+  - EntryId: 65778507
+    SectionId: 80280926
+    Key: etc.eat
+    Value: 
+  - EntryId: 37897526
+    SectionId: 80280926
+    Key: etc.hamburger
+    Value: 
+  - EntryId: 73583786
+    SectionId: 80280926
+    Key: etc.hotdog
+    Value: 
+  - EntryId: 44874314
+    SectionId: 80280926
+    Key: etc.soda.water
+    Value: 
+  - EntryId: 21280454
+    SectionId: 80280926
+    Key: etc.soda.can
+    Value: 
+  - EntryId: 71447844
+    SectionId: 80280926
+    Key: etc.soda.bottle
     Value: 
   - EntryId: 71576993
     SectionId: 64734669

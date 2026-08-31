@@ -568,10 +568,10 @@ MonoBehaviour:
     lockOnRotate: 0
     showGizmos: 1
   useSound1:
-    audioClip: {fileID: 8300000, guid: 0e3ced0f2e0cb144692eaa0a141adf82, type: 3}
+    audioClip: {fileID: 8300000, guid: 41e94abbb9f40ad4f9a3ee9616e633a9, type: 3}
     volume: 0.8
   useSound2:
-    audioClip: {fileID: 8300000, guid: 141d36eef10a9a2428b24574c99e82b4, type: 3}
+    audioClip: {fileID: 8300000, guid: 67708b77846437f4aa8e55a2246d1844, type: 3}
     volume: 0.8
   lockedSound:
     audioClip: {fileID: 8300000, guid: 5bdedab67b6c6454ab3a251baf50a15e, type: 3}
