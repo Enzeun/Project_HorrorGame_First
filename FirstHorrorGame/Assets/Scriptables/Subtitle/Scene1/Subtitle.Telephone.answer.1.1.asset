@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b54e8853be6b52468bfd65983ba3ce2, type: 3}
-  m_Name: Subtitle.Telephone.Scene1.3 1
+  m_Name: Subtitle.Telephone.answer.1.1
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
-    GlocText: Subtitle.goToilet.01
-    NormalText: "\uAC11\uC790\uAE30 \uB625\uC774 \uB9C8\uB835\uB124"
+    GlocText: Subtitle.Telephone.answer.1.1
+    NormalText: .................
   duration: 1

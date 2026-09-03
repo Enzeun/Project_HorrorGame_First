@@ -61,10 +61,20 @@ MonoBehaviour:
   - ObjectiveKey: examineHallway.title
     ObjectiveTitle:
       GlocText: Objectives.examineHallway.title
-      NormalText: 
+      NormalText: "\uBCF5\uB3C4 \uC870\uC0AC\uD558\uAE30"
     SubObjectives:
     - SubObjectiveKey: examineHallway.sub01
       CompleteCount: 0
       ObjectiveText:
         GlocText: Objectives.examineHallway.sub01
+        NormalText: "\uC9D1 \uBB38\uC744 \uC5F4\uACE0 \uBCF5\uB3C4\uB85C \uB098\uAC00\uAE30"
+  - ObjectiveKey: dropBackPack
+    ObjectiveTitle:
+      GlocText: Objectives.dropBackPack.title
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: dropBackPack.sub
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: Objectives.dropBackPack.sub
         NormalText: 

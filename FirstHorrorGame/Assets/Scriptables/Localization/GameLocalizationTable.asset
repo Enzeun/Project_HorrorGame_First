@@ -31,6 +31,8 @@ MonoBehaviour:
       Key: entering.01
     - Id: 35771164
       Key: entering.02
+    - Id: 38887963
+      Key: dropBackPack.01
     - Id: 83938182
       Key: entering.03
     - Id: 32038591
@@ -53,6 +55,14 @@ MonoBehaviour:
       Key: memo.02
     - Id: 18922430
       Key: goToSleep.Bell.03
+    - Id: 80218925
+      Key: Telephone.answer.1.1
+    - Id: 97221779
+      Key: Telephone.answer.1.2
+    - Id: 50745910
+      Key: Telephone.answer.1.3
+    - Id: 45707549
+      Key: hallway.2.01
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -62,6 +72,10 @@ MonoBehaviour:
       Key: eneteringHome.sub1
     - Id: 89648811
       Key: eneteringHome.sub.turnLight
+    - Id: 80289787
+      Key: dropBackPack.title
+    - Id: 79584244
+      Key: dropBackPack.sub
     - Id: 94821550
       Key: eatSomething.title
     - Id: 68246820
@@ -85,6 +99,8 @@ MonoBehaviour:
       Key: door.gohome
     - Id: 81206071
       Key: door.locked
+    - Id: 65837807
+      Key: drop.backpack
     - Id: 65778507
       Key: eat
     - Id: 37897526
@@ -99,6 +115,10 @@ MonoBehaviour:
       Key: soda.bottle
     - Id: 76804839
       Key: toilet
+    - Id: 90933987
+      Key: paper.phone
+    - Id: 47154010
+      Key: interact.phone.answer
   - Id: 64734669
     SectionName: openable
     SectionSheet:

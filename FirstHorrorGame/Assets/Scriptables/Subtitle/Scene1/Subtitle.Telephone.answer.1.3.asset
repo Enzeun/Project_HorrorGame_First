@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b54e8853be6b52468bfd65983ba3ce2, type: 3}
-  m_Name: Subtitle.goToSleep.Bell.03
+  m_Name: Subtitle.Telephone.answer.1.3
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
-    GlocText: Subtitle.goToSleep.Bell.03
-    NormalText: '[Missing Subtitle.goToSleep.Bell.03]'
+    GlocText: Subtitle.Telephone.answer.1.3
+    NormalText: "\uB108\uBB34 \uD53C\uACE4\uD574\uC11C \uADF8\uB7F0\uAC78\uAC70\uC57C..."
   duration: 1

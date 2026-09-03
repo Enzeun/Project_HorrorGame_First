@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
     GlocText: Subtitle.goToSleep.Bell.01
-    NormalText: '[Missing Subtitle.goToSleep.Bell.01]'
+    NormalText: "\uAE5C\uC9DD\uC774\uC57C!!"
   duration: 1

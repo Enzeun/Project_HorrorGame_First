@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b54e8853be6b52468bfd65983ba3ce2, type: 3}
-  m_Name: etc.door.locked
+  m_Name: Subtitle.entering.0.turnlight
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
-    GlocText: etc.door.locked
-    NormalText: '[Missing etc.door.locked]'
-  duration: 3
+    GlocText: Subtitle.entering.0.turnlight
+    NormalText: "\uC77C\uB2E8 \uBD88\uC744 \uD0A4\uC790"
+  duration: 1

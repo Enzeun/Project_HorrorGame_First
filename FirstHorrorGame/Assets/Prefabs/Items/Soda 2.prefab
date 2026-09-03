@@ -172,7 +172,7 @@ MonoBehaviour:
         m_Calls: []
   PickupSound:
     audioClip: {fileID: 8300000, guid: ae47c7c379de4b14ab8cabecbaca84f0, type: 3}
-    volume: 1
+    volume: 0.8
   ExamineSound:
     audioClip: {fileID: 0}
     volume: 0

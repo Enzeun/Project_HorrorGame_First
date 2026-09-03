@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b54e8853be6b52468bfd65983ba3ce2, type: 3}
-  m_Name: Subtitle.goToSleep.Bell.02
+  m_Name: Subtitle.dropBackPack.01
   m_EditorClassIdentifier: Assembly-CSharp::SutitleScriptableObjectScript
   subtitleGString:
-    GlocText: Subtitle.goToSleep.Bell.02
-    NormalText: '[Missing Subtitle.goToSleep.Bell.02]'
-  duration: 1
+    GlocText: Subtitle.dropBackPack.01
+    NormalText: "\uC77C\uB2E8 \uAC00\uBC29\uC744 \uB0B4\uB824\uB193\uC790"
+  duration: 5
