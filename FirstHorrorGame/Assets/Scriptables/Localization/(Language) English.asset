@@ -70,6 +70,18 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.goToSleep.Bell.02
     Value: 
+  - EntryId: 96426880
+    SectionId: 82386491
+    Key: Subtitle.memo.01
+    Value: 
+  - EntryId: 38555188
+    SectionId: 82386491
+    Key: Subtitle.memo.02
+    Value: 
+  - EntryId: 18922430
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.03
+    Value: 
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -105,6 +117,14 @@ MonoBehaviour:
   - EntryId: 43909112
     SectionId: 60438809
     Key: Objectives.goToSleep.sub1
+    Value: 
+  - EntryId: 63615694
+    SectionId: 60438809
+    Key: Objectives.examineHallway.title
+    Value: 
+  - EntryId: 35119893
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub01
     Value: 
   - EntryId: 26934183
     SectionId: 80280926

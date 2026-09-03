@@ -70,6 +70,18 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.goToSleep.Bell.02
     Value: "\uC774 \uC2DC\uAC04\uC5D0 \uB204\uAD6C\uC57C?"
+  - EntryId: 96426880
+    SectionId: 82386491
+    Key: Subtitle.memo.01
+    Value: ........
+  - EntryId: 38555188
+    SectionId: 82386491
+    Key: Subtitle.memo.02
+    Value: "\uB204\uAC00 \uC7A5\uB09C \uCE58\uB294 \uAC70\uACA0\uC9C0?"
+  - EntryId: 18922430
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.03
+    Value: "\uC774\uBC88\uC5D4 \uAC00\uB9CC \uC548\uB46C!!"
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -106,6 +118,14 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.goToSleep.sub1
     Value: "\uCE68\uB300\uC5D0 \uB215\uAE30"
+  - EntryId: 63615694
+    SectionId: 60438809
+    Key: Objectives.examineHallway.title
+    Value: "\uBCF5\uB3C4 \uC870\uC0AC\uD558\uAE30"
+  - EntryId: 35119893
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub01
+    Value: "\uC9D1 \uBB38\uC744 \uC5F4\uACE0 \uBCF5\uB3C4\uB85C \uB098\uAC00\uAE30"
   - EntryId: 26934183
     SectionId: 80280926
     Key: etc.door.gohome

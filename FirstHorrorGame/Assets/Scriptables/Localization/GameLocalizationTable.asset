@@ -47,6 +47,12 @@ MonoBehaviour:
       Key: goToSleep.Bell.01
     - Id: 92129515
       Key: goToSleep.Bell.02
+    - Id: 96426880
+      Key: memo.01
+    - Id: 38555188
+      Key: memo.02
+    - Id: 18922430
+      Key: goToSleep.Bell.03
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -68,6 +74,10 @@ MonoBehaviour:
       Key: goToSleep.title
     - Id: 43909112
       Key: goToSleep.sub1
+    - Id: 63615694
+      Key: examineHallway.title
+    - Id: 35119893
+      Key: examineHallway.sub01
   - Id: 80280926
     SectionName: etc
     SectionSheet:

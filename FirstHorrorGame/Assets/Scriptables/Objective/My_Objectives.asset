@@ -41,7 +41,7 @@ MonoBehaviour:
   - ObjectiveKey: goToilet
     ObjectiveTitle:
       GlocText: Objectives.gotoToilet.title
-      NormalText: Objectives.gotoToilet
+      NormalText: "\uD654\uC7A5\uC2E4 \uAC00\uAE30"
     SubObjectives:
     - SubObjectiveKey: toilet.poo
       CompleteCount: 1
@@ -51,10 +51,20 @@ MonoBehaviour:
   - ObjectiveKey: goToSleep
     ObjectiveTitle:
       GlocText: Objectives.goToSleep.title
-      NormalText: 
+      NormalText: "\uBC29\uC5D0 \uAC00\uC11C \uC790\uAE30"
     SubObjectives:
     - SubObjectiveKey: goToSleep.sub
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.goToSleep.sub1
+        NormalText: "\uCE68\uB300\uC5D0 \uB215\uAE30"
+  - ObjectiveKey: examineHallway.title
+    ObjectiveTitle:
+      GlocText: Objectives.examineHallway.title
+      NormalText: 
+    SubObjectives:
+    - SubObjectiveKey: examineHallway.sub01
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: Objectives.examineHallway.sub01
         NormalText: 
