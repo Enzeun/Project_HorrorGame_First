@@ -178,14 +178,14 @@ MonoBehaviour:
     Instance: {fileID: 0}
     ReflectName: 
     ReflectDerived: 0
-  OverrideTitle: 0
+  OverrideTitle: 1
   OverrideUseTitle: 0
   OverrideExamineTitle: 0
   UseTitleDynamic: 0
   UseUseTitleDynamic: 0
   UseExamineTitleDynamic: 0
   Title:
-    GlocText: 
+    GlocText: interactions.switch
     NormalText: 
   TrueTitle:
     GlocText: 

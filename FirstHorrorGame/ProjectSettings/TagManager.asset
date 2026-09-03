@@ -20,7 +20,7 @@ TagManager:
   - Ground
   - Slope
   - World UI
-  - 
+  - house ceiling
   - 
   - 
   - 
@@ -46,3 +46,4 @@ TagManager:
   - Default
   - Focus
   - Ground
+  - house ceiling
