@@ -102,6 +102,27 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.hallway.2.01
     Value: "\uBB50....\uBB50\uC57C?! \uC5B4\uB5BB\uAC8C \uB41C\uAC70\uC9C0?"
+  - EntryId: 95546813
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.2.1
+    Value: "\uB4A4\uB97C\uBD10."
+  - EntryId: 54326865
+    SectionId: 82386491
+    Key: Subtitle.returnhome.1.1
+    Value: "\uB3C4\uB300\uCCB4 \uBB34\uC2A8 \uC77C\uC774 \uC77C\uC5B4\uB09C\uAC70\uC9C0?"
+  - EntryId: 35895386
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.4.1
+    Value: "\uCE68\uC2E4."
+  - EntryId: 56045720
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.after.4.1
+    Value: "\uBB34\uC2A8 \uC77C\uC774 \uC77C\uC5B4\uB0A0\uC9C0 \uBAA8\uB974\uB2C8\uAE4C,
+      \uC190\uC804\uB4F1\uC744 \uCC59\uAE30\uC790"
+  - EntryId: 39312843
+    SectionId: 82386491
+    Key: Subtitle.findFlashlight
+    Value: "\uBA3C\uC800 \uC190\uC804\uB4F1\uC744 \uCC3E\uACE0 \uB4E4\uC5B4\uAC08\uAC70\uC57C"
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -153,7 +174,21 @@ MonoBehaviour:
   - EntryId: 35119893
     SectionId: 60438809
     Key: Objectives.examineHallway.sub01
-    Value: "\uC9D1 \uBB38\uC744 \uC5F4\uACE0 \uBCF5\uB3C4\uB85C \uB098\uAC00\uAE30"
+    Value: "\uBCF5\uB3C4 \uB05D\uC758 \uC804\uD654\uB97C \uBC1B\uAE30"
+  - EntryId: 31214226
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.title
+    Value: "\uC190\uC804\uB4F1 \uCC3E\uAE30"
+  - EntryId: 50800611
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.sub
+    Value: "\uAC70\uC2E4 \uC11C\uB78D \uC548\uC5D0 \uC788\uB294 \uC190\uC804\uB4F1
+      \uCC59\uAE30\uAE30"
+  - EntryId: 60500665
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.title
+    Value: "'1' \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC190\uC804\uB4F1\uC744 \uCF1C\uACE0
+      \uB04C \uC218 \uC788\uC2B5\uB2C8\uB2E4"
   - EntryId: 26934183
     SectionId: 80280926
     Key: etc.door.gohome

@@ -63,6 +63,16 @@ MonoBehaviour:
       Key: Telephone.answer.1.3
     - Id: 45707549
       Key: hallway.2.01
+    - Id: 95546813
+      Key: Telephone.answer.2.1
+    - Id: 54326865
+      Key: returnhome.1.1
+    - Id: 35895386
+      Key: Telephone.answer.4.1
+    - Id: 56045720
+      Key: Telephone.answer.after.4.1
+    - Id: 39312843
+      Key: findFlashlight
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -92,6 +102,12 @@ MonoBehaviour:
       Key: examineHallway.title
     - Id: 35119893
       Key: examineHallway.sub01
+    - Id: 31214226
+      Key: findFlashlight.title
+    - Id: 50800611
+      Key: findFlashlight.sub
+    - Id: 60500665
+      Key: flahLightHint.title
   - Id: 80280926
     SectionName: etc
     SectionSheet:
