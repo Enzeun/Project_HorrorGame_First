@@ -16,11 +16,10 @@ namespace ENZEUN.Runtime
 
         private bool isBound = false;
 
-        [Header("Open 또는 Close 바인딩을 둘 중 하나만 할 수 있도록 설계. 이는 실수 방지용임.")]
-        [BoxGroup("Open 또는 Close 둘 중 하나만 이벤트를 등록하세요")]
+        [Header("Open / Close / Locked 바인딩을 한 가지만 할 수 있도록 설계. 이는 실수 방지용임.")]
         public UnityEvent OnOpen;
-        [BoxGroup("Open 또는 Close 둘 중 하나만 이벤트를 등록하세요")]
         public UnityEvent OnClose;
+        public UnityEvent OnLocked;
 
         void Awake()
         {
@@ -52,6 +51,17 @@ namespace ENZEUN.Runtime
 
             target.useEvent2.AddListener(HandleClose);
         }
+
+        public void BindLocked()
+        {
+            if (target == null || isBound)
+                return;
+
+            isBound = true;
+
+            target.lockedEvent.AddListener(HandleLocked);
+        }
+
         private void HandleOpen()
         {
             OnOpen?.Invoke();
@@ -62,6 +72,7 @@ namespace ENZEUN.Runtime
                 isBound = false;
             }
         }
+
         private void HandleClose()
         {
             OnClose?.Invoke();
@@ -69,6 +80,17 @@ namespace ENZEUN.Runtime
             if (triggerOnce)
             {
                 target.useEvent2.RemoveListener(HandleClose);
+                isBound = false;
+            }
+        }
+
+        private void HandleLocked()
+        {
+            OnLocked?.Invoke();
+
+            if (triggerOnce)
+            {
+                target.lockedEvent.RemoveListener(HandleLocked);
                 isBound = false;
             }
         }
@@ -84,6 +106,8 @@ namespace ENZEUN.Runtime
             target.useEvent1.RemoveListener(HandleOpen);
 
             target.useEvent2.RemoveListener(HandleClose);
+
+            target.lockedEvent.RemoveListener(HandleLocked);
 
             isBound = false;
         }
