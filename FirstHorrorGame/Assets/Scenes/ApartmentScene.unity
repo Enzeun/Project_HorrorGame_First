@@ -36116,8 +36116,8 @@ GameObject:
   m_Component:
   - component: {fileID: 198362452}
   - component: {fileID: 198362453}
-  - component: {fileID: 198362454}
   - component: {fileID: 198362455}
+  - component: {fileID: 198362454}
   m_Layer: 6
   m_Name: answerPhoneEnd
   m_TagString: Untagged
@@ -36162,42 +36162,6 @@ MonoBehaviour:
   OnSubtitlesFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 276952633}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1846034956}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 198362454}
-        m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
-        m_MethodName: TriggerObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1594044976}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -36266,22 +36230,22 @@ MonoBehaviour:
   Animator: {fileID: 0}
   AnimatorStateName: Jumpscare
   AnimatorTrigger: Jumpscare
-  InfluenceFear: 0
-  TentaclesIntensity: 0
-  TentaclesSpeed: 1
-  VignetteStrength: 0
+  InfluenceFear: 1
+  TentaclesIntensity: 0.048
+  TentaclesSpeed: 0.61
+  VignetteStrength: 0.049
   LookAtJumpscare: 0
   LookAtTarget: {fileID: 0}
   LookAtDuration: 0
   LockPlayer: 0
   EndJumpscareManually: 0
   JumpscareEndEventDelay: 0.5
-  InfluenceWobble: 0
+  InfluenceWobble: 1
   WobbleAmplitudeGain: 1
   WobbleFrequencyGain: 1
   WobbleDuration: 0.2
   DirectDuration: 1
-  FearDuration: 1
+  FearDuration: 0.5
   TriggerEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -36322,6 +36286,42 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UHFPS.Runtime.InteractableLight, Assembly-CSharp
         m_MethodName: SetLightState
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 276952633}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1846034956}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 198362454}
+        m_TargetAssemblyTypeName: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
+        m_MethodName: TriggerObjective
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -54385,8 +54385,9 @@ MonoBehaviour:
   triggerType: 0
   objectiveType: 0
   objectiveToAdd:
-    ObjectiveKey: 
-    SubObjectives: []
+    ObjectiveKey: goToSleep
+    SubObjectives:
+    - goToSleep.sub2
   objectiveToComplete:
     ObjectiveKey: 
     SubObjectives: []
@@ -337996,6 +337997,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddc39b34b857144a9bdc90423afbb96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.DynamicObject
+--- !u!1 &2062667045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7778810976597990113, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+  m_PrefabInstance: {fileID: 6462159210337345946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062667052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062667045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bef1a4507177f14ca3a2b2e08bd4e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.ObjectiveTrigger
+  triggerType: 0
+  objectiveType: 1
+  objectiveToAdd:
+    ObjectiveKey: 
+    SubObjectives: []
+  objectiveToComplete:
+    ObjectiveKey: goToSleep
+    SubObjectives:
+    - goToSleep.sub2
 --- !u!1001 &2062932556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -417039,9 +417066,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 1377579816}
     m_Modifications:
     - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
       propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1511101642}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 2062667052}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: TriggerObjective
+      objectReference: {fileID: 0}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UHFPS.Runtime.ObjectiveTrigger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 858645927147560283, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      propertyPath: OnTakeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7459477522225157683, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
       propertyPath: m_Name
       value: 5.Telephone.home
@@ -417097,7 +417152,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7778810976597990113, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2062667052}
   m_SourcePrefab: {fileID: 100100000, guid: 55c8a839bb736f646a314d98f400d72f, type: 3}
 --- !u!114 &6462675382717807027
 MonoBehaviour:
