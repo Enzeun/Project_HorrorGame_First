@@ -163776,9 +163776,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3703639383889507896, guid: f5ec58e2464346340b977819bf276d29, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1351050371}
-    - targetCorrespondingSourceObject: {fileID: 3703639383889507896, guid: f5ec58e2464346340b977819bf276d29, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1351050370}
     - targetCorrespondingSourceObject: {fileID: 5576814655844927099, guid: f5ec58e2464346340b977819bf276d29, type: 3}
       insertIndex: -1
@@ -225908,21 +225905,6 @@ MonoBehaviour:
   optionalScrambleMode: 0
   optionalShakeRandomnessMode: 0
   optionalString: 
---- !u!114 &1351050371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351050366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16a537cb5aafcf6408bdb51223603e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RunFast
-  targetTransform: {fileID: 0}
-  moveDuration: 0.15
-  disableOnArrival: 1
 --- !u!1001 &1351167575
 PrefabInstance:
   m_ObjectHideFlags: 0
