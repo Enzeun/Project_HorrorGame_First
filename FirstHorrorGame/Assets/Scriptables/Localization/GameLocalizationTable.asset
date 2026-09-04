@@ -73,6 +73,14 @@ MonoBehaviour:
       Key: Telephone.answer.after.4.1
     - Id: 39312843
       Key: findFlashlight
+    - Id: 94967976
+      Key: hallway2.phone
+    - Id: 73121576
+      Key: hallway2.npc.talk1
+    - Id: 62985988
+      Key: hallway2.npc.talk2
+    - Id: 12788384
+      Key: hallway2.npc.talk3
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -110,6 +118,8 @@ MonoBehaviour:
       Key: findFlashlight.sub
     - Id: 60500665
       Key: flahLightHint.title
+    - Id: 12115340
+      Key: flahLightHint.sub
   - Id: 80280926
     SectionName: etc
     SectionSheet:
@@ -137,6 +147,8 @@ MonoBehaviour:
       Key: paper.phone
     - Id: 47154010
       Key: interact.phone.answer
+    - Id: 23980424
+      Key: npc.talk
   - Id: 64734669
     SectionName: openable
     SectionSheet:

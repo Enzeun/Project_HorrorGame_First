@@ -122,6 +122,22 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.findFlashlight
     Value: 
+  - EntryId: 94967976
+    SectionId: 82386491
+    Key: Subtitle.hallway2.phone
+    Value: 
+  - EntryId: 73121576
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk1
+    Value: 
+  - EntryId: 62985988
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk2
+    Value: 
+  - EntryId: 12788384
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk3
+    Value: 
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -190,6 +206,10 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.flahLightHint.title
     Value: 
+  - EntryId: 12115340
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.sub
+    Value: 
   - EntryId: 26934183
     SectionId: 80280926
     Key: etc.door.gohome
@@ -237,6 +257,10 @@ MonoBehaviour:
   - EntryId: 47154010
     SectionId: 80280926
     Key: etc.interact.phone.answer
+    Value: 
+  - EntryId: 23980424
+    SectionId: 80280926
+    Key: etc.npc.talk
     Value: 
   - EntryId: 71576993
     SectionId: 64734669

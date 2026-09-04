@@ -123,6 +123,24 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.findFlashlight
     Value: "\uBA3C\uC800 \uC190\uC804\uB4F1\uC744 \uCC3E\uACE0 \uB4E4\uC5B4\uAC08\uAC70\uC57C"
+  - EntryId: 94967976
+    SectionId: 82386491
+    Key: Subtitle.hallway2.phone
+    Value: "...\uC5F4\uC5B4\uBD10"
+  - EntryId: 73121576
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk1
+    Value: "\uAE5C\uC9DD \uB180\uB790\uB124\uC694."
+  - EntryId: 62985988
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk2
+    Value: "\uB2F9\uC2E0\uC774 \uC624\uAE30 \uC804\uAE4C\uC9C0\uB294 \uBB38\uC774
+      \uC5C6\uC5C8\uC5B4\uC694."
+  - EntryId: 12788384
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk3
+    Value: "\uBB38\uC744 \uB098\uAC00\uBA74\u2026 \uB2E4\uC2DC \uB3CC\uC544\uAC08
+      \uC218 \uC788\uC744 \uAC70\uC608\uC694."
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -191,6 +209,10 @@ MonoBehaviour:
   - EntryId: 60500665
     SectionId: 60438809
     Key: Objectives.flahLightHint.title
+    Value: "\uC190\uC804\uB4F1 \uC0AC\uC6A9\uBC95"
+  - EntryId: 12115340
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.sub
     Value: "'1' \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC190\uC804\uB4F1\uC744 \uCF1C\uACE0
       \uB04C \uC218 \uC788\uC2B5\uB2C8\uB2E4"
   - EntryId: 26934183
@@ -242,6 +264,10 @@ MonoBehaviour:
     SectionId: 80280926
     Key: etc.interact.phone.answer
     Value: "\uC804\uD654 \uBC1B\uAE30"
+  - EntryId: 23980424
+    SectionId: 80280926
+    Key: etc.npc.talk
+    Value: "\uB300\uD654\uD558\uAE30"
   - EntryId: 71576993
     SectionId: 64734669
     Key: openable.fridge
@@ -1073,14 +1099,11 @@ MonoBehaviour:
   - EntryId: 25768964
     SectionId: 24283221
     Key: item.title.key01
-    Value: "\uC5F4\uC1E0 01"
+    Value: "\uC5F4\uC1E0"
   - EntryId: 54686469
     SectionId: 24283221
     Key: item.description.key01
-    Value: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294\uC9C0 \uC54C \uC218 \uC5C6\uB294
-      \uD3C9\uBC94\uD558\uC9C0\uB9CC \uC218\uC218\uAED8\uB07C \uAC19\uC740 \uC5F4\uC1E0\uC785\uB2C8\uB2E4.
-      \uBB38, \uC0C1\uC790, \uC544\uC9C1 \uBC1C\uACAC\uD558\uC9C0 \uBABB\uD55C \uBE44\uBC00\uC744
-      \uC5F4 \uC218\uB3C4 \uC788\uC73C\uB2C8 \uC798 \uBCF4\uAD00\uD558\uC138\uC694."
+    Value: "\uC5B4\uB514\uC758 \uC5F4\uC1E0\uC9C0..?"
   - EntryId: 77523233
     SectionId: 24283221
     Key: item.title.key02
