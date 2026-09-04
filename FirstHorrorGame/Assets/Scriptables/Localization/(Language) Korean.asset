@@ -175,6 +175,10 @@ MonoBehaviour:
     SectionId: 60438809
     Key: Objectives.examineHallway.sub01
     Value: "\uBCF5\uB3C4 \uB05D\uC758 \uC804\uD654\uB97C \uBC1B\uAE30"
+  - EntryId: 12195154
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub02
+    Value: "\uC804\uD654\uAE30 \uD655\uC778\uD558\uAE30"
   - EntryId: 31214226
     SectionId: 60438809
     Key: Objectives.findFlashlight.title

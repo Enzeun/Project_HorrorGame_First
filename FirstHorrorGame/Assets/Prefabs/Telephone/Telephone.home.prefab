@@ -326,9 +326,9 @@ MonoBehaviour:
   OnTakeEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3239575667267748309}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 4170281799317675828}
+        m_TargetAssemblyTypeName: UnityEngine.BoxCollider, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -342,18 +342,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ENZEUN.Runtime.SubtitleTrigger, Assembly-CSharp
         m_MethodName: TriggerSubtitles
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2109441751281278372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -444,6 +432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f43f8fb98b4545d4c972288d7d004fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ENZEUN.Runtime.SubtitleTrigger
+  delayBeforeSubtitles: 0.2
+  delayAfterSubtitles: 0.2
   freezePlayerMove: 1
   freezePlayerLook: 0
   subtitleDatas:
@@ -452,33 +442,9 @@ MonoBehaviour:
   OnSubtitlesFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2109441751281278372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 4170281799317675828}
         m_TargetAssemblyTypeName: UnityEngine.BoxCollider, UnityEngine
         m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2109441751281278372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -503,7 +469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8838117830965170792
 Transform:
   m_ObjectHideFlags: 0
@@ -512,15 +478,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7459477522225157683}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.19037312, z: -0, w: -0.9817118}
+  m_LocalRotation: {x: 0, y: 0.19037208, z: 0, w: 0.98171204}
   m_LocalPosition: {x: -3.6289997, y: 1.2096462, z: 6.9189987}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8455468709328465389}
   - {fileID: 132811418128932399}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -158.051, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 21.949, z: 0}
 --- !u!1 &7778810976597990113
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,18 +728,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2109441751281278372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   OnExamineStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -796,6 +750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f43f8fb98b4545d4c972288d7d004fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ENZEUN.Runtime.SubtitleTrigger
+  delayBeforeSubtitles: 0.2
+  delayAfterSubtitles: 0.2
   freezePlayerMove: 1
   freezePlayerLook: 0
   subtitleDatas:
@@ -806,18 +762,6 @@ MonoBehaviour:
   OnSubtitlesFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2109441751281278372}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 3239575667267748309}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -870,4 +814,16 @@ MonoBehaviour:
   Started: 0
   OnFinished:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

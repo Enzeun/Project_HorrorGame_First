@@ -58,6 +58,11 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: Objectives.goToSleep.sub1
         NormalText: "\uCE68\uB300\uC5D0 \uB215\uAE30"
+    - SubObjectiveKey: goToSleep.sub2
+      CompleteCount: 1
+      ObjectiveText:
+        GlocText: Objectives.examineHallway.sub02
+        NormalText: "\uCE68\uB300\uC5D0 \uB215\uAE30"
   - ObjectiveKey: examineHallway.title
     ObjectiveTitle:
       GlocText: Objectives.examineHallway.title
@@ -67,7 +72,7 @@ MonoBehaviour:
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.examineHallway.sub01
-        NormalText: "\uC9D1 \uBB38\uC744 \uC5F4\uACE0 \uBCF5\uB3C4\uB85C \uB098\uAC00\uAE30"
+        NormalText: "\uBCF5\uB3C4 \uB05D\uC758 \uC804\uD654\uB97C \uBC1B\uAE30"
   - ObjectiveKey: dropBackPack
     ObjectiveTitle:
       GlocText: Objectives.dropBackPack.title
@@ -81,15 +86,17 @@ MonoBehaviour:
   - ObjectiveKey: findFlashlight
     ObjectiveTitle:
       GlocText: Objectives.findFlashlight.title
-      NormalText: 
+      NormalText: "\uC190\uC804\uB4F1 \uCC3E\uAE30"
     SubObjectives:
     - SubObjectiveKey: findFlashlight.sub
       CompleteCount: 1
       ObjectiveText:
         GlocText: Objectives.findFlashlight.sub
-        NormalText: 
+        NormalText: "\uAC70\uC2E4 \uC11C\uB78D \uC548\uC5D0 \uC788\uB294 \uC190\uC804\uB4F1
+          \uCC59\uAE30\uAE30"
   - ObjectiveKey: flahLightHint
     ObjectiveTitle:
       GlocText: Objectives.flahLightHint.title
-      NormalText: 
+      NormalText: "'1' \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC190\uC804\uB4F1\uC744 \uCF1C\uACE0
+        \uB04C \uC218 \uC788\uC2B5\uB2C8\uB2E4"
     SubObjectives: []

@@ -102,6 +102,8 @@ MonoBehaviour:
       Key: examineHallway.title
     - Id: 35119893
       Key: examineHallway.sub01
+    - Id: 12195154
+      Key: examineHallway.sub02
     - Id: 31214226
       Key: findFlashlight.title
     - Id: 50800611
