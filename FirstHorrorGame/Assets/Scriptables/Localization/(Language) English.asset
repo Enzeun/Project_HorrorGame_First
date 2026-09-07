@@ -290,6 +290,18 @@ MonoBehaviour:
     SectionId: 80280926
     Key: etc.npc.title
     Value: 
+  - EntryId: 52856333
+    SectionId: 80280926
+    Key: etc.key.title
+    Value: 
+  - EntryId: 59766993
+    SectionId: 80280926
+    Key: etc.key.desc
+    Value: 
+  - EntryId: 87333916
+    SectionId: 80280926
+    Key: etc.key.get
+    Value: 
   - EntryId: 71576993
     SectionId: 64734669
     Key: openable.fridge

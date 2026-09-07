@@ -163,6 +163,12 @@ MonoBehaviour:
       Key: npc.talk
     - Id: 44283929
       Key: npc.title
+    - Id: 52856333
+      Key: key.title
+    - Id: 59766993
+      Key: key.desc
+    - Id: 87333916
+      Key: key.get
   - Id: 64734669
     SectionName: openable
     SectionSheet:

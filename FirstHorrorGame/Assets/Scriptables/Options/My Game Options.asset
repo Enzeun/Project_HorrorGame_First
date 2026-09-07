@@ -19,11 +19,9 @@ MonoBehaviour:
     Items:
     - rid: 5518344916744536126
     - rid: 951096600808390722
-    - rid: 951096600808390723
     - rid: 951096600808390724
     - rid: 951096600808390725
     - rid: 951096600808390726
-    - rid: 951096600808390727
   - Section:
       Name: Graphics
       GUID: 2bf68564ed384015b8122a64df3d3e91
@@ -74,19 +72,6 @@ MonoBehaviour:
           max: 1
         UseSnapping: 1
         SnapValue: 0.05
-    - rid: 951096600808390723
-      type: {class: OptionCustomInteger, ns: UHFPS.Runtime, asm: Assembly-CSharp}
-      data:
-        GUID: d3fe5a9bf8004e14b6bf2328fdfcd049
-        Name: fov
-        Prefab: {fileID: 8916374741916289909, guid: 06fd74c7846d74c44bfddf0371fea48b, type: 3}
-        Title:
-          GlocText: options.camera.fov
-          NormalText: 
-        DefaultValue: 60
-        SliderLimits:
-          min: 30
-          max: 90
     - rid: 951096600808390724
       type: {class: OptionCustomFloat, ns: UHFPS.Runtime, asm: Assembly-CSharp}
       data:
@@ -133,22 +118,6 @@ MonoBehaviour:
           max: 5
         UseSnapping: 1
         SnapValue: 0.1
-    - rid: 951096600808390727
-      type: {class: OptionCustomBoolean, ns: UHFPS.Runtime, asm: Assembly-CSharp}
-      data:
-        GUID: e3c38c70e27044dbb3c8d7cc9a9548bf
-        Name: show_fps
-        Prefab: {fileID: 490803695445625362, guid: 59caa5526fa2a2a40bc3f86646a12ce5, type: 3}
-        Title:
-          GlocText: options.show.fps
-          NormalText: 
-        DefaultValue: 1
-        OffName:
-          GlocText: '*OFF'
-          NormalText: '*OFF'
-        OnName:
-          GlocText: '*ON'
-          NormalText: '*ON'
     - rid: 951096600808390728
       type: {class: OptionDisplayMonitor, ns: UHFPS.Runtime, asm: Assembly-CSharp}
       data:

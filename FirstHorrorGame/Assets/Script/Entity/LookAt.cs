@@ -71,5 +71,12 @@ namespace ENZEUN.Runtime
             else
                 forceWeight = Mathf.Clamp01(weight);
         }
+
+        public void StartLookAt()
+        {
+            lookAtConstraint.rotationAtRest = Vector3.zero;
+            lookAtConstraint.rotationOffset.Set(0f, 0f, 90f);
+            lookAtConstraint.rotationOffset.Set(0f, 90f, 90f);
+        }
     }
 }
