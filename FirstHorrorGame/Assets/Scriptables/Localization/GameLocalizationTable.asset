@@ -81,6 +81,18 @@ MonoBehaviour:
       Key: hallway2.npc.talk2
     - Id: 12788384
       Key: hallway2.npc.talk3
+    - Id: 60024599
+      Key: home.npc.talk1
+    - Id: 80955542
+      Key: home.npc.talk2
+    - Id: 92999695
+      Key: Telephone.answer.7.1
+    - Id: 65509164
+      Key: npc.last.talk1
+    - Id: 95681721
+      Key: Telephone.last.1
+    - Id: 67946711
+      Key: player.last
   - Id: 60438809
     SectionName: Objectives
     SectionSheet:
@@ -149,6 +161,8 @@ MonoBehaviour:
       Key: interact.phone.answer
     - Id: 23980424
       Key: npc.talk
+    - Id: 44283929
+      Key: npc.title
   - Id: 64734669
     SectionName: openable
     SectionSheet:

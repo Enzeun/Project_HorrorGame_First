@@ -138,6 +138,30 @@ MonoBehaviour:
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk3
     Value: 
+  - EntryId: 60024599
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk1
+    Value: 
+  - EntryId: 80955542
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk2
+    Value: 
+  - EntryId: 92999695
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.7.1
+    Value: 
+  - EntryId: 65509164
+    SectionId: 82386491
+    Key: Subtitle.npc.last.talk1
+    Value: 
+  - EntryId: 95681721
+    SectionId: 82386491
+    Key: Subtitle.Telephone.last.1
+    Value: 
+  - EntryId: 67946711
+    SectionId: 82386491
+    Key: Subtitle.player.last
+    Value: 
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -261,6 +285,10 @@ MonoBehaviour:
   - EntryId: 23980424
     SectionId: 80280926
     Key: etc.npc.talk
+    Value: 
+  - EntryId: 44283929
+    SectionId: 80280926
+    Key: etc.npc.title
     Value: 
   - EntryId: 71576993
     SectionId: 64734669

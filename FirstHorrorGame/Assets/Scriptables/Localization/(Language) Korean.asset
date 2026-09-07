@@ -130,17 +130,43 @@ MonoBehaviour:
   - EntryId: 73121576
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk1
-    Value: "\uAE5C\uC9DD \uB180\uB790\uB124\uC694."
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uAE5C\uC9DD \uB180\uB790\uB124\uC694."
   - EntryId: 62985988
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk2
-    Value: "\uB2F9\uC2E0\uC774 \uC624\uAE30 \uC804\uAE4C\uC9C0\uB294 \uBB38\uC774
-      \uC5C6\uC5C8\uC5B4\uC694."
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uB2F9\uC2E0\uC774 \uC624\uAE30 \uC804\uAE4C\uC9C0\uB294
+      \uBB38\uC774 \uC5C6\uC5C8\uC5B4\uC694."
   - EntryId: 12788384
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk3
-    Value: "\uBB38\uC744 \uB098\uAC00\uBA74\u2026 \uB2E4\uC2DC \uB3CC\uC544\uAC08
-      \uC218 \uC788\uC744 \uAC70\uC608\uC694."
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uBB38\uC744 \uB098\uAC00\uBA74\u2026 \uB2E4\uC2DC
+      \uB3CC\uC544\uAC08 \uC218 \uC788\uC744 \uAC70\uC608\uC694."
+  - EntryId: 60024599
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk1
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uC774\uC81C \uB9C8\uC9C0\uB9C9 \uBB38\uB9CC
+      \uC5F4\uBA74 \uB3FC\uC694"
+  - EntryId: 80955542
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk2
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : ................(\uC544\uBB34 \uB9D0\uC774
+      \uC5C6\uB2E4)"
+  - EntryId: 92999695
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.7.1
+    Value: "...........\uBB38\uC744 \uC5F4\uC9C0 \uB9C8"
+  - EntryId: 65509164
+    SectionId: 82386491
+    Key: Subtitle.npc.last.talk1
+    Value: "\uC774 \uBB38\uC774 \uB9DE\uC544\uC694"
+  - EntryId: 95681721
+    SectionId: 82386491
+    Key: Subtitle.Telephone.last.1
+    Value: "\uC808\uB300 \uBB38\uC744 \uC5F4\uC9C0 \uB9C8"
+  - EntryId: 67946711
+    SectionId: 82386491
+    Key: Subtitle.player.last
+    Value: "\uBB50...\uBB50\uC8E0...??"
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -268,6 +294,10 @@ MonoBehaviour:
     SectionId: 80280926
     Key: etc.npc.talk
     Value: "\uB300\uD654\uD558\uAE30"
+  - EntryId: 44283929
+    SectionId: 80280926
+    Key: etc.npc.title
+    Value: "\uB0AF\uC120 \uC0AC\uB78C"
   - EntryId: 71576993
     SectionId: 64734669
     Key: openable.fridge

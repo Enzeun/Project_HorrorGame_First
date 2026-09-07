@@ -28,7 +28,10 @@ namespace ENZEUN.Runtime
         public void EyeBlinkStart()
         {
             if (eyeBlinkController == null || isBoundOpen || isBoundClose)
+            {
+                Debug.Log("eyeBlinkController is null or already bound.");
                 return;
+            }
 
             switch (eventType)
             {
