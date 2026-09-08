@@ -60,7 +60,7 @@ namespace ENZEUN.Runtime
                               .SetEase(Ease.Linear)
                               .ToUniTask(cancellationToken: token);
 
-            LoadingSceneManager.LoadScene("MainMenuScene");
+            LoadingSceneManager.LoadScene("MainMenu");
         }
     }
 }
