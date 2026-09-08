@@ -169,6 +169,8 @@ MonoBehaviour:
       Key: key.desc
     - Id: 87333916
       Key: key.get
+    - Id: 60397081
+      Key: lamp.title
   - Id: 64734669
     SectionName: openable
     SectionSheet:

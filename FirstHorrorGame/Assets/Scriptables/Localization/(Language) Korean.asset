@@ -310,6 +310,10 @@ MonoBehaviour:
     SectionId: 80280926
     Key: etc.key.get
     Value: "\uAC00\uC838\uAC00\uAE30"
+  - EntryId: 60397081
+    SectionId: 80280926
+    Key: etc.lamp.title
+    Value: "\uC870\uBA85"
   - EntryId: 71576993
     SectionId: 64734669
     Key: openable.fridge

@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 3865110951970624564}
   - component: {fileID: 6624214212166788620}
   - component: {fileID: 4535254012284964201}
+  - component: {fileID: 5299852639346722013}
   m_Layer: 6
   m_Name: Shade
   m_TagString: Untagged
@@ -330,6 +331,66 @@ MonoBehaviour:
   OnLightOff:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5299852639346722013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582130554450048253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Runtime.CustomInteractTitle
+  DynamicTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  DynamicUseTitle:
+    ReflectType: 0
+    Instance: {fileID: 4535254012284964201}
+    ReflectName: IsSwitchedOn
+    ReflectDerived: 0
+  DynamicExamineTitle:
+    ReflectType: 0
+    Instance: {fileID: 0}
+    ReflectName: 
+    ReflectDerived: 0
+  OverrideTitle: 1
+  OverrideUseTitle: 1
+  OverrideExamineTitle: 0
+  UseTitleDynamic: 0
+  UseUseTitleDynamic: 1
+  UseExamineTitleDynamic: 0
+  Title:
+    GlocText: etc.lamp.title
+    NormalText: 
+  TrueTitle:
+    GlocText: 
+    NormalText: 
+  FalseTitle:
+    GlocText: 
+    NormalText: 
+  UseTitle:
+    GlocText: interactions.switchon
+    NormalText: 
+  TrueUseTitle:
+    GlocText: interactions.switchoff
+    NormalText: 
+  FalseUseTitle:
+    GlocText: interactions.switchon
+    NormalText: 
+  ExamineTitle:
+    GlocText: 
+    NormalText: 
+  TrueExamineTitle:
+    GlocText: 
+    NormalText: 
+  FalseExamineTitle:
+    GlocText: 
+    NormalText: 
 --- !u!1 &4742731819949741458
 GameObject:
   m_ObjectHideFlags: 0

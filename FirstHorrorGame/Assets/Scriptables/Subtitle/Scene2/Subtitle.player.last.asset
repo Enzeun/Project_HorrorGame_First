@@ -15,4 +15,4 @@ MonoBehaviour:
   subtitleGString:
     GlocText: Subtitle.player.last
     NormalText: "\uBB50...\uBB50\uC8E0...??"
-  duration: 1
+  duration: 2
