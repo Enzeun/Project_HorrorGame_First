@@ -132331,9 +132331,9 @@ MonoBehaviour:
   ControllerOffset: 0
   PlayerBasicSettings:
     WalkSpeed: 2.5
-    RunSpeed: 6
+    RunSpeed: 5
     CrouchSpeed: 1
-    JumpHeight: 1
+    JumpHeight: 0.5
   PlayerFeatures:
     EnableStamina: 0
     RunToggle: 0
