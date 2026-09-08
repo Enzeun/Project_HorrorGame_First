@@ -15,12 +15,18 @@ namespace ENZEUN.Runtime
         {
             await UniTask.Delay(delay * 1000);
 
-            SceneManager.LoadScene("ApartmentScene");
+            LoadingSceneManager.LoadScene("ApartmentScene");
         }
 
         public void QuitGame()
         {
+#if UNITY_EDITOR
+            // 유니티 에디터 플레이 모드 종료
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            // 실제 빌드된 게임 앱 종료 (PC, Mobile 등)
             Application.Quit();
+#endif
         }
     }
 }
