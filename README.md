@@ -148,7 +148,7 @@ Objective 정리
 
 ### Problem
 
-Subtitle 연출 중 플레이어의 이동 및 시점 조작을 제한하기 위해 Input Freeze를 적용했으나, 존 프레임워크의 Examine, Inventory 시스템 등도 Player Input 상태를 독립적으로 제어하여 상태 변경이 충돌하는 문제 발생.
+Subtitle 연출 중 플레이어의 이동 및 시점 조작을 제한하기 위해 Input Freeze를 적용했으나, 기존 프레임워크의 Examine, Inventory 시스템 등도 Player Input 상태를 독립적으로 제어하여 상태 변경이 충돌하는 문제 발생.
 
 ### 발생 구조
 
@@ -288,7 +288,7 @@ private void WaitForAnimation()
 
 기존 시스템의 이벤트를 게임 진행 중 특정 조건에 따라 동적으로 등록하고 제거할 수 있도록 `Runtime Event Binder` 구조 구현.
 
-### 설계 구
+### 설계 구조
 
 ```
 게임플레이 조건 발생
