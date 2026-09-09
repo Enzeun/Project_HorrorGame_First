@@ -13,6 +13,10 @@
 
 ---
 
+트레일러 영상 링크 ▶ [https://youtu.be/2PpvqcETudA]
+
+---
+
 # 1. 프로젝트 개요
 
 ### Unity 기반 Horror Game 개발 및 서드파티 프레임워크 확장
