@@ -300,7 +300,7 @@ private void WaitForAnimation()
 
 # 5. Eye Blink Controller
 
-<img width="853" height="480" alt="Runtime Event Binding System" src="https://github.com/user-attachments/assets/af1e330a-f3a3-4f95-b6d9-b96e5da7fbc7" />
+<img width="853" height="480" alt="Eye Blink Controller" src="https://github.com/user-attachments/assets/76162252-c713-4b3e-aac2-81a0d6c51cc5" />
 
 > UHFPS의 `EyeBlink` Post Processing 효과를 제어하여 **[눈 감기 ➔ 유지 ➔ 눈 뜨기]** 과정을 독립적인 컴포넌트로 구현.
 > 
@@ -532,9 +532,7 @@ OnSubtitlesFinished → 후속 UnityEvent
 
 # 8. Player Teleport System
 
-<img width="853" height="480" alt="Runtime Event Binding System" src="https://github.com/user-attachments/assets/ff19fb21-d181-4401-9e3e-17cea453887c" />
-
-플레이어의 위치와 바라보는 방향을 동시에 변경하는 Teleport 시스템 구현.
+플레이어의 위치와 바라보는 방향을 동시에 변경하는 Teleport 시스템 구현. (6번 Gif 참조)
 
 ### Architecture
 
