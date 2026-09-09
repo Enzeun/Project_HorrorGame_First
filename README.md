@@ -13,11 +13,15 @@
 
 ---
 
-[YouTube 트레일러 영상 링크](https://youtu.be/2PpvqcETudA)
+## 링크
 
-[Itch.io 페이지](https://enzeun.itch.io/after-the-ring)
-
----
+> 
+> 
+> 
+> **YouTube 링크:** [YouTube 트레일러 영상 링크](https://youtu.be/2PpvqcETudA)
+> 
+> Itch.io 페이지: [Itch.io 페이지](https://enzeun.itch.io/after-the-ring)
+> 
 
 # 1. 프로젝트 개요
 
@@ -53,7 +57,6 @@
 | Framework Analysis | 기존 서드파티 프레임워크 구조 및 이벤트 흐름 분석 |
 | Troubleshooting | Objective Lifecycle / Input State 충돌 해결 / Dynamic Lock 구현 |
 | Event System | Runtime Event Binding (Listener 등록·제거·One-shot 처리) |
-| Event Lifecycle | Listener 등록 / 제거 / One-shot 처리 |
 | Async | UniTask 기반 Sequence 및 Delay 제어 |
 | UI | ScriptableObject 기반 Subtitle System |
 | Animation | DOTween 기반 연출 |
@@ -81,6 +84,12 @@
 ### Problem
 
 동일한 Objective 완료 조건이 다시 발생할 경우 **이미 완료된 Objective의 완료 처리가 재실행되는 문제 발생.**
+
+<img width="853" height="480" alt="objective_Problem" src="https://github.com/user-attachments/assets/356c36ec-b1f6-40b3-81a8-339120fdafdc" />
+
+> 위 gif 처럼 음식을 다 먹고 “목표 달성” 이 되었어도, 
+또 다른 음식을 먹으면 “목표 달성” 이 중복해서 발생하는 문제가 발생
+> 
 
 ```
 Objective 생성
@@ -208,6 +217,11 @@ await UniTask.Delay(TimeSpan.FromSeconds(delayBeforeSubtitles),
 
 ## 4-3. LockDoorAfterEvent
 
+<img width="853" height="480" alt="LockDoorAfterEvent" src="https://github.com/user-attachments/assets/df3e807f-978f-4771-981e-f03f82e65c57" />
+
+> 특정 이벤트 후 문을 잠그고, 후속 이벤트가 진행되는 기능
+> 
+
 ### Problem
 
 UHFPS 기본 Door 기능만으로는 "특정 Gameplay Event 발생 후 문을 닫고 → 애니메이션 종료 후 문을 잠그고 → 후속 Gameplay Event 실행" 과 같은 연속 기믹 구현이 어려웠음.
@@ -284,7 +298,94 @@ private void WaitForAnimation()
 
 ---
 
-# 5. Runtime Event Binding System
+# 5. Eye Blink Controller
+
+<img width="853" height="480" alt="Runtime Event Binding System" src="https://github.com/user-attachments/assets/af1e330a-f3a3-4f95-b6d9-b96e5da7fbc7" />
+
+> UHFPS의 `EyeBlink` Post Processing 효과를 제어하여 **[눈 감기 ➔ 유지 ➔ 눈 뜨기]** 과정을 독립적인 컴포넌트로 구현.
+> 
+
+## Problem
+
+- UHFPS의 EyeBlink 효과는 Post Processing VolumeProfile의 내장 파라미터로 구성되어 있어, 단순 값 변경으로는 자연스러운 연출 및 시점 차단 제어가 어려움.
+- 연출 진행 여부, 유지 시간, Volume Weight, 외부 연동 이벤트를 총괄 관리하는 독립 컴포넌트 필요.
+
+## Solution
+
+- **상태 기반 연출 및 `Mathf.MoveTowards` 보간**
+    - `isClosed` 상태에 따라 [눈 감기 / 감김 유지 / 눈 뜨기] 상태 분기.
+    - `Mathf.MoveTowards`를 활용해 프레임 독립적인 점진적 눈 깜빡임 속도 제어.
+- **Post Processing Volume Weight 및 Update() 최적화**
+    - 평상시에는 `enabled = false`로 설정하여 불필요한 `Update()` 프레임 호출 방지.
+    - 연출 시작 시 `enabled = true` 및 Volume `weight = 1f`로 전환, 눈을 완전히 뜬 후 자동으로 컴포넌트 비활성화.
+- **Event 기반 외부 연동**
+    - `Action OnEyesClosed`, `Action OnEyesOpened` 이벤트를 제공하여 시점 차단 완료 시점과 시야 복구 시점에 후속 게임플레이 로직이 실행되도록 분리.
+
+## 핵심 흐름
+
+```csharp
+BlinkEyes() 호출
+			↓
+[Volume 활성화 & Component enabled = true]
+			↓
+CloseEyes() (Mathf.MoveTowards)
+			↓
+눈 감김 완료 → OnEyesClosed.Invoke()
+			↓
+유지 시간 대기 (CloseEyesDuration)
+			↓
+OpenEyes() (Mathf.MoveTowards)
+			↓
+눈 뜸 완료 → OnEyesOpened.Invoke()
+			↓
+[Volume 비활성화 & Component enabled = false]
+```
+
+## Result
+
+- UHFPS `EyeBlink` Post Processing 연동
+- 눈 감기 속도 제어
+- 눈 뜨기 속도 제어
+- 눈 감김 유지 시간 제어
+- Volume Weight 기반 효과 활성화 / 비활성화
+- 눈 감김 / 눈 뜸 상태 관리
+- 중복 실행 방지
+- `Update()` 실행 최소화
+- `OnEyesClosed / OnEyesOpened` 이벤트 제공
+
+## Key Point
+
+> 외부 프레임워크의 Post Processing 효과를 직접 수정하지 않고, 상태 관리와 이벤트 인터페이스를 결합하여 연출과 로직을 분리한 재사용 가능한 컴포넌트로 확장.
+> 
+
+---
+
+# 6. Runtime Event Binding System
+
+<img width="853" height="480" alt="Runtime Event Binding System" src="https://github.com/user-attachments/assets/340d15ac-3bbb-4c77-882a-71762a9c99d3" />
+
+> `Eye Blink Controller`(5번)와 `Player Teleport System`(8번)을 `EyeBlinkEventBinder`로 동적 결합하여 암전 기반 씬 전환 연출을 구현.
+> 
+
+```csharp
+EyeBlinkEventBind()
+			↓
+이벤트 실행
+			↓
+EyeBlinkController.EyeBlinkStart()
+			↓
+눈 감기 완료
+			↓
+PlayerTeleportSystem.Teleport()
+			↓
+플레이어 이동
+			↓
+눈 뜨기 시작
+			↓
+후속 이벤트
+```
+
+### 설계 목표
 
 기존 시스템의 이벤트를 게임 진행 중 특정 조건에 따라 동적으로 등록하고 제거할 수 있도록 `Runtime Event Binder` 구조 구현.
 
@@ -363,7 +464,9 @@ public class DynamicObjectEventBinder : MonoBehaviour
 
 ---
 
-# 6. Subtitle System
+# 7. Subtitle System
+
+<img width="853" height="480" alt="Subtitle System" src="https://github.com/user-attachments/assets/654acb01-c84c-474e-906b-bb2cd37be61c" />
 
 게임 내 대사와 연출을 위한 `ScriptableObject` + `Manager` + `Trigger` 기반 Subtitle System 구현.
 
@@ -427,7 +530,9 @@ OnSubtitlesFinished → 후속 UnityEvent
 
 ---
 
-# 7. Player Teleport System
+# 8. Player Teleport System
+
+<img width="853" height="480" alt="Runtime Event Binding System" src="https://github.com/user-attachments/assets/ff19fb21-d181-4401-9e3e-17cea453887c" />
 
 플레이어의 위치와 바라보는 방향을 동시에 변경하는 Teleport 시스템 구현.
 
@@ -463,7 +568,9 @@ Player Freeze 해제
 
 ---
 
-# 8. NPC LookAt System
+# 9. NPC LookAt System
+
+<img width="853" height="480" alt="NPC LookAt System" src="https://github.com/user-attachments/assets/19dc3f1e-98c0-43c8-ade0-08ba32f55539" />
 
 NPC가 플레이어의 위치와 시야각을 기준으로 자연스럽게 시선을 전환하도록 구현.
 
