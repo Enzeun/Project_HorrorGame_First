@@ -375,26 +375,27 @@ SubtitleAsset
 SubtitleTrigger
       ↓
 SubtitleManager
-      ↓
-TextMeshPro
-      ↓
-DOTween / UniTask
 ```
 
 ### SubtitleAsset
 
 자막 데이터와 게임플레이 로직을 분리하기 위해 ScriptableObject 기반으로 구성.
+자막의 내용과 길이를 저장함.
 
 ### SubtitleTrigger
 
-여러 자막을 순차적으로 재생하고 전체 연출 흐름을 관리.
-
-- 자막 순차 재생
-- 자막별 Delay (길이)
-- 시작 전 Delay / 종료 후 Delay
+- SubtitleAsset 리스트를 저장
+- 자막 시작 전 / 후 Delay
 - Player Movement Freeze
 - Player Look Freeze
-- 종료 Event
+- 종료 시 UnityEvent 연결
+
+### SubtitleManager
+
+여러 자막을 순차적으로 재생하고 전체 연출 흐름을 관리.
+
+- UniTask 기반 비동기 자막 순차 재생
+- 자막을 화면에 띄우는 UI Animation 관리
 - CancellationToken 기반 비동기 작업 취소
 
 ### 비동기 흐름
