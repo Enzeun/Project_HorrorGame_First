@@ -13,7 +13,7 @@
 
 ---
 
-트레일러 영상 링크 ▶ [https://youtu.be/2PpvqcETudA]
+[YouTube 트레일러 영상 링크](https://youtu.be/2PpvqcETudA)
 
 ---
 
