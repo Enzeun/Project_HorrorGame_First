@@ -14,6 +14,7 @@
 ---
 
 [YouTube 트레일러 영상 링크](https://youtu.be/2PpvqcETudA)
+
 [Itch.io 페이지](https://enzeun.itch.io/after-the-ring)
 
 ---
