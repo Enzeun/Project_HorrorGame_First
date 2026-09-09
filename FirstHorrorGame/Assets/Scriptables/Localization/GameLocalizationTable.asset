@@ -288,15 +288,6 @@ MonoBehaviour:
       Key: panel.emptysaves
     - Id: 50945637
       Key: text.died
-  - Id: 22328812
-    SectionName: loading
-    SectionSheet:
-    - Id: 75562718
-      Key: description.demoscene
-    - Id: 48298615
-      Key: description.demoscene2
-    - Id: 99899103
-      Key: description.demoscene3
   - Id: 59169988
     SectionName: titles
     SectionSheet:
@@ -365,71 +356,25 @@ MonoBehaviour:
       Key: close
     - Id: 53506186
       Key: extinguish
-    - Id: 50724348
-      Key: kindle
-    - Id: 24862863
-      Key: refuel.hold
-    - Id: 89532940
-      Key: hide
-    - Id: 17034738
-      Key: unhide
   - Id: 11317371
     SectionName: objects
     SectionSheet:
-    - Id: 68821941
-      Key: circuit
-    - Id: 14979172
-      Key: fusebox
-    - Id: 62776564
-      Key: keypad
-    - Id: 14413967
-      Key: keycard
-    - Id: 96136757
-      Key: padlock
-    - Id: 24142317
-      Key: lever
-    - Id: 31363607
-      Key: paneldoor
     - Id: 67919224
       Key: door
-    - Id: 20417118
-      Key: valve
     - Id: 42204335
       Key: drawer
     - Id: 10559435
       Key: trunk
     - Id: 71847511
       Key: backpack
-    - Id: 38384735
-      Key: crate
-    - Id: 83502262
-      Key: barrel
-    - Id: 58655478
-      Key: brick
-    - Id: 28035682
-      Key: pushable
-    - Id: 32820278
-      Key: ladder
-    - Id: 33180263
-      Key: zipline
     - Id: 88094677
       Key: paper
-    - Id: 63467271
-      Key: chest
     - Id: 64633838
       Key: lamp
-    - Id: 15905899
-      Key: generator
-    - Id: 73080034
-      Key: radio
     - Id: 11138211
       Key: locker
     - Id: 59323032
       Key: bed
-    - Id: 57301135
-      Key: floodlight
-    - Id: 84384165
-      Key: maze
     - Id: 51851383
       Key: phone
   - Id: 78183135
@@ -459,38 +404,13 @@ MonoBehaviour:
       Key: name.putback
     - Id: 95942159
       Key: name.back
-    - Id: 72662996
-      Key: name.uvflashlight
-    - Id: 95647617
-      Key: name.reload
   - Id: 51993595
     SectionName: messages
     SectionSheet:
-    - Id: 46809840
-      Key: backpack
-    - Id: 22626659
-      Key: nofit
     - Id: 10728042
       Key: objective.added
     - Id: 20529774
       Key: objective.completed
-    - Id: 41489829
-      Key: kindle.lighter
-    - Id: 27587268
-      Key: no.canisters
-    - Id: 20042218
-      Key: notreq.canisters
-    - Id: 17064153
-      Key: door.barricaded
-  - Id: 14790497
-    SectionName: papers
-    SectionSheet:
-    - Id: 63376783
-      Key: example
-    - Id: 24767859
-      Key: crafting.ammo
-    - Id: 96893407
-      Key: bloody
   - Id: 91710314
     SectionName: inventory
     SectionSheet:
@@ -510,154 +430,6 @@ MonoBehaviour:
       Key: prompt.shortcut
     - Id: 85741619
       Key: prompt.combine
-  - Id: 24283221
-    SectionName: item
-    SectionSheet:
-    - Id: 86483556
-      Key: title.flashlight
-    - Id: 66394995
-      Key: description.flashlight
-    - Id: 27479224
-      Key: title.camcorder
-    - Id: 13199872
-      Key: description.camcorder
-    - Id: 52214045
-      Key: title.lantern
-    - Id: 10453279
-      Key: description.lantern
-    - Id: 58743985
-      Key: title.lighter
-    - Id: 35147977
-      Key: description.lighter
-    - Id: 47759722
-      Key: title.candle
-    - Id: 88800642
-      Key: description.candle
-    - Id: 64813928
-      Key: title.axe
-    - Id: 81754557
-      Key: description.axe
-    - Id: 29595890
-      Key: title.pocketknife
-    - Id: 10912878
-      Key: description.pocketknife
-    - Id: 53741014
-      Key: title.pistol
-    - Id: 19660599
-      Key: description.pistol
-    - Id: 61872019
-      Key: title.thermometer
-    - Id: 78303727
-      Key: description.thermometer
-    - Id: 58318911
-      Key: title.emfmeter
-    - Id: 33905725
-      Key: description.emfmeter
-    - Id: 34833445
-      Key: title.firstaidkit
-    - Id: 95076873
-      Key: description.firstaidkit
-    - Id: 44235869
-      Key: title.medicaloil
-    - Id: 59674130
-      Key: description.medicaloil
-    - Id: 39924894
-      Key: title.medicalherb
-    - Id: 10202328
-      Key: description.medicalherb
-    - Id: 63867823
-      Key: title.healingpotion
-    - Id: 42067171
-      Key: description.healingpotion
-    - Id: 16895552
-      Key: title.alkalinebattery
-    - Id: 88078736
-      Key: description.alkalinebattery
-    - Id: 31902149
-      Key: title.camerabattery
-    - Id: 14597581
-      Key: description.camerabattery
-    - Id: 68908540
-      Key: title.petroloil
-    - Id: 10772658
-      Key: description.petroloil
-    - Id: 26904931
-      Key: title.pistolammo
-    - Id: 10323082
-      Key: description.pistolammo
-    - Id: 89377779
-      Key: title.pistolflashlight
-    - Id: 31912480
-      Key: description.pistolflashlight
-    - Id: 25768964
-      Key: title.key01
-    - Id: 54686469
-      Key: description.key01
-    - Id: 77523233
-      Key: title.key02
-    - Id: 93838456
-      Key: description.key02
-    - Id: 85398988
-      Key: title.key03
-    - Id: 95447991
-      Key: description.key03
-    - Id: 68643809
-      Key: title.key04
-    - Id: 94144278
-      Key: description.key04
-    - Id: 68278997
-      Key: title.keys
-    - Id: 50121884
-      Key: description.keys
-    - Id: 90527509
-      Key: title.lockpick
-    - Id: 45644899
-      Key: description.lockpick
-    - Id: 34472722
-      Key: title.fuse
-    - Id: 94677487
-      Key: description.fuse
-    - Id: 79554516
-      Key: title.valve
-    - Id: 36922670
-      Key: description.valve
-    - Id: 95253859
-      Key: title.vhscassette
-    - Id: 19573478
-      Key: description.vhscassette
-    - Id: 99621160
-      Key: title.redkeycard
-    - Id: 97596299
-      Key: description.redkeycard
-    - Id: 88852542
-      Key: title.greenkeycard
-    - Id: 84344411
-      Key: description.greenkeycard
-    - Id: 44840908
-      Key: title.fuelcanister
-    - Id: 90153658
-      Key: description.fuelcanister
-    - Id: 15052282
-      Key: title.marbleball
-    - Id: 83898129
-      Key: description.marbleball
-    - Id: 82617294
-      Key: title.gunpowder
-    - Id: 94969246
-      Key: description.gunpowder
-    - Id: 45238631
-      Key: title.scrap
-    - Id: 38802640
-      Key: description.scrap
-  - Id: 90694169
-    SectionName: tips
-    SectionSheet:
-    - Id: 31030455
-      Key: tip1
-    - Id: 69403660
-      Key: tip2
-    - Id: 75937617
-      Key: tip3
   - Id: 70584943
     SectionName: options
     SectionSheet:

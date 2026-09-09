@@ -20,8 +20,6 @@ MonoBehaviour:
     - rid: 5518344916744536126
     - rid: 951096600808390722
     - rid: 951096600808390724
-    - rid: 951096600808390725
-    - rid: 951096600808390726
   - Section:
       Name: Graphics
       GUID: 2bf68564ed384015b8122a64df3d3e91
@@ -85,37 +83,6 @@ MonoBehaviour:
         SliderLimits:
           min: 0.1
           max: 3
-        UseSnapping: 1
-        SnapValue: 0.1
-    - rid: 951096600808390725
-      type: {class: OptionCustomBoolean, ns: UHFPS.Runtime, asm: Assembly-CSharp}
-      data:
-        GUID: 53ade4a7869e4f54aab4acbe8ec9f3cd
-        Name: smoothing
-        Prefab: {fileID: 490803695445625362, guid: 59caa5526fa2a2a40bc3f86646a12ce5, type: 3}
-        Title:
-          GlocText: options.look.smoothing
-          NormalText: 
-        DefaultValue: 0
-        OffName:
-          GlocText: '*OFF'
-          NormalText: '*OFF'
-        OnName:
-          GlocText: '*ON'
-          NormalText: '*ON'
-    - rid: 951096600808390726
-      type: {class: OptionCustomFloat, ns: UHFPS.Runtime, asm: Assembly-CSharp}
-      data:
-        GUID: 8a2964a3a56f492393349bc64190387e
-        Name: smoothing_speed
-        Prefab: {fileID: 8916374741916289909, guid: 06fd74c7846d74c44bfddf0371fea48b, type: 3}
-        Title:
-          GlocText: options.smoothing.speed
-          NormalText: 
-        DefaultValue: 1
-        SliderLimits:
-          min: 0
-          max: 5
         UseSnapping: 1
         SnapValue: 0.1
     - rid: 951096600808390728
