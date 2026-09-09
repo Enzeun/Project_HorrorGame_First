@@ -2,7 +2,7 @@ using UnityEngine;
 using UHFPS.Runtime;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
-
+using Sirenix.OdinInspector;
 
 namespace ENZEUN.Runtime
 {
@@ -14,12 +14,12 @@ namespace ENZEUN.Runtime
         public CanvasGroup canvasGroup1;
         public CanvasGroup canvasGroup2;
 
-
+        [Button("Go To Ending Scene")]
         public void GoToEndingScene()
         {
             gameObject.SetActive(true);
 
-            GameManager.Instance.FreezePlayer(true, false, true);
+            GameManager.Instance.FreezePlayer(true);
 
             GoToEndingSceneAsync().Forget();
         }
@@ -30,13 +30,19 @@ namespace ENZEUN.Runtime
 
             await UniTask.Delay(2000, cancellationToken: token); // 2초 대기
 
-            audioSource.clip = audioClip;
+            if (audioSource != null && audioClip != null)
+            {
+                audioSource.clip = audioClip;
+                audioSource.Play();
+            }
+            else
+            {
+                Debug.LogWarning("AudioSource or AudioClip is not assigned.");
+            }
 
-            audioSource.Play();
+            await UniTask.Delay(5000, cancellationToken: token); // 5초 대기
 
-            await UniTask.Delay(2000, cancellationToken: token); // 2초 대기
-
-            audioSource.Stop();
+            //audioSource.Stop();
 
             await canvasGroup1.DOFade(1f, 1f)
                               .SetEase(Ease.Linear)

@@ -4,9 +4,16 @@ using UHFPS.Runtime;
 
 namespace ENZEUN.Runtime
 {
-
     public class MainMenuManager : MonoBehaviour
     {
+        private void Start()
+        {
+            // 초기화 작업 수행
+            // --- [마우스 커서 표시 및 잠금 해제] ---
+            Cursor.visible = true;                      // 커서를 화면에 표시
+            Cursor.lockState = CursorLockMode.None;     // 커서 잠금 해제 (자유롭게 이동 가능)
+                                                        // ----------------------------------------
+        }
         public void StartGame(int delay)
         {
             StartGameWithDelay(delay).Forget();

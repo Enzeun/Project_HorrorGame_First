@@ -37556,8 +37556,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b9909fcaf1beba4d915fd17e50bf90e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ENZEUN.Runtime.EndingScript
-  audioSource: {fileID: 265962148}
-  audioClip: {fileID: 8300000, guid: 124eee6a305d16443956a2262e7a8fed, type: 3}
+  audioSource: {fileID: 5407267236691871591}
+  audioClip: {fileID: 8300000, guid: 6e002849efdc5ce48911a0818e02d1c1, type: 3}
   canvasGroup1: {fileID: 621810203}
   canvasGroup2: {fileID: 1531543584}
 --- !u!114 &1049268700
@@ -64848,7 +64848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolume
   mode: 1
-  size: {x: 36.25, y: 63.000008, z: 28.81099}
+  size: {x: 36.25, y: 63.000008, z: 28.811005}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -64888,7 +64888,7 @@ Transform:
   m_GameObject: {fileID: 2047322125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.625, y: 4.999998, z: 85.905495}
+  m_LocalPosition: {x: 29.625, y: 4.999998, z: 85.9055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
