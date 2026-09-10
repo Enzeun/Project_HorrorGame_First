@@ -1,0 +1,924 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99433e1eef4a964d98eb541d664ab70, type: 3}
+  m_Name: Korean
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Scriptable.LocalizationLanguage
+  LanguageName: Korean
+  Strings:
+  - EntryId: 47251901
+    SectionId: 82386491
+    Key: Subtitle.start.01
+    Value: "\uB108\uBB34 \uD798\uB4E4\uB2E4... \uC880 \uC26C\uC5B4\uC57C\uACA0\uC5B4"
+  - EntryId: 90593698
+    SectionId: 82386491
+    Key: Subtitle.start.02
+    Value: "\uBE68\uB9AC \uC9D1\uC5D0 \uB4E4\uC5B4\uAC00\uC790"
+  - EntryId: 54843612
+    SectionId: 82386491
+    Key: Subtitle.hallway.01
+    Value: "\uC774 \uCABD\uC774 \uC6B0\uB9AC \uC9D1\uC774\uC57C"
+  - EntryId: 31975553
+    SectionId: 82386491
+    Key: Subtitle.entering.0.turnlight
+    Value: "\uC77C\uB2E8 \uBD88\uC744 \uD0A4\uC790"
+  - EntryId: 79649948
+    SectionId: 82386491
+    Key: Subtitle.entering.01
+    Value: "\uD734... \uB4DC\uB514\uC5B4 \uC9D1\uC774\uB124"
+  - EntryId: 35771164
+    SectionId: 82386491
+    Key: Subtitle.entering.02
+    Value: "\uC774\uC81C \uC880 \uC274 \uC218 \uC788\uACA0\uC5B4"
+  - EntryId: 38887963
+    SectionId: 82386491
+    Key: Subtitle.dropBackPack.01
+    Value: "\uC77C\uB2E8 \uAC00\uBC29\uC744 \uB0B4\uB824\uB193\uC790"
+  - EntryId: 83938182
+    SectionId: 82386491
+    Key: Subtitle.entering.03
+    Value: "\uBC30\uAC00 \uC880 \uACE0\uD508\uB370... \uBC25\uC744 \uBA3C\uC800 \uBA39\uC744\uAE4C?"
+  - EntryId: 32038591
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.1
+    Value: "\uC774\uB7F0 \uC804\uD654\uAE30\uAC00..."
+  - EntryId: 94490215
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.2
+    Value: "\uC6D0\uB798 \uC6B0\uB9AC\uC9D1\uC5D0 \uC788\uC5C8\uB098...?"
+  - EntryId: 90251430
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.3
+    Value: "\uD53C\uACE4\uD55C\uB370, \uC2E0\uACBD\uC4F0\uC9C0 \uB9D0\uC790"
+  - EntryId: 91861710
+    SectionId: 82386491
+    Key: Subtitle.goToilet.01
+    Value: "\uAC11\uC790\uAE30 \uB625\uC774 \uB9C8\uB835\uB124"
+  - EntryId: 85123224
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.01
+    Value: "\uD734, \uC774\uC81C \uC790\uB7EC \uAC00\uBCFC\uAE4C?"
+  - EntryId: 71467175
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.01
+    Value: "\uAE5C\uC9DD\uC774\uC57C!!"
+  - EntryId: 92129515
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.02
+    Value: "\uC774 \uC2DC\uAC04\uC5D0 \uB204\uAD6C\uC57C?"
+  - EntryId: 96426880
+    SectionId: 82386491
+    Key: Subtitle.memo.01
+    Value: ........
+  - EntryId: 38555188
+    SectionId: 82386491
+    Key: Subtitle.memo.02
+    Value: "\uB204\uAC00 \uC7A5\uB09C \uCE58\uB294 \uAC70\uACA0\uC9C0?"
+  - EntryId: 18922430
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.03
+    Value: "\uC774\uBC88\uC5D4 \uAC00\uB9CC \uC548\uB46C!!"
+  - EntryId: 80218925
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.1
+    Value: .................
+  - EntryId: 97221779
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.2
+    Value: "\uB3C4\uB300\uCCB4 \uBB50\uC57C...?"
+  - EntryId: 50745910
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.3
+    Value: "\uB108\uBB34 \uD53C\uACE4\uD574\uC11C \uADF8\uB7F0\uAC78\uAC70\uC57C..."
+  - EntryId: 45707549
+    SectionId: 82386491
+    Key: Subtitle.hallway.2.01
+    Value: "\uBB50....\uBB50\uC57C?! \uC5B4\uB5BB\uAC8C \uB41C\uAC70\uC9C0?"
+  - EntryId: 95546813
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.2.1
+    Value: "\uB4A4\uB97C\uBD10."
+  - EntryId: 54326865
+    SectionId: 82386491
+    Key: Subtitle.returnhome.1.1
+    Value: "\uB3C4\uB300\uCCB4 \uBB34\uC2A8 \uC77C\uC774 \uC77C\uC5B4\uB09C\uAC70\uC9C0?"
+  - EntryId: 35895386
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.4.1
+    Value: "\uCE68\uC2E4."
+  - EntryId: 56045720
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.after.4.1
+    Value: "\uBB34\uC2A8 \uC77C\uC774 \uC77C\uC5B4\uB0A0\uC9C0 \uBAA8\uB974\uB2C8\uAE4C,
+      \uC190\uC804\uB4F1\uC744 \uCC59\uAE30\uC790"
+  - EntryId: 39312843
+    SectionId: 82386491
+    Key: Subtitle.findFlashlight
+    Value: "\uBA3C\uC800 \uC190\uC804\uB4F1\uC744 \uCC3E\uACE0 \uB4E4\uC5B4\uAC08\uAC70\uC57C"
+  - EntryId: 94967976
+    SectionId: 82386491
+    Key: Subtitle.hallway2.phone
+    Value: "...\uC5F4\uC5B4\uBD10"
+  - EntryId: 73121576
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk1
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uAE5C\uC9DD \uB180\uB790\uB124\uC694."
+  - EntryId: 62985988
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk2
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uB2F9\uC2E0\uC774 \uC624\uAE30 \uC804\uAE4C\uC9C0\uB294
+      \uBB38\uC774 \uC5C6\uC5C8\uC5B4\uC694."
+  - EntryId: 12788384
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk3
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uBB38\uC744 \uB098\uAC00\uBA74\u2026 \uB2E4\uC2DC
+      \uB3CC\uC544\uAC08 \uC218 \uC788\uC744 \uAC70\uC608\uC694."
+  - EntryId: 60024599
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk1
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : \uC774\uC81C \uB9C8\uC9C0\uB9C9 \uBB38\uB9CC
+      \uC5F4\uBA74 \uB3FC\uC694"
+  - EntryId: 80955542
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk2
+    Value: "\uB0AF\uC120 \uC0AC\uB78C : ................(\uC544\uBB34 \uB9D0\uC774
+      \uC5C6\uB2E4)"
+  - EntryId: 92999695
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.7.1
+    Value: "...........\uBB38\uC744 \uC5F4\uC9C0 \uB9C8"
+  - EntryId: 65509164
+    SectionId: 82386491
+    Key: Subtitle.npc.last.talk1
+    Value: "\uC774 \uBB38\uC774 \uB9DE\uC544\uC694"
+  - EntryId: 95681721
+    SectionId: 82386491
+    Key: Subtitle.Telephone.last.1
+    Value: "\uC808\uB300 \uBB38\uC744 \uC5F4\uC9C0 \uB9C8"
+  - EntryId: 67946711
+    SectionId: 82386491
+    Key: Subtitle.player.last
+    Value: "\uBB50...\uBB50\uC8E0...??"
+  - EntryId: 37567559
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.title
+    Value: "\uC9D1\uC73C\uB85C \uB4E4\uC5B4\uAC00\uAE30"
+  - EntryId: 69920593
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub1
+    Value: "\uC9D1\uC744 \uCC3E\uC544 \uB4E4\uC5B4\uAC00\uAE30"
+  - EntryId: 89648811
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub.turnLight
+    Value: "\uBD88 \uD0A4\uAE30"
+  - EntryId: 80289787
+    SectionId: 60438809
+    Key: Objectives.dropBackPack.title
+    Value: "\uAC00\uBC29 \uB0B4\uB824\uB193\uAE30"
+  - EntryId: 79584244
+    SectionId: 60438809
+    Key: Objectives.dropBackPack.sub
+    Value: "\uD14C\uC774\uBE14 \uC704\uC5D0 \uAC00\uBC29 \uB0B4\uB824\uB193\uAE30"
+  - EntryId: 94821550
+    SectionId: 60438809
+    Key: Objectives.eatSomething.title
+    Value: "\uBC25 \uBA39\uAE30"
+  - EntryId: 68246820
+    SectionId: 60438809
+    Key: Objectives.eatSomthing.sub
+    Value: "\uC74C\uC2DD \uBA39\uAE30"
+  - EntryId: 39093841
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.title
+    Value: "\uD654\uC7A5\uC2E4 \uAC00\uAE30"
+  - EntryId: 84599626
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.sub
+    Value: "\uD654\uC7A5\uC2E4\uC5D0\uC11C \uBCC0\uC744 \uBCF4\uAE30"
+  - EntryId: 82641692
+    SectionId: 60438809
+    Key: Objectives.goToSleep.title
+    Value: "\uBC29\uC5D0 \uAC00\uC11C \uC790\uAE30"
+  - EntryId: 43909112
+    SectionId: 60438809
+    Key: Objectives.goToSleep.sub1
+    Value: "\uCE68\uB300\uC5D0 \uB215\uAE30"
+  - EntryId: 63615694
+    SectionId: 60438809
+    Key: Objectives.examineHallway.title
+    Value: "\uBCF5\uB3C4 \uC870\uC0AC\uD558\uAE30"
+  - EntryId: 35119893
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub01
+    Value: "\uBCF5\uB3C4 \uB05D\uC758 \uC804\uD654\uB97C \uBC1B\uAE30"
+  - EntryId: 12195154
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub02
+    Value: "\uC804\uD654\uAE30 \uD655\uC778\uD558\uAE30"
+  - EntryId: 31214226
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.title
+    Value: "\uC190\uC804\uB4F1 \uCC3E\uAE30"
+  - EntryId: 50800611
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.sub
+    Value: "\uAC70\uC2E4 \uC11C\uB78D \uC548\uC5D0 \uC788\uB294 \uC190\uC804\uB4F1
+      \uCC59\uAE30\uAE30"
+  - EntryId: 60500665
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.title
+    Value: "\uC190\uC804\uB4F1 \uC0AC\uC6A9\uBC95"
+  - EntryId: 12115340
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.sub
+    Value: "'1' \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC190\uC804\uB4F1\uC744 \uCF1C\uACE0
+      \uB04C \uC218 \uC788\uC2B5\uB2C8\uB2E4"
+  - EntryId: 26934183
+    SectionId: 80280926
+    Key: etc.door.gohome
+    Value: "\uBE68\uB9AC \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uC790\n\uC6B0\uB9AC\uC9D1\uC740
+      3\uCE35\uC774\uC57C"
+  - EntryId: 81206071
+    SectionId: 80280926
+    Key: etc.door.locked
+    Value: "\uC774 \uBB38\uC740 \uC7A0\uACA8\uC788\uC5B4"
+  - EntryId: 65837807
+    SectionId: 80280926
+    Key: etc.drop.backpack
+    Value: "\uAC00\uBC29 \uB0B4\uB824\uB193\uAE30"
+  - EntryId: 65778507
+    SectionId: 80280926
+    Key: etc.eat
+    Value: "\uBA39\uAE30"
+  - EntryId: 37897526
+    SectionId: 80280926
+    Key: etc.hamburger
+    Value: "\uD584\uBC84\uAC70"
+  - EntryId: 73583786
+    SectionId: 80280926
+    Key: etc.hotdog
+    Value: "\uD56B\uB3C4\uADF8"
+  - EntryId: 44874314
+    SectionId: 80280926
+    Key: etc.soda.water
+    Value: "\uD0C4\uC0B0\uC218"
+  - EntryId: 21280454
+    SectionId: 80280926
+    Key: etc.soda.can
+    Value: "\uCE94 \uC74C\uB8CC"
+  - EntryId: 71447844
+    SectionId: 80280926
+    Key: etc.soda.bottle
+    Value: "\uBCD1 \uC74C\uB8CC"
+  - EntryId: 76804839
+    SectionId: 80280926
+    Key: etc.toilet
+    Value: "\uBCC0\uAE30"
+  - EntryId: 90933987
+    SectionId: 80280926
+    Key: etc.paper.phone
+    Value: "\uC804\uD654\uAE30."
+  - EntryId: 47154010
+    SectionId: 80280926
+    Key: etc.interact.phone.answer
+    Value: "\uC804\uD654 \uBC1B\uAE30"
+  - EntryId: 23980424
+    SectionId: 80280926
+    Key: etc.npc.talk
+    Value: "\uB300\uD654\uD558\uAE30"
+  - EntryId: 44283929
+    SectionId: 80280926
+    Key: etc.npc.title
+    Value: "\uB0AF\uC120 \uC0AC\uB78C"
+  - EntryId: 52856333
+    SectionId: 80280926
+    Key: etc.key.title
+    Value: "\uC5F4\uC1E0"
+  - EntryId: 59766993
+    SectionId: 80280926
+    Key: etc.key.desc
+    Value: "\uD3C9\uBC94\uD55C \uC5F4\uC1E0\uB2E4"
+  - EntryId: 87333916
+    SectionId: 80280926
+    Key: etc.key.get
+    Value: "\uAC00\uC838\uAC00\uAE30"
+  - EntryId: 60397081
+    SectionId: 80280926
+    Key: etc.lamp.title
+    Value: "\uC870\uBA85"
+  - EntryId: 71576993
+    SectionId: 64734669
+    Key: openable.fridge
+    Value: "\uB0C9\uC7A5\uACE0"
+  - EntryId: 20363014
+    SectionId: 64734669
+    Key: openable.oven
+    Value: "\uC624\uBE10"
+  - EntryId: 15172027
+    SectionId: 40893112
+    Key: input.action.movement.up
+    Value: "\uC55E"
+  - EntryId: 48836686
+    SectionId: 40893112
+    Key: input.action.movement.down
+    Value: "\uB4A4"
+  - EntryId: 42985932
+    SectionId: 40893112
+    Key: input.action.movement.left
+    Value: "\uC67C\uCABD"
+  - EntryId: 89388492
+    SectionId: 40893112
+    Key: input.action.movement.right
+    Value: "\uC624\uB978\uCABD"
+  - EntryId: 91879250
+    SectionId: 40893112
+    Key: input.action.sprint
+    Value: "\uB2EC\uB9AC\uAE30"
+  - EntryId: 72077938
+    SectionId: 40893112
+    Key: input.action.jump
+    Value: "\uC810\uD504"
+  - EntryId: 26866831
+    SectionId: 40893112
+    Key: input.action.crouch
+    Value: "\uC549\uAE30"
+  - EntryId: 71917174
+    SectionId: 40893112
+    Key: input.action.use
+    Value: "\uC0AC\uC6A9"
+  - EntryId: 99249963
+    SectionId: 40893112
+    Key: input.action.examine
+    Value: "\uC870\uC0AC"
+  - EntryId: 13648412
+    SectionId: 40893112
+    Key: input.action.fire
+    Value: "\uBC1C\uC0AC"
+  - EntryId: 85843821
+    SectionId: 40893112
+    Key: input.action.reload
+    Value: "\uC7AC\uC7A5\uC804"
+  - EntryId: 81674536
+    SectionId: 40893112
+    Key: input.action.ads
+    Value: "\uC870\uC900"
+  - EntryId: 31740936
+    SectionId: 40893112
+    Key: input.action.equip1
+    Value: "\uC7A5\uBE44 1"
+  - EntryId: 59043625
+    SectionId: 40893112
+    Key: input.action.equip2
+    Value: "\uC7A5\uBE44 2"
+  - EntryId: 40362316
+    SectionId: 40893112
+    Key: input.action.equip3
+    Value: "\uC7A5\uBE44 3"
+  - EntryId: 81721455
+    SectionId: 40893112
+    Key: input.action.equip4
+    Value: "\uC7A5\uBE44 4"
+  - EntryId: 81699452
+    SectionId: 40893112
+    Key: input.action.unequip
+    Value: "\uD0C8\uCC29"
+  - EntryId: 74840067
+    SectionId: 40893112
+    Key: input.action.lean.positive
+    Value: "\uC624\uB978\uCABD \uAE30\uC6B8\uC774\uAE30"
+  - EntryId: 54335613
+    SectionId: 40893112
+    Key: input.action.lean.negative
+    Value: "\uC67C\uCABD \uAE30\uC6B8\uC774\uAE30"
+  - EntryId: 72003672
+    SectionId: 40893112
+    Key: input.action.flashlight
+    Value: "\uC190\uC804\uB4F1"
+  - EntryId: 12834590
+    SectionId: 84607436
+    Key: menu.title.loadgame
+    Value: "\uBD88\uB7EC\uC624\uAE30"
+  - EntryId: 19909919
+    SectionId: 84607436
+    Key: menu.title.options
+    Value: "\uC635\uC158"
+  - EntryId: 38947490
+    SectionId: 84607436
+    Key: menu.title.pause
+    Value: "\uC815\uC9C0 \uBA54\uB274"
+  - EntryId: 21255646
+    SectionId: 84607436
+    Key: menu.button.resume
+    Value: "\uACC4\uC18D\uD558\uAE30"
+  - EntryId: 67914274
+    SectionId: 84607436
+    Key: menu.button.continue
+    Value: "\uACC4\uC18D\uD558\uAE30"
+  - EntryId: 79667033
+    SectionId: 84607436
+    Key: menu.button.newgame
+    Value: "\uC0C8 \uAC8C\uC784"
+  - EntryId: 18226444
+    SectionId: 84607436
+    Key: menu.button.loadgame
+    Value: "\uBD88\uB7EC\uC624\uAE30"
+  - EntryId: 55566430
+    SectionId: 84607436
+    Key: menu.button.savegame
+    Value: "\uC800\uC7A5\uD558\uAE30"
+  - EntryId: 31415227
+    SectionId: 84607436
+    Key: menu.button.options
+    Value: "\uC635\uC158"
+  - EntryId: 51656323
+    SectionId: 84607436
+    Key: menu.button.quit
+    Value: "\uC885\uB8CC"
+  - EntryId: 86796110
+    SectionId: 84607436
+    Key: menu.button.restart
+    Value: "\uB2E4\uC2DC \uC2DC\uC791"
+  - EntryId: 24352737
+    SectionId: 84607436
+    Key: menu.button.mainmenu
+    Value: "\uBA54\uC778 \uBA54\uB274"
+  - EntryId: 25663424
+    SectionId: 84607436
+    Key: menu.button.back
+    Value: "\uB4A4\uB85C"
+  - EntryId: 33340621
+    SectionId: 84607436
+    Key: menu.button.load
+    Value: "\uBD88\uB7EC\uC624\uAE30"
+  - EntryId: 35886959
+    SectionId: 84607436
+    Key: menu.button.delete
+    Value: "\uC0AD\uC81C"
+  - EntryId: 48769564
+    SectionId: 84607436
+    Key: menu.button.apply
+    Value: "\uC801\uC6A9"
+  - EntryId: 99361921
+    SectionId: 84607436
+    Key: menu.button.reset
+    Value: "\uCD08\uAE30\uD654"
+  - EntryId: 78931432
+    SectionId: 84607436
+    Key: menu.tooltip.continue
+    Value: "\uC800\uC7A5\uB41C \uC9C4\uD589 \uC0C1\uD669 \uC774\uC5B4\uD558\uAE30"
+  - EntryId: 91768521
+    SectionId: 84607436
+    Key: menu.tooltip.resume
+    Value: "\uAC8C\uC784 \uACC4\uC18D\uD558\uAE30"
+  - EntryId: 85618282
+    SectionId: 84607436
+    Key: menu.tooltip.newgame
+    Value: "\uC0C8 \uAC8C\uC784 \uC2DC\uC791"
+  - EntryId: 55974627
+    SectionId: 84607436
+    Key: menu.tooltip.loadgame
+    Value: "\uC774\uC804\uC5D0 \uC800\uC7A5\uD55C \uAC8C\uC784 \uBD88\uB7EC\uC624\uAE30"
+  - EntryId: 21595021
+    SectionId: 84607436
+    Key: menu.tooltip.savegame
+    Value: "\uD604\uC7AC \uC9C4\uD589 \uC0C1\uD669 \uC800\uC7A5\uD558\uAE30"
+  - EntryId: 30213956
+    SectionId: 84607436
+    Key: menu.tooltip.options
+    Value: "\uAC8C\uC784 \uC124\uC815 \uBC0F \uD658\uACBD\uC124\uC815 \uC870\uC815"
+  - EntryId: 33214590
+    SectionId: 84607436
+    Key: menu.tooltip.quit
+    Value: "\uAC8C\uC784 \uC885\uB8CC"
+  - EntryId: 78530917
+    SectionId: 84607436
+    Key: menu.tooltip.restart
+    Value: "\uAC00\uC7A5 \uCD5C\uADFC \uC800\uC7A5 \uB370\uC774\uD130\uBD80\uD130
+      \uAC8C\uC784 \uC2DC\uC791"
+  - EntryId: 81988112
+    SectionId: 84607436
+    Key: menu.tooltip.mainmenu
+    Value: "\uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uACE0 \uBA54\uC778 \uBA54\uB274\uB85C
+      \uC774\uB3D9"
+  - EntryId: 34760757
+    SectionId: 84607436
+    Key: menu.input.rebind
+    Value: "\uBC84\uD2BC \uB204\uB974\uAE30"
+  - EntryId: 44010618
+    SectionId: 84607436
+    Key: menu.input.none
+    Value: "\uC5C6\uC74C"
+  - EntryId: 91370004
+    SectionId: 84607436
+    Key: menu.panel.loadgame
+    Value: "\uAC8C\uC784 \uBD88\uB7EC\uC624\uAE30"
+  - EntryId: 66529808
+    SectionId: 84607436
+    Key: menu.panel.keybindings
+    Value: "\uD0A4 \uC124\uC815"
+  - EntryId: 73309676
+    SectionId: 84607436
+    Key: menu.panel.emptysaves
+    Value: "\uC800\uC7A5\uB41C \uAC8C\uC784\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+  - EntryId: 50945637
+    SectionId: 84607436
+    Key: menu.text.died
+    Value: "\uC0AC\uB9DD\uD588\uC2B5\uB2C8\uB2E4"
+  - EntryId: 61351216
+    SectionId: 59169988
+    Key: titles.putaway
+    Value: "\uB123\uAE30"
+  - EntryId: 36173073
+    SectionId: 59169988
+    Key: titles.take
+    Value: "\uAEBC\uB0B4\uAE30"
+  - EntryId: 46183422
+    SectionId: 59169988
+    Key: titles.rotate
+    Value: "\uD68C\uC804"
+  - EntryId: 17498606
+    SectionId: 59169988
+    Key: titles.loot
+    Value: "\uD68D\uB4DD \uC644\uB8CC"
+  - EntryId: 61429632
+    SectionId: 59169988
+    Key: titles.inserttape
+    Value: "\uD14C\uC774\uD504 \uB123\uAE30"
+  - EntryId: 72865766
+    SectionId: 59169988
+    Key: titles.poweron
+    Value: "\uC804\uC6D0 \uCF1C\uAE30"
+  - EntryId: 52157472
+    SectionId: 59169988
+    Key: titles.poweroff
+    Value: "\uC804\uC6D0 \uB044\uAE30"
+  - EntryId: 80313860
+    SectionId: 59169988
+    Key: titles.ejecttape
+    Value: "\uD14C\uC774\uD504 \uAEBC\uB0B4\uAE30"
+  - EntryId: 66958135
+    SectionId: 59169988
+    Key: titles.play
+    Value: "\uC7AC\uC0DD"
+  - EntryId: 61574451
+    SectionId: 59169988
+    Key: titles.pause
+    Value: "\uC77C\uC2DC \uC815\uC9C0"
+  - EntryId: 30659339
+    SectionId: 59169988
+    Key: titles.rewind
+    Value: "\uB418\uAC10\uAE30"
+  - EntryId: 66300923
+    SectionId: 59169988
+    Key: titles.fastforward
+    Value: "\uBE68\uB9AC \uAC10\uAE30"
+  - EntryId: 84772315
+    SectionId: 59169988
+    Key: titles.lockpicks
+    Value: "\uC790\uBB3C\uC1E0 \uB530\uAC1C: [count]"
+  - EntryId: 94577514
+    SectionId: 69673941
+    Key: interactions.use
+    Value: "\uC0AC\uC6A9\uD558\uAE30"
+  - EntryId: 61453117
+    SectionId: 69673941
+    Key: interactions.use.hold
+    Value: "\uD640\uB4DC\uD558\uC5EC \uC0AC\uC6A9"
+  - EntryId: 10293257
+    SectionId: 69673941
+    Key: interactions.grab
+    Value: "\uC7A1\uAE30"
+  - EntryId: 95058002
+    SectionId: 69673941
+    Key: interactions.examine
+    Value: "\uC870\uC0AC"
+  - EntryId: 92590947
+    SectionId: 69673941
+    Key: interactions.travel
+    Value: "\uC774\uB3D9"
+  - EntryId: 95255333
+    SectionId: 69673941
+    Key: interactions.configure
+    Value: "\uD655\uC778\uD558\uAE30"
+  - EntryId: 82492818
+    SectionId: 69673941
+    Key: interactions.insertfuse
+    Value: "\uD4E8\uC988 \uB123\uAE30"
+  - EntryId: 28681382
+    SectionId: 69673941
+    Key: interactions.code
+    Value: "\uCF54\uB4DC \uC785\uB825"
+  - EntryId: 70511385
+    SectionId: 69673941
+    Key: interactions.card
+    Value: "\uD0A4\uCE74\uB4DC \uC0AC\uC6A9"
+  - EntryId: 48925815
+    SectionId: 69673941
+    Key: interactions.switch
+    Value: "\uC2A4\uC704\uCE58"
+  - EntryId: 19195279
+    SectionId: 69673941
+    Key: interactions.switchon
+    Value: "\uCF1C\uAE30"
+  - EntryId: 78764854
+    SectionId: 69673941
+    Key: interactions.switchoff
+    Value: "\uB044\uAE30"
+  - EntryId: 64575804
+    SectionId: 69673941
+    Key: interactions.poweron
+    Value: "\uC804\uC6D0 \uCF1C\uAE30"
+  - EntryId: 86485218
+    SectionId: 69673941
+    Key: interactions.poweroff
+    Value: "\uC804\uC6D0 \uB044\uAE30"
+  - EntryId: 90802756
+    SectionId: 69673941
+    Key: interactions.rotate
+    Value: "\uD68C\uC804"
+  - EntryId: 69712916
+    SectionId: 69673941
+    Key: interactions.open
+    Value: "\uC5F4\uAE30"
+  - EntryId: 54189661
+    SectionId: 69673941
+    Key: interactions.close
+    Value: "\uB2EB\uAE30"
+  - EntryId: 53506186
+    SectionId: 69673941
+    Key: interactions.extinguish
+    Value: "\uB044\uAE30"
+  - EntryId: 67919224
+    SectionId: 11317371
+    Key: objects.door
+    Value: "\uBB38"
+  - EntryId: 42204335
+    SectionId: 11317371
+    Key: objects.drawer
+    Value: "\uC11C\uB78D"
+  - EntryId: 10559435
+    SectionId: 11317371
+    Key: objects.trunk
+    Value: "\uC218\uB0A9 \uC0C1\uC790"
+  - EntryId: 71847511
+    SectionId: 11317371
+    Key: objects.backpack
+    Value: "\uBC30\uB0AD"
+  - EntryId: 88094677
+    SectionId: 11317371
+    Key: objects.paper
+    Value: "\uC885\uC774"
+  - EntryId: 64633838
+    SectionId: 11317371
+    Key: objects.lamp
+    Value: "\uB7A8\uD504"
+  - EntryId: 11138211
+    SectionId: 11317371
+    Key: objects.locker
+    Value: "\uC0AC\uBB3C\uD568"
+  - EntryId: 59323032
+    SectionId: 11317371
+    Key: objects.bed
+    Value: "\uCE68\uB300"
+  - EntryId: 51851383
+    SectionId: 11317371
+    Key: objects.phone
+    Value: "\uC804\uD654\uAE30"
+  - EntryId: 94725535
+    SectionId: 78183135
+    Key: controls.name.exit
+    Value: "\uB098\uAC00\uAE30"
+  - EntryId: 62676786
+    SectionId: 78183135
+    Key: controls.name.close
+    Value: "\uB2EB\uAE30"
+  - EntryId: 34189899
+    SectionId: 78183135
+    Key: controls.name.move
+    Value: "\uC774\uB3D9"
+  - EntryId: 70552896
+    SectionId: 78183135
+    Key: controls.name.rotate
+    Value: "\uD68C\uC804"
+  - EntryId: 88288613
+    SectionId: 78183135
+    Key: controls.name.select
+    Value: "\uC120\uD0DD"
+  - EntryId: 58955362
+    SectionId: 78183135
+    Key: controls.name.zoom
+    Value: "\uD655\uB300/\uCD95\uC18C"
+  - EntryId: 90823624
+    SectionId: 78183135
+    Key: controls.name.drop
+    Value: "\uBC84\uB9AC\uAE30"
+  - EntryId: 68512386
+    SectionId: 78183135
+    Key: controls.name.throw
+    Value: "\uB358\uC9C0\uAE30"
+  - EntryId: 79525535
+    SectionId: 78183135
+    Key: controls.name.take
+    Value: "\uAEBC\uB0B4\uAE30"
+  - EntryId: 71771340
+    SectionId: 78183135
+    Key: controls.name.read
+    Value: "\uC77D\uAE30"
+  - EntryId: 55932111
+    SectionId: 78183135
+    Key: controls.name.putback
+    Value: "\uB418\uB3CC\uB824 \uB193\uAE30"
+  - EntryId: 95942159
+    SectionId: 78183135
+    Key: controls.name.back
+    Value: "\uB4A4\uB85C"
+  - EntryId: 10728042
+    SectionId: 51993595
+    Key: messages.objective.added
+    Value: "\uC0C8 \uBAA9\uD45C"
+  - EntryId: 20529774
+    SectionId: 51993595
+    Key: messages.objective.completed
+    Value: "\uBAA9\uD45C \uB2EC\uC131"
+  - EntryId: 18324474
+    SectionId: 91710314
+    Key: inventory.context.use
+    Value: "\uC0AC\uC6A9"
+  - EntryId: 72200280
+    SectionId: 91710314
+    Key: inventory.context.examine
+    Value: "\uC870\uC0AC"
+  - EntryId: 29617865
+    SectionId: 91710314
+    Key: inventory.context.combine
+    Value: "\uC870\uD569"
+  - EntryId: 23266649
+    SectionId: 91710314
+    Key: inventory.context.shortcut
+    Value: "\uB2E8\uCD95\uD0A4"
+  - EntryId: 31139243
+    SectionId: 91710314
+    Key: inventory.context.drop
+    Value: "\uBC84\uB9AC\uAE30"
+  - EntryId: 41837702
+    SectionId: 91710314
+    Key: inventory.context.discard
+    Value: "\uD3D0\uAE30"
+  - EntryId: 35466172
+    SectionId: 91710314
+    Key: inventory.prompt.shortcut
+    Value: "\uB2E8\uCD95\uD0A4\uB97C \uC9C0\uC815\uD560 \uC544\uC774\uD15C\uC744
+      \uC120\uD0DD\uD55C \uB4A4 \uB2E8\uCD95\uD0A4\uB97C \uB204\uB974\uC138\uC694."
+  - EntryId: 85741619
+    SectionId: 91710314
+    Key: inventory.prompt.combine
+    Value: "\uD604\uC7AC \uC544\uC774\uD15C\uACFC \uC870\uD569\uD560 \uC544\uC774\uD15C\uC744
+      \uC120\uD0DD\uD558\uC138\uC694."
+  - EntryId: 35326416
+    SectionId: 70584943
+    Key: options.language
+    Value: "\uC5B8\uC5B4"
+  - EntryId: 36164037
+    SectionId: 70584943
+    Key: options.brightness
+    Value: "\uBC1D\uAE30"
+  - EntryId: 12736807
+    SectionId: 70584943
+    Key: options.camera.fov
+    Value: "\uCE74\uBA54\uB77C \uC2DC\uC57C\uAC01"
+  - EntryId: 39446919
+    SectionId: 70584943
+    Key: options.look.sensitivity
+    Value: "\uC2DC\uC810 \uAC10\uB3C4"
+  - EntryId: 93278971
+    SectionId: 70584943
+    Key: options.look.smoothing
+    Value: "\uC2DC\uC810 \uBD80\uB4DC\uB7EC\uC6C0"
+  - EntryId: 44422523
+    SectionId: 70584943
+    Key: options.smoothing.speed
+    Value: "\uBD80\uB4DC\uB7EC\uC6C0 \uC18D\uB3C4"
+  - EntryId: 42806252
+    SectionId: 70584943
+    Key: options.show.fps
+    Value: "FPS \uD45C\uC2DC"
+  - EntryId: 16191567
+    SectionId: 70584943
+    Key: options.display
+    Value: "\uB514\uC2A4\uD50C\uB808\uC774"
+  - EntryId: 72339037
+    SectionId: 70584943
+    Key: options.display.mode
+    Value: "\uB514\uC2A4\uD50C\uB808\uC774 \uBAA8\uB4DC"
+  - EntryId: 32918443
+    SectionId: 70584943
+    Key: options.screen.res
+    Value: "\uD654\uBA74 \uD574\uC0C1\uB3C4"
+  - EntryId: 10092527
+    SectionId: 70584943
+    Key: options.frame.rate
+    Value: "\uD504\uB808\uC784 \uB808\uC774\uD2B8"
+  - EntryId: 67230680
+    SectionId: 70584943
+    Key: options.vsync
+    Value: "\uC218\uC9C1 \uB3D9\uAE30\uD654"
+  - EntryId: 34415215
+    SectionId: 70584943
+    Key: options.render.scale
+    Value: "\uB80C\uB354 \uC2A4\uCF00\uC77C"
+  - EntryId: 26280178
+    SectionId: 70584943
+    Key: options.fsr
+    Value: "FSR \uC120\uBA85\uB3C4"
+  - EntryId: 82063294
+    SectionId: 70584943
+    Key: options.antialiasing
+    Value: "\uC548\uD2F0\uC568\uB9AC\uC5B4\uC2F1"
+  - EntryId: 27231692
+    SectionId: 70584943
+    Key: options.antialiasing.quality
+    Value: "\uC548\uD2F0\uC568\uB9AC\uC5B4\uC2F1 \uD488\uC9C8"
+  - EntryId: 63942947
+    SectionId: 70584943
+    Key: options.anisotropic
+    Value: "\uC774\uBC29\uC131 \uD544\uD130\uB9C1"
+  - EntryId: 33876895
+    SectionId: 70584943
+    Key: options.texture.quality
+    Value: "\uD14D\uC2A4\uCC98 \uD488\uC9C8"
+  - EntryId: 24740572
+    SectionId: 70584943
+    Key: options.shadow.distance
+    Value: "\uADF8\uB9BC\uC790 \uAC70\uB9AC"
+  - EntryId: 78091521
+    SectionId: 70584943
+    Key: options.bloom
+    Value: "\uBE14\uB8F8"
+  - EntryId: 51192724
+    SectionId: 70584943
+    Key: options.vignette
+    Value: "\uBE44\uB124\uD2B8"
+  - EntryId: 26771590
+    SectionId: 70584943
+    Key: options.film.grain
+    Value: "\uD544\uB984 \uADF8\uB808\uC778"
+  - EntryId: 58595067
+    SectionId: 70584943
+    Key: options.chromatic
+    Value: "\uC0C9\uC218\uCC28"
+  - EntryId: 16363080
+    SectionId: 70584943
+    Key: options.audio.general
+    Value: "\uC804\uCCB4 \uBCFC\uB968"
+  - EntryId: 15022705
+    SectionId: 70584943
+    Key: options.audio.music
+    Value: "\uC74C\uC545 \uBCFC\uB968"
+  - EntryId: 18788252
+    SectionId: 70584943
+    Key: options.audio.effect
+    Value: "\uD6A8\uACFC\uC74C \uBCFC\uB968"
+  - EntryId: 75698164
+    SectionId: 70584943
+    Key: options.separator.video
+    Value: "\uBE44\uB514\uC624 \uC124\uC815"
+  - EntryId: 62116141
+    SectionId: 70584943
+    Key: options.separator.pp
+    Value: "\uD6C4\uCC98\uB9AC"
+  - EntryId: 79478115
+    SectionId: 56290060
+    Key: Language.English
+    Value: English
+  - EntryId: 20181900
+    SectionId: 56290060
+    Key: Language.Korean
+    Value: "\uD55C\uAD6D\uC5B4"
+  - EntryId: 37917890
+    SectionId: 56290060
+    Key: Language.Japanese
+    Value: "\u65E5\u672C\u8A9E"
+  - EntryId: 71544526
+    SectionId: 56290060
+    Key: Language.SimplifiedChinese
+    Value: "\u7B80\u4F53\u4E2D\u6587"
+  - EntryId: 92305548
+    SectionId: 56290060
+    Key: Language.Portuguese
+    Value: "Portugu\xEAs"
+  - EntryId: 97536662
+    SectionId: 56290060
+    Key: Language.Spanish
+    Value: "Espa\xF1ol"
+  - EntryId: 91423097
+    SectionId: 56290060
+    Key: Language.Russian
+    Value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"

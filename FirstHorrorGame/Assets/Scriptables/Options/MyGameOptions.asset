@@ -390,3 +390,13 @@ MonoBehaviour:
           NormalText: 
         - GlocText: Language.Korean
           NormalText: 
+        - GlocText: Language.Japanese
+          NormalText: 
+        - GlocText: Language.SimplifiedChinese
+          NormalText: 
+        - GlocText: Language.Portuguese
+          NormalText: 
+        - GlocText: Language.Spanish
+          NormalText: 
+        - GlocText: Language.Russian
+          NormalText: 

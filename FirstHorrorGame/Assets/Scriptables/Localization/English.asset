@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e99433e1eef4a964d98eb541d664ab70, type: 3}
-  m_Name: (Language) English
+  m_Name: English
   m_EditorClassIdentifier: 
   LanguageName: English
   Strings:
@@ -41,7 +41,7 @@ MonoBehaviour:
   - EntryId: 38887963
     SectionId: 82386491
     Key: Subtitle.dropBackPack.01
-    Value: 
+    Value: Let me put my bag down first.
   - EntryId: 83938182
     SectionId: 82386491
     Key: Subtitle.entering.03
@@ -49,119 +49,120 @@ MonoBehaviour:
   - EntryId: 32038591
     SectionId: 82386491
     Key: Subtitle.Telephone.Scene1.1
-    Value: 
+    Value: A phone like this...
   - EntryId: 94490215
     SectionId: 82386491
     Key: Subtitle.Telephone.Scene1.2
-    Value: 
+    Value: Was this always in my house...?
   - EntryId: 90251430
     SectionId: 82386491
     Key: Subtitle.Telephone.Scene1.3
-    Value: 
+    Value: I'm too tired to worry about it.
   - EntryId: 91861710
     SectionId: 82386491
     Key: Subtitle.goToilet.01
-    Value: 
+    Value: I suddenly need to take a dump.
   - EntryId: 85123224
     SectionId: 82386491
     Key: Subtitle.goToSleep.01
-    Value: 
+    Value: Phew, time for bed?
   - EntryId: 71467175
     SectionId: 82386491
     Key: Subtitle.goToSleep.Bell.01
-    Value: 
+    Value: That scared me!!
   - EntryId: 92129515
     SectionId: 82386491
     Key: Subtitle.goToSleep.Bell.02
-    Value: 
+    Value: Who could that be at this hour?
   - EntryId: 96426880
     SectionId: 82386491
     Key: Subtitle.memo.01
-    Value: 
+    Value: ........
   - EntryId: 38555188
     SectionId: 82386491
     Key: Subtitle.memo.02
-    Value: 
+    Value: Someone's just messing with me, right?
   - EntryId: 18922430
     SectionId: 82386491
     Key: Subtitle.goToSleep.Bell.03
-    Value: 
+    Value: You're not getting away with it this time!!
   - EntryId: 80218925
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.1.1
-    Value: 
+    Value: .................
   - EntryId: 97221779
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.1.2
-    Value: 
+    Value: What the hell...?
   - EntryId: 50745910
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.1.3
-    Value: 
+    Value: I must just be really tired...
   - EntryId: 45707549
     SectionId: 82386491
     Key: Subtitle.hallway.2.01
-    Value: 
+    Value: Wha... What?! How did this happen?
   - EntryId: 95546813
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.2.1
-    Value: 
+    Value: Look behind you.
   - EntryId: 54326865
     SectionId: 82386491
     Key: Subtitle.returnhome.1.1
-    Value: 
+    Value: What the hell just happened?
   - EntryId: 35895386
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.4.1
-    Value: 
+    Value: Bedroom.
   - EntryId: 56045720
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.after.4.1
-    Value: 
+    Value: I'd better grab a flashlight, just in case.
   - EntryId: 39312843
     SectionId: 82386491
     Key: Subtitle.findFlashlight
-    Value: 
+    Value: I'm finding a flashlight before I go in.
   - EntryId: 94967976
     SectionId: 82386491
     Key: Subtitle.hallway2.phone
-    Value: 
+    Value: ...Open it.
   - EntryId: 73121576
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk1
-    Value: 
+    Value: 'Stranger : You startled me.'
   - EntryId: 62985988
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk2
-    Value: 
+    Value: 'Stranger : There wasn''t a door here until you showed up.'
   - EntryId: 12788384
     SectionId: 82386491
     Key: Subtitle.hallway2.npc.talk3
-    Value: 
+    Value: "Stranger : If you go through the door\u2026 you should be able to get
+      back."
   - EntryId: 60024599
     SectionId: 82386491
     Key: Subtitle.home.npc.talk1
-    Value: 
+    Value: 'Stranger : Now you just need to open the last door.'
   - EntryId: 80955542
     SectionId: 82386491
     Key: Subtitle.home.npc.talk2
-    Value: 
+    Value: 'Stranger : ................(Says nothing)'
   - EntryId: 92999695
     SectionId: 82386491
     Key: Subtitle.Telephone.answer.7.1
-    Value: 
+    Value: ...........Don't open the door.
   - EntryId: 65509164
     SectionId: 82386491
     Key: Subtitle.npc.last.talk1
-    Value: 
+    Value: This is the right door.
   - EntryId: 95681721
     SectionId: 82386491
     Key: Subtitle.Telephone.last.1
-    Value: 
+    Value: Whatever you do, don't open the door.
   - EntryId: 67946711
     SectionId: 82386491
     Key: Subtitle.player.last
-    Value: 
+    Value: Wha... What is it...??
   - EntryId: 37567559
     SectionId: 60438809
     Key: Objectives.eneteringHome.title
@@ -177,11 +178,11 @@ MonoBehaviour:
   - EntryId: 80289787
     SectionId: 60438809
     Key: Objectives.dropBackPack.title
-    Value: 
+    Value: Put your bag down.
   - EntryId: 79584244
     SectionId: 60438809
     Key: Objectives.dropBackPack.sub
-    Value: 
+    Value: Put your bag down on the table.
   - EntryId: 94821550
     SectionId: 60438809
     Key: Objectives.eatSomething.title
@@ -193,127 +194,129 @@ MonoBehaviour:
   - EntryId: 39093841
     SectionId: 60438809
     Key: Objectives.gotoToilet.title
-    Value: 
+    Value: Go to the bathroom.
   - EntryId: 84599626
     SectionId: 60438809
     Key: Objectives.gotoToilet.sub
-    Value: 
+    Value: Use the toilet.
   - EntryId: 82641692
     SectionId: 60438809
     Key: Objectives.goToSleep.title
-    Value: 
+    Value: Go to your room and get some sleep.
   - EntryId: 43909112
     SectionId: 60438809
     Key: Objectives.goToSleep.sub1
-    Value: 
+    Value: Lie down on the bed.
   - EntryId: 63615694
     SectionId: 60438809
     Key: Objectives.examineHallway.title
-    Value: 
+    Value: Check the hallway.
   - EntryId: 35119893
     SectionId: 60438809
     Key: Objectives.examineHallway.sub01
-    Value: 
+    Value: Answer the phone at the end of the hallway.
   - EntryId: 12195154
     SectionId: 60438809
     Key: Objectives.examineHallway.sub02
-    Value: 
+    Value: Check the phone.
   - EntryId: 31214226
     SectionId: 60438809
     Key: Objectives.findFlashlight.title
-    Value: 
+    Value: Find a flashlight.
   - EntryId: 50800611
     SectionId: 60438809
     Key: Objectives.findFlashlight.sub
-    Value: 
+    Value: Get the flashlight from the drawer in the living room.
   - EntryId: 60500665
     SectionId: 60438809
     Key: Objectives.flahLightHint.title
-    Value: 
+    Value: Using the Flashlight
   - EntryId: 12115340
     SectionId: 60438809
     Key: Objectives.flahLightHint.sub
-    Value: 
+    Value: Press '1' to turn the flashlight on or off.
   - EntryId: 26934183
     SectionId: 80280926
     Key: etc.door.gohome
-    Value: 
+    Value: 'Let''s get home quickly.
+
+      My place is on the third floor.'
   - EntryId: 81206071
     SectionId: 80280926
     Key: etc.door.locked
-    Value: 
+    Value: This door's locked.
   - EntryId: 65837807
     SectionId: 80280926
     Key: etc.drop.backpack
-    Value: 
+    Value: Put Bag Down
   - EntryId: 65778507
     SectionId: 80280926
     Key: etc.eat
-    Value: 
+    Value: Eat
   - EntryId: 37897526
     SectionId: 80280926
     Key: etc.hamburger
-    Value: 
+    Value: Burger
   - EntryId: 73583786
     SectionId: 80280926
     Key: etc.hotdog
-    Value: 
+    Value: Hot Dog
   - EntryId: 44874314
     SectionId: 80280926
     Key: etc.soda.water
-    Value: 
+    Value: Sparkling Water
   - EntryId: 21280454
     SectionId: 80280926
     Key: etc.soda.can
-    Value: 
+    Value: Canned Drink
   - EntryId: 71447844
     SectionId: 80280926
     Key: etc.soda.bottle
-    Value: 
+    Value: Bottled Drink
   - EntryId: 76804839
     SectionId: 80280926
     Key: etc.toilet
-    Value: 
+    Value: Toilet
   - EntryId: 90933987
     SectionId: 80280926
     Key: etc.paper.phone
-    Value: 
+    Value: Phone.
   - EntryId: 47154010
     SectionId: 80280926
     Key: etc.interact.phone.answer
-    Value: 
+    Value: Answer Phone
   - EntryId: 23980424
     SectionId: 80280926
     Key: etc.npc.talk
-    Value: 
+    Value: Talk
   - EntryId: 44283929
     SectionId: 80280926
     Key: etc.npc.title
-    Value: 
+    Value: Stranger
   - EntryId: 52856333
     SectionId: 80280926
     Key: etc.key.title
-    Value: 
+    Value: Key
   - EntryId: 59766993
     SectionId: 80280926
     Key: etc.key.desc
-    Value: 
+    Value: Just an ordinary key.
   - EntryId: 87333916
     SectionId: 80280926
     Key: etc.key.get
-    Value: 
+    Value: Take
   - EntryId: 60397081
     SectionId: 80280926
     Key: etc.lamp.title
-    Value: 
+    Value: Light
   - EntryId: 71576993
     SectionId: 64734669
     Key: openable.fridge
-    Value: 
+    Value: Fridge
   - EntryId: 20363014
     SectionId: 64734669
     Key: openable.oven
-    Value: 
+    Value: Oven
   - EntryId: 15172027
     SectionId: 40893112
     Key: input.action.movement.up
@@ -889,4 +892,24 @@ MonoBehaviour:
   - EntryId: 20181900
     SectionId: 56290060
     Key: Language.Korean
-    Value: Korean
+    Value: "\uD55C\uAD6D\uC5B4"
+  - EntryId: 37917890
+    SectionId: 56290060
+    Key: Language.Japanese
+    Value: "\u65E5\u672C\u8A9E"
+  - EntryId: 71544526
+    SectionId: 56290060
+    Key: Language.SimplifiedChinese
+    Value: "\u7B80\u4F53\u4E2D\u6587"
+  - EntryId: 92305548
+    SectionId: 56290060
+    Key: Language.Portuguese
+    Value: "Portugu\xEAs"
+  - EntryId: 97536662
+    SectionId: 56290060
+    Key: Language.Spanish
+    Value: "Espa\xF1ol"
+  - EntryId: 91423097
+    SectionId: 56290060
+    Key: Language.Russian
+    Value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"

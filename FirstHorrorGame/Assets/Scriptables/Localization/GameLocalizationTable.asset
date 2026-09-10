@@ -15,6 +15,11 @@ MonoBehaviour:
   Languages:
   - {fileID: 11400000, guid: 19feb369ac522004699427d321f002d5, type: 2}
   - {fileID: 11400000, guid: e0d7bdd84e64a9c468d7dc22b8c11288, type: 2}
+  - {fileID: 11400000, guid: 490aa9c309a39eb41bd9cb1eb8b63207, type: 2}
+  - {fileID: 11400000, guid: 3a07c20909db78d468b8fd592846f07d, type: 2}
+  - {fileID: 11400000, guid: 4648e2e8e47db6c4abfbd2b6ec164ac0, type: 2}
+  - {fileID: 11400000, guid: 66e082c4636770249aaf1e77cb229a0f, type: 2}
+  - {fileID: 11400000, guid: a4a3a6925b998024f91fd7aa2e69a700, type: 2}
   TableSheet:
   - Id: 82386491
     SectionName: Subtitle
@@ -496,3 +501,13 @@ MonoBehaviour:
       Key: English
     - Id: 20181900
       Key: Korean
+    - Id: 37917890
+      Key: Japanese
+    - Id: 71544526
+      Key: Simplified Chinese
+    - Id: 92305548
+      Key: Portuguese
+    - Id: 97536662
+      Key: Spanish
+    - Id: 91423097
+      Key: Russian

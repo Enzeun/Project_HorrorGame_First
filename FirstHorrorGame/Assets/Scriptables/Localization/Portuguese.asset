@@ -1,0 +1,915 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99433e1eef4a964d98eb541d664ab70, type: 3}
+  m_Name: Portuguese
+  m_EditorClassIdentifier: Assembly-CSharp::UHFPS.Scriptable.LocalizationLanguage
+  LanguageName: Portuguese
+  Strings:
+  - EntryId: 47251901
+    SectionId: 82386491
+    Key: Subtitle.start.01
+    Value: "Que cansa\xE7o... Preciso descansar um pouco."
+  - EntryId: 90593698
+    SectionId: 82386491
+    Key: Subtitle.start.02
+    Value: Vamos entrar logo em casa.
+  - EntryId: 54843612
+    SectionId: 82386491
+    Key: Subtitle.hallway.01
+    Value: "Aqui \xE9 a minha casa."
+  - EntryId: 31975553
+    SectionId: 82386491
+    Key: Subtitle.entering.0.turnlight
+    Value: Primeiro, vou acender as luzes.
+  - EntryId: 79649948
+    SectionId: 82386491
+    Key: Subtitle.entering.01
+    Value: Ufa... Finalmente em casa.
+  - EntryId: 35771164
+    SectionId: 82386491
+    Key: Subtitle.entering.02
+    Value: Agora posso descansar um pouco.
+  - EntryId: 38887963
+    SectionId: 82386491
+    Key: Subtitle.dropBackPack.01
+    Value: Primeiro, vou largar a bolsa.
+  - EntryId: 83938182
+    SectionId: 82386491
+    Key: Subtitle.entering.03
+    Value: "Estou com um pouco de fome... Ser\xE1 que como primeiro?"
+  - EntryId: 32038591
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.1
+    Value: Um telefone desses...
+  - EntryId: 94490215
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.2
+    Value: Isso sempre esteve na minha casa...?
+  - EntryId: 90251430
+    SectionId: 82386491
+    Key: Subtitle.Telephone.Scene1.3
+    Value: "Estou cansado demais, melhor n\xE3o ligar pra isso."
+  - EntryId: 91861710
+    SectionId: 82386491
+    Key: Subtitle.goToilet.01
+    Value: "De repente, me deu vontade de fazer coc\xF4."
+  - EntryId: 85123224
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.01
+    Value: "Ufa... Ser\xE1 que j\xE1 vou dormir?"
+  - EntryId: 71467175
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.01
+    Value: Que susto!!
+  - EntryId: 92129515
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.02
+    Value: "Quem ser\xE1 a esta hora?"
+  - EntryId: 96426880
+    SectionId: 82386491
+    Key: Subtitle.memo.01
+    Value: ........
+  - EntryId: 38555188
+    SectionId: 82386491
+    Key: Subtitle.memo.02
+    Value: "Deve ser algu\xE9m fazendo uma pegadinha, n\xE9?"
+  - EntryId: 18922430
+    SectionId: 82386491
+    Key: Subtitle.goToSleep.Bell.03
+    Value: "Dessa vez voc\xEA n\xE3o escapa!!"
+  - EntryId: 80218925
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.1
+    Value: .................
+  - EntryId: 97221779
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.2
+    Value: "Mas que diabos \xE9 isso...?"
+  - EntryId: 50745910
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.1.3
+    Value: Deve ser porque estou cansado demais...
+  - EntryId: 45707549
+    SectionId: 82386491
+    Key: Subtitle.hallway.2.01
+    Value: "O... o qu\xEA?! Como isso aconteceu?"
+  - EntryId: 95546813
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.2.1
+    Value: "Olhe para tr\xE1s."
+  - EntryId: 54326865
+    SectionId: 82386491
+    Key: Subtitle.returnhome.1.1
+    Value: Mas o que diabos aconteceu?
+  - EntryId: 35895386
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.4.1
+    Value: Quarto.
+  - EntryId: 56045720
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.after.4.1
+    Value: "N\xE3o sei o que pode acontecer, melhor levar uma lanterna."
+  - EntryId: 39312843
+    SectionId: 82386491
+    Key: Subtitle.findFlashlight
+    Value: Vou procurar uma lanterna antes de entrar.
+  - EntryId: 94967976
+    SectionId: 82386491
+    Key: Subtitle.hallway2.phone
+    Value: ...Abra.
+  - EntryId: 73121576
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk1
+    Value: "Desconhecido: Voc\xEA me assustou."
+  - EntryId: 62985988
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk2
+    Value: "Desconhecido: N\xE3o havia nenhuma porta aqui at\xE9 voc\xEA aparecer."
+  - EntryId: 12788384
+    SectionId: 82386491
+    Key: Subtitle.hallway2.npc.talk3
+    Value: "Desconhecido: Se passar pela porta\u2026 deve conseguir voltar."
+  - EntryId: 60024599
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk1
+    Value: "Desconhecido: Agora s\xF3 falta abrir a \xFAltima porta."
+  - EntryId: 80955542
+    SectionId: 82386491
+    Key: Subtitle.home.npc.talk2
+    Value: "Desconhecido: ................(n\xE3o diz nada)"
+  - EntryId: 92999695
+    SectionId: 82386491
+    Key: Subtitle.Telephone.answer.7.1
+    Value: "...........N\xE3o abra a porta."
+  - EntryId: 65509164
+    SectionId: 82386491
+    Key: Subtitle.npc.last.talk1
+    Value: "\xC9 esta porta."
+  - EntryId: 95681721
+    SectionId: 82386491
+    Key: Subtitle.Telephone.last.1
+    Value: "N\xE3o abra a porta de jeito nenhum."
+  - EntryId: 67946711
+    SectionId: 82386491
+    Key: Subtitle.player.last
+    Value: "O... o que \xE9...??"
+  - EntryId: 37567559
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.title
+    Value: Entrar em casa
+  - EntryId: 69920593
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub1
+    Value: Encontrar sua casa e entrar
+  - EntryId: 89648811
+    SectionId: 60438809
+    Key: Objectives.eneteringHome.sub.turnLight
+    Value: Acender as luzes
+  - EntryId: 80289787
+    SectionId: 60438809
+    Key: Objectives.dropBackPack.title
+    Value: Deixar a bolsa
+  - EntryId: 79584244
+    SectionId: 60438809
+    Key: Objectives.dropBackPack.sub
+    Value: Deixar a bolsa sobre a mesa
+  - EntryId: 94821550
+    SectionId: 60438809
+    Key: Objectives.eatSomething.title
+    Value: Comer
+  - EntryId: 68246820
+    SectionId: 60438809
+    Key: Objectives.eatSomthing.sub
+    Value: Comer a comida
+  - EntryId: 39093841
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.title
+    Value: Ir ao banheiro
+  - EntryId: 84599626
+    SectionId: 60438809
+    Key: Objectives.gotoToilet.sub
+    Value: "Usar o vaso sanit\xE1rio"
+  - EntryId: 82641692
+    SectionId: 60438809
+    Key: Objectives.goToSleep.title
+    Value: Ir para o quarto e dormir
+  - EntryId: 43909112
+    SectionId: 60438809
+    Key: Objectives.goToSleep.sub1
+    Value: Deitar na cama
+  - EntryId: 63615694
+    SectionId: 60438809
+    Key: Objectives.examineHallway.title
+    Value: Investigar o corredor
+  - EntryId: 35119893
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub01
+    Value: Atender ao telefone no fim do corredor
+  - EntryId: 12195154
+    SectionId: 60438809
+    Key: Objectives.examineHallway.sub02
+    Value: Verificar o telefone
+  - EntryId: 31214226
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.title
+    Value: Procurar uma lanterna
+  - EntryId: 50800611
+    SectionId: 60438809
+    Key: Objectives.findFlashlight.sub
+    Value: Pegar a lanterna na gaveta da sala
+  - EntryId: 60500665
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.title
+    Value: Como usar a lanterna
+  - EntryId: 12115340
+    SectionId: 60438809
+    Key: Objectives.flahLightHint.sub
+    Value: Pressione '1' para ligar ou desligar a lanterna.
+  - EntryId: 26934183
+    SectionId: 80280926
+    Key: etc.door.gohome
+    Value: 'Vamos voltar logo pra casa.
+
+      Moro no terceiro andar.'
+  - EntryId: 81206071
+    SectionId: 80280926
+    Key: etc.door.locked
+    Value: "Esta porta est\xE1 trancada."
+  - EntryId: 65837807
+    SectionId: 80280926
+    Key: etc.drop.backpack
+    Value: Deixar a bolsa
+  - EntryId: 65778507
+    SectionId: 80280926
+    Key: etc.eat
+    Value: Comer
+  - EntryId: 37897526
+    SectionId: 80280926
+    Key: etc.hamburger
+    Value: "Hamb\xFArguer"
+  - EntryId: 73583786
+    SectionId: 80280926
+    Key: etc.hotdog
+    Value: Cachorro-quente
+  - EntryId: 44874314
+    SectionId: 80280926
+    Key: etc.soda.water
+    Value: "\xC1gua com g\xE1s"
+  - EntryId: 21280454
+    SectionId: 80280926
+    Key: etc.soda.can
+    Value: Bebida em lata
+  - EntryId: 71447844
+    SectionId: 80280926
+    Key: etc.soda.bottle
+    Value: Bebida em garrafa
+  - EntryId: 76804839
+    SectionId: 80280926
+    Key: etc.toilet
+    Value: "Vaso sanit\xE1rio"
+  - EntryId: 90933987
+    SectionId: 80280926
+    Key: etc.paper.phone
+    Value: Telefone.
+  - EntryId: 47154010
+    SectionId: 80280926
+    Key: etc.interact.phone.answer
+    Value: Atender ao telefone
+  - EntryId: 23980424
+    SectionId: 80280926
+    Key: etc.npc.talk
+    Value: Conversar
+  - EntryId: 44283929
+    SectionId: 80280926
+    Key: etc.npc.title
+    Value: Desconhecido
+  - EntryId: 52856333
+    SectionId: 80280926
+    Key: etc.key.title
+    Value: Chave
+  - EntryId: 59766993
+    SectionId: 80280926
+    Key: etc.key.desc
+    Value: "\xC9 uma chave comum."
+  - EntryId: 87333916
+    SectionId: 80280926
+    Key: etc.key.get
+    Value: Pegar
+  - EntryId: 60397081
+    SectionId: 80280926
+    Key: etc.lamp.title
+    Value: Luz
+  - EntryId: 71576993
+    SectionId: 64734669
+    Key: openable.fridge
+    Value: Geladeira
+  - EntryId: 20363014
+    SectionId: 64734669
+    Key: openable.oven
+    Value: Forno
+  - EntryId: 15172027
+    SectionId: 40893112
+    Key: input.action.movement.up
+    Value: Para frente
+  - EntryId: 48836686
+    SectionId: 40893112
+    Key: input.action.movement.down
+    Value: "Para tr\xE1s"
+  - EntryId: 42985932
+    SectionId: 40893112
+    Key: input.action.movement.left
+    Value: Esquerda
+  - EntryId: 89388492
+    SectionId: 40893112
+    Key: input.action.movement.right
+    Value: Direita
+  - EntryId: 91879250
+    SectionId: 40893112
+    Key: input.action.sprint
+    Value: Correr
+  - EntryId: 72077938
+    SectionId: 40893112
+    Key: input.action.jump
+    Value: Pular
+  - EntryId: 26866831
+    SectionId: 40893112
+    Key: input.action.crouch
+    Value: Agachar
+  - EntryId: 71917174
+    SectionId: 40893112
+    Key: input.action.use
+    Value: Usar
+  - EntryId: 99249963
+    SectionId: 40893112
+    Key: input.action.examine
+    Value: Examinar
+  - EntryId: 13648412
+    SectionId: 40893112
+    Key: input.action.fire
+    Value: Atirar
+  - EntryId: 85843821
+    SectionId: 40893112
+    Key: input.action.reload
+    Value: Recarregar
+  - EntryId: 81674536
+    SectionId: 40893112
+    Key: input.action.ads
+    Value: Mirar
+  - EntryId: 31740936
+    SectionId: 40893112
+    Key: input.action.equip1
+    Value: Equipamento 1
+  - EntryId: 59043625
+    SectionId: 40893112
+    Key: input.action.equip2
+    Value: Equipamento 2
+  - EntryId: 40362316
+    SectionId: 40893112
+    Key: input.action.equip3
+    Value: Equipamento 3
+  - EntryId: 81721455
+    SectionId: 40893112
+    Key: input.action.equip4
+    Value: Equipamento 4
+  - EntryId: 81699452
+    SectionId: 40893112
+    Key: input.action.unequip
+    Value: Desequipar
+  - EntryId: 74840067
+    SectionId: 40893112
+    Key: input.action.lean.positive
+    Value: Inclinar para a direita
+  - EntryId: 54335613
+    SectionId: 40893112
+    Key: input.action.lean.negative
+    Value: Inclinar para a esquerda
+  - EntryId: 72003672
+    SectionId: 40893112
+    Key: input.action.flashlight
+    Value: Lanterna
+  - EntryId: 12834590
+    SectionId: 84607436
+    Key: menu.title.loadgame
+    Value: Carregar jogo
+  - EntryId: 19909919
+    SectionId: 84607436
+    Key: menu.title.options
+    Value: "Op\xE7\xF5es"
+  - EntryId: 38947490
+    SectionId: 84607436
+    Key: menu.title.pause
+    Value: Menu de pausa
+  - EntryId: 21255646
+    SectionId: 84607436
+    Key: menu.button.resume
+    Value: Retomar
+  - EntryId: 67914274
+    SectionId: 84607436
+    Key: menu.button.continue
+    Value: Continuar
+  - EntryId: 79667033
+    SectionId: 84607436
+    Key: menu.button.newgame
+    Value: Novo jogo
+  - EntryId: 18226444
+    SectionId: 84607436
+    Key: menu.button.loadgame
+    Value: Carregar jogo
+  - EntryId: 55566430
+    SectionId: 84607436
+    Key: menu.button.savegame
+    Value: Salvar jogo
+  - EntryId: 31415227
+    SectionId: 84607436
+    Key: menu.button.options
+    Value: "Op\xE7\xF5es"
+  - EntryId: 51656323
+    SectionId: 84607436
+    Key: menu.button.quit
+    Value: Sair
+  - EntryId: 86796110
+    SectionId: 84607436
+    Key: menu.button.restart
+    Value: Reiniciar
+  - EntryId: 24352737
+    SectionId: 84607436
+    Key: menu.button.mainmenu
+    Value: Menu principal
+  - EntryId: 25663424
+    SectionId: 84607436
+    Key: menu.button.back
+    Value: Voltar
+  - EntryId: 33340621
+    SectionId: 84607436
+    Key: menu.button.load
+    Value: Carregar
+  - EntryId: 35886959
+    SectionId: 84607436
+    Key: menu.button.delete
+    Value: Excluir
+  - EntryId: 48769564
+    SectionId: 84607436
+    Key: menu.button.apply
+    Value: Aplicar
+  - EntryId: 99361921
+    SectionId: 84607436
+    Key: menu.button.reset
+    Value: Redefinir
+  - EntryId: 78931432
+    SectionId: 84607436
+    Key: menu.tooltip.continue
+    Value: Retomar seu progresso salvo
+  - EntryId: 91768521
+    SectionId: 84607436
+    Key: menu.tooltip.resume
+    Value: Continuar jogando
+  - EntryId: 85618282
+    SectionId: 84607436
+    Key: menu.tooltip.newgame
+    Value: Iniciar um novo jogo
+  - EntryId: 55974627
+    SectionId: 84607436
+    Key: menu.tooltip.loadgame
+    Value: Carregar um jogo salvo anteriormente
+  - EntryId: 21595021
+    SectionId: 84607436
+    Key: menu.tooltip.savegame
+    Value: Salvar seu progresso atual
+  - EntryId: 30213956
+    SectionId: 84607436
+    Key: menu.tooltip.options
+    Value: "Ajustar as configura\xE7\xF5es e prefer\xEAncias do jogo"
+  - EntryId: 33214590
+    SectionId: 84607436
+    Key: menu.tooltip.quit
+    Value: Sair do jogo
+  - EntryId: 78530917
+    SectionId: 84607436
+    Key: menu.tooltip.restart
+    Value: Iniciar o jogo a partir do salvamento mais recente
+  - EntryId: 81988112
+    SectionId: 84607436
+    Key: menu.tooltip.mainmenu
+    Value: Sair do jogo e ir para o menu principal
+  - EntryId: 34760757
+    SectionId: 84607436
+    Key: menu.input.rebind
+    Value: "Pressionar bot\xE3o"
+  - EntryId: 44010618
+    SectionId: 84607436
+    Key: menu.input.none
+    Value: Nenhum
+  - EntryId: 91370004
+    SectionId: 84607436
+    Key: menu.panel.loadgame
+    Value: Carregar jogo
+  - EntryId: 66529808
+    SectionId: 84607436
+    Key: menu.panel.keybindings
+    Value: "Configura\xE7\xE3o de teclas"
+  - EntryId: 73309676
+    SectionId: 84607436
+    Key: menu.panel.emptysaves
+    Value: "N\xE3o h\xE1 jogos salvos."
+  - EntryId: 50945637
+    SectionId: 84607436
+    Key: menu.text.died
+    Value: "Voc\xEA morreu"
+  - EntryId: 61351216
+    SectionId: 59169988
+    Key: titles.putaway
+    Value: Guardar
+  - EntryId: 36173073
+    SectionId: 59169988
+    Key: titles.take
+    Value: Retirar
+  - EntryId: 46183422
+    SectionId: 59169988
+    Key: titles.rotate
+    Value: Girar
+  - EntryId: 17498606
+    SectionId: 59169988
+    Key: titles.loot
+    Value: Coletado
+  - EntryId: 61429632
+    SectionId: 59169988
+    Key: titles.inserttape
+    Value: Inserir fita
+  - EntryId: 72865766
+    SectionId: 59169988
+    Key: titles.poweron
+    Value: Ligar
+  - EntryId: 52157472
+    SectionId: 59169988
+    Key: titles.poweroff
+    Value: Desligar
+  - EntryId: 80313860
+    SectionId: 59169988
+    Key: titles.ejecttape
+    Value: Ejetar fita
+  - EntryId: 66958135
+    SectionId: 59169988
+    Key: titles.play
+    Value: Reproduzir
+  - EntryId: 61574451
+    SectionId: 59169988
+    Key: titles.pause
+    Value: Pausar
+  - EntryId: 30659339
+    SectionId: 59169988
+    Key: titles.rewind
+    Value: Retroceder
+  - EntryId: 66300923
+    SectionId: 59169988
+    Key: titles.fastforward
+    Value: "Avan\xE7ar"
+  - EntryId: 84772315
+    SectionId: 59169988
+    Key: titles.lockpicks
+    Value: 'Gazuas: [count]'
+  - EntryId: 94577514
+    SectionId: 69673941
+    Key: interactions.use
+    Value: Usar
+  - EntryId: 61453117
+    SectionId: 69673941
+    Key: interactions.use.hold
+    Value: Segure para usar
+  - EntryId: 10293257
+    SectionId: 69673941
+    Key: interactions.grab
+    Value: Pegar
+  - EntryId: 95058002
+    SectionId: 69673941
+    Key: interactions.examine
+    Value: Examinar
+  - EntryId: 92590947
+    SectionId: 69673941
+    Key: interactions.travel
+    Value: Mover-se
+  - EntryId: 95255333
+    SectionId: 69673941
+    Key: interactions.configure
+    Value: Verificar
+  - EntryId: 82492818
+    SectionId: 69673941
+    Key: interactions.insertfuse
+    Value: "Inserir fus\xEDvel"
+  - EntryId: 28681382
+    SectionId: 69673941
+    Key: interactions.code
+    Value: "Digitar c\xF3digo"
+  - EntryId: 70511385
+    SectionId: 69673941
+    Key: interactions.card
+    Value: "Usar cart\xE3o-chave"
+  - EntryId: 48925815
+    SectionId: 69673941
+    Key: interactions.switch
+    Value: Interruptor
+  - EntryId: 19195279
+    SectionId: 69673941
+    Key: interactions.switchon
+    Value: Ligar
+  - EntryId: 78764854
+    SectionId: 69673941
+    Key: interactions.switchoff
+    Value: Desligar
+  - EntryId: 64575804
+    SectionId: 69673941
+    Key: interactions.poweron
+    Value: Ligar
+  - EntryId: 86485218
+    SectionId: 69673941
+    Key: interactions.poweroff
+    Value: Desligar
+  - EntryId: 90802756
+    SectionId: 69673941
+    Key: interactions.rotate
+    Value: Girar
+  - EntryId: 69712916
+    SectionId: 69673941
+    Key: interactions.open
+    Value: Abrir
+  - EntryId: 54189661
+    SectionId: 69673941
+    Key: interactions.close
+    Value: Fechar
+  - EntryId: 53506186
+    SectionId: 69673941
+    Key: interactions.extinguish
+    Value: Apagar
+  - EntryId: 67919224
+    SectionId: 11317371
+    Key: objects.door
+    Value: Porta
+  - EntryId: 42204335
+    SectionId: 11317371
+    Key: objects.drawer
+    Value: Gaveta
+  - EntryId: 10559435
+    SectionId: 11317371
+    Key: objects.trunk
+    Value: "Ba\xFA de armazenamento"
+  - EntryId: 71847511
+    SectionId: 11317371
+    Key: objects.backpack
+    Value: Mochila
+  - EntryId: 88094677
+    SectionId: 11317371
+    Key: objects.paper
+    Value: Papel
+  - EntryId: 64633838
+    SectionId: 11317371
+    Key: objects.lamp
+    Value: "L\xE2mpada"
+  - EntryId: 11138211
+    SectionId: 11317371
+    Key: objects.locker
+    Value: "Arm\xE1rio"
+  - EntryId: 59323032
+    SectionId: 11317371
+    Key: objects.bed
+    Value: Cama
+  - EntryId: 51851383
+    SectionId: 11317371
+    Key: objects.phone
+    Value: Telefone
+  - EntryId: 94725535
+    SectionId: 78183135
+    Key: controls.name.exit
+    Value: Sair
+  - EntryId: 62676786
+    SectionId: 78183135
+    Key: controls.name.close
+    Value: Fechar
+  - EntryId: 34189899
+    SectionId: 78183135
+    Key: controls.name.move
+    Value: Mover
+  - EntryId: 70552896
+    SectionId: 78183135
+    Key: controls.name.rotate
+    Value: Girar
+  - EntryId: 88288613
+    SectionId: 78183135
+    Key: controls.name.select
+    Value: Selecionar
+  - EntryId: 58955362
+    SectionId: 78183135
+    Key: controls.name.zoom
+    Value: Ampliar/Reduzir
+  - EntryId: 90823624
+    SectionId: 78183135
+    Key: controls.name.drop
+    Value: Soltar
+  - EntryId: 68512386
+    SectionId: 78183135
+    Key: controls.name.throw
+    Value: Arremessar
+  - EntryId: 79525535
+    SectionId: 78183135
+    Key: controls.name.take
+    Value: Retirar
+  - EntryId: 71771340
+    SectionId: 78183135
+    Key: controls.name.read
+    Value: Ler
+  - EntryId: 55932111
+    SectionId: 78183135
+    Key: controls.name.putback
+    Value: Colocar de volta
+  - EntryId: 95942159
+    SectionId: 78183135
+    Key: controls.name.back
+    Value: Voltar
+  - EntryId: 10728042
+    SectionId: 51993595
+    Key: messages.objective.added
+    Value: Novo objetivo
+  - EntryId: 20529774
+    SectionId: 51993595
+    Key: messages.objective.completed
+    Value: "Objetivo conclu\xEDdo"
+  - EntryId: 18324474
+    SectionId: 91710314
+    Key: inventory.context.use
+    Value: Usar
+  - EntryId: 72200280
+    SectionId: 91710314
+    Key: inventory.context.examine
+    Value: Examinar
+  - EntryId: 29617865
+    SectionId: 91710314
+    Key: inventory.context.combine
+    Value: Combinar
+  - EntryId: 23266649
+    SectionId: 91710314
+    Key: inventory.context.shortcut
+    Value: Atalho
+  - EntryId: 31139243
+    SectionId: 91710314
+    Key: inventory.context.drop
+    Value: Soltar
+  - EntryId: 41837702
+    SectionId: 91710314
+    Key: inventory.context.discard
+    Value: Descartar
+  - EntryId: 35466172
+    SectionId: 91710314
+    Key: inventory.prompt.shortcut
+    Value: Selecione o item para o qual deseja definir um atalho e pressione a tecla
+      de atalho.
+  - EntryId: 85741619
+    SectionId: 91710314
+    Key: inventory.prompt.combine
+    Value: Selecione o item que deseja combinar com o item atual.
+  - EntryId: 35326416
+    SectionId: 70584943
+    Key: options.language
+    Value: Idioma
+  - EntryId: 36164037
+    SectionId: 70584943
+    Key: options.brightness
+    Value: Brilho
+  - EntryId: 12736807
+    SectionId: 70584943
+    Key: options.camera.fov
+    Value: "Campo de vis\xE3o da c\xE2mera"
+  - EntryId: 39446919
+    SectionId: 70584943
+    Key: options.look.sensitivity
+    Value: "Sensibilidade da c\xE2mera"
+  - EntryId: 93278971
+    SectionId: 70584943
+    Key: options.look.smoothing
+    Value: "Suaviza\xE7\xE3o da c\xE2mera"
+  - EntryId: 44422523
+    SectionId: 70584943
+    Key: options.smoothing.speed
+    Value: "Velocidade de suaviza\xE7\xE3o"
+  - EntryId: 42806252
+    SectionId: 70584943
+    Key: options.show.fps
+    Value: Exibir FPS
+  - EntryId: 16191567
+    SectionId: 70584943
+    Key: options.display
+    Value: Tela
+  - EntryId: 72339037
+    SectionId: 70584943
+    Key: options.display.mode
+    Value: "Modo de exibi\xE7\xE3o"
+  - EntryId: 32918443
+    SectionId: 70584943
+    Key: options.screen.res
+    Value: "Resolu\xE7\xE3o da tela"
+  - EntryId: 10092527
+    SectionId: 70584943
+    Key: options.frame.rate
+    Value: Taxa de quadros
+  - EntryId: 67230680
+    SectionId: 70584943
+    Key: options.vsync
+    Value: "Sincroniza\xE7\xE3o vertical"
+  - EntryId: 34415215
+    SectionId: 70584943
+    Key: options.render.scale
+    Value: "Escala de renderiza\xE7\xE3o"
+  - EntryId: 26280178
+    SectionId: 70584943
+    Key: options.fsr
+    Value: Nitidez do FSR
+  - EntryId: 82063294
+    SectionId: 70584943
+    Key: options.antialiasing
+    Value: Antisserrilhamento
+  - EntryId: 27231692
+    SectionId: 70584943
+    Key: options.antialiasing.quality
+    Value: Qualidade do antisserrilhamento
+  - EntryId: 63942947
+    SectionId: 70584943
+    Key: options.anisotropic
+    Value: "Filtragem anisotr\xF3pica"
+  - EntryId: 33876895
+    SectionId: 70584943
+    Key: options.texture.quality
+    Value: Qualidade das texturas
+  - EntryId: 24740572
+    SectionId: 70584943
+    Key: options.shadow.distance
+    Value: "Dist\xE2ncia das sombras"
+  - EntryId: 78091521
+    SectionId: 70584943
+    Key: options.bloom
+    Value: Bloom
+  - EntryId: 51192724
+    SectionId: 70584943
+    Key: options.vignette
+    Value: Vinheta
+  - EntryId: 26771590
+    SectionId: 70584943
+    Key: options.film.grain
+    Value: "Granula\xE7\xE3o"
+  - EntryId: 58595067
+    SectionId: 70584943
+    Key: options.chromatic
+    Value: "Aberra\xE7\xE3o crom\xE1tica"
+  - EntryId: 16363080
+    SectionId: 70584943
+    Key: options.audio.general
+    Value: Volume geral
+  - EntryId: 15022705
+    SectionId: 70584943
+    Key: options.audio.music
+    Value: "Volume da m\xFAsica"
+  - EntryId: 18788252
+    SectionId: 70584943
+    Key: options.audio.effect
+    Value: Volume dos efeitos sonoros
+  - EntryId: 75698164
+    SectionId: 70584943
+    Key: options.separator.video
+    Value: "Configura\xE7\xF5es de v\xEDdeo"
+  - EntryId: 62116141
+    SectionId: 70584943
+    Key: options.separator.pp
+    Value: "P\xF3s-processamento"
+  - EntryId: 79478115
+    SectionId: 56290060
+    Key: Language.English
+    Value: English
+  - EntryId: 20181900
+    SectionId: 56290060
+    Key: Language.Korean
+    Value: "\uD55C\uAD6D\uC5B4"
+  - EntryId: 37917890
+    SectionId: 56290060
+    Key: Language.Japanese
+    Value: "\u65E5\u672C\u8A9E"
+  - EntryId: 71544526
+    SectionId: 56290060
+    Key: Language.SimplifiedChinese
+    Value: "\u7B80\u4F53\u4E2D\u6587"
+  - EntryId: 92305548
+    SectionId: 56290060
+    Key: Language.Portuguese
+    Value: "Portugu\xEAs"
+  - EntryId: 97536662
+    SectionId: 56290060
+    Key: Language.Spanish
+    Value: "Espa\xF1ol"
+  - EntryId: 91423097
+    SectionId: 56290060
+    Key: Language.Russian
+    Value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
