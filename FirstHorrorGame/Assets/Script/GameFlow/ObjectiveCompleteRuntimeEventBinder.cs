@@ -40,5 +40,15 @@ namespace ENZEUN.Runtime
 
             OnObjectiveComplete?.Invoke();
         }
+
+        // 바인딩된 상태로 파괴되면 ObjectiveManager 의 Action 에 핸들러가 남으므로 해제합니다.
+        private void OnDestroy()
+        {
+            if (objectiveManager == null || !isBound)
+                return;
+
+            objectiveManager.OnObjectiveComplete -= HandleEvent;
+            isBound = false;
+        }
     }
 }

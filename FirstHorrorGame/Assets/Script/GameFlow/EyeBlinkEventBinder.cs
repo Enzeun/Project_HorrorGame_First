@@ -69,6 +69,25 @@ namespace ENZEUN.Runtime
             OnEyesOpened?.Invoke();
             isBoundOpen = false;
         }
+
+        // 연출 도중 파괴되면 컨트롤러의 Action 에 핸들러가 남으므로 해제합니다.
+        private void OnDestroy()
+        {
+            if (eyeBlinkController == null)
+                return;
+
+            if (isBoundClose)
+            {
+                eyeBlinkController.OnEyesClosed -= HandleEyesClosed;
+                isBoundClose = false;
+            }
+
+            if (isBoundOpen)
+            {
+                eyeBlinkController.OnEyesOpened -= HandleEyesOpened;
+                isBoundOpen = false;
+            }
+        }
     }
 
 }

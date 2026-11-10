@@ -92,6 +92,12 @@ namespace ENZEUN.Runtime
             isBound = false;
         }
 
+        // 바인딩된 상태로 파괴되면 target 에 리스너가 남으므로 해제합니다.
+        private void OnDestroy()
+        {
+            RemoveBoundEvent();
+        }
+
     }
 
 }

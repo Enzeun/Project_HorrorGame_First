@@ -54,52 +54,37 @@ namespace ENZEUN.Runtime
             // 연속해서 Player Input을 관리하는 Event 가 있을 경우, 중첩되어 제대로 동작이 안되기에, 잠시 대기 후 자막을 시작하도록 함
             await UniTask.Delay(System.TimeSpan.FromSeconds(delayBeforeSubtitles), cancellationToken: token);
 
-            if (freezePlayerMove)
-            {
-                isPlayerFreezed = true;
-                GameManager.Instance.LockInput(true);
-                GameManager.Instance.PlayerPresence.FreezeMovement(true);
-            }
-
-            if (freezePlayerLook)
-            {
-                GameManager.Instance.PlayerPresence.FreezeLook(true);
-            }
-
+            // 입력을 잠그기 전에 매니저를 먼저 확인합니다. (매니저가 없어 return 할 때 입력이 잠긴 채로 남지 않도록)
             var subtitleManager = SubtitleManager.Instance;
 
             if (subtitleManager == null)
             {
-                Debug.LogError("SubtitleManager instance is not found.");
+                Debug.LogError("[SubtitleTrigger] : SubtitleManager 를 찾을 수 없어 자막을 재생하지 않습니다.");
+                isTriggered = false;
                 return;
             }
 
-            foreach (var subtitleData in subtitleDatas)
+            SetPlayerFreeze(true);
+
+            try
             {
-                if (subtitleData == null || subtitleData.subtitleAsset == null)
+                foreach (var subtitleData in subtitleDatas)
                 {
-                    Debug.LogWarning("Subtitle data or subtitle asset is null. Skipping this subtitle.");
-                    continue;
+                    if (subtitleData == null || subtitleData.subtitleAsset == null)
+                    {
+                        Debug.LogWarning("Subtitle data or subtitle asset is null. Skipping this subtitle.");
+                        continue;
+                    }
+
+                    await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle, subtitleData.subtitleAsset.duration, isPlayerFreezed);
+
+                    await UniTask.Delay(System.TimeSpan.FromSeconds(subtitleData.delayToNextSubtitle), cancellationToken: token);
                 }
-
-                await subtitleManager.ShowSubtitleAsync(subtitleData.subtitleAsset.localizedSubtitle, subtitleData.subtitleAsset.duration, isPlayerFreezed);
-
-                await UniTask.Delay(System.TimeSpan.FromSeconds(subtitleData.delayToNextSubtitle), cancellationToken: token);
             }
-            await FinishSubtitles(token);
-        }
-
-        private async UniTask FinishSubtitles(CancellationToken token)
-        {
-            if (freezePlayerMove)
+            finally
             {
-                GameManager.Instance.LockInput(false);
-                GameManager.Instance.PlayerPresence.FreezeMovement(false);
-                isPlayerFreezed = false;
-            }
-            if (freezePlayerLook)
-            {
-                GameManager.Instance.PlayerPresence.FreezeLook(false);
+                // 정상 종료든 취소(파괴)든 잠근 입력은 반드시 풀어 줍니다.
+                SetPlayerFreeze(false);
             }
 
             await UniTask.Delay(System.TimeSpan.FromSeconds(delayAfterSubtitles), cancellationToken: token); // 잠시 대기 후 종료
@@ -107,6 +92,30 @@ namespace ENZEUN.Runtime
             isTriggered = false;
 
             OnSubtitlesFinished?.Invoke();
+        }
+
+        /// <summary>
+        /// 설정에 따라 플레이어의 이동/시점 입력을 잠그거나 풉니다.
+        /// </summary>
+        private void SetPlayerFreeze(bool freeze)
+        {
+            var gameManager = GameManager.Instance;
+
+            // 씬 종료 중이면 GameManager 가 먼저 파괴되었을 수 있습니다.
+            if (gameManager == null)
+                return;
+
+            if (freezePlayerMove)
+            {
+                gameManager.LockInput(freeze);
+                gameManager.PlayerPresence.FreezeMovement(freeze);
+                isPlayerFreezed = freeze;
+            }
+
+            if (freezePlayerLook)
+            {
+                gameManager.PlayerPresence.FreezeLook(freeze);
+            }
         }
     }
 }
